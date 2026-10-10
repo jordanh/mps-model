@@ -18,13 +18,18 @@ the "MPS student experience" staffing floors (slides 84-90), utility savings per
 
 | File | What it is | Used by |
 |---|---|---|
-| `map_positions_and_context.csv` | Each school's pixel position on the current pathway map, community, program type, magnet theme, grades and paired campus | the whole model |
+| `map_positions_and_context.csv` | Each school's pixel position on the current pathway map, community, program type, magnet theme, grades and paired campus. Northrop's position was corrected on Oct. 10, 2026 (it had been about 1.1 miles off, at 750, 1303; now 626, 1339). | the whole model |
 | `community_growth.csv` | Projected 10-year change by community, transcribed from the growth map | protection rule, growth reserve |
 | `school_profiles_public.csv` | Demographics (NCES 2024-25), MCA reading and math proficiency, EL and special education shares, programs, with source URLs per school | closure profiles only |
 | `mps_building_reports_2024.csv` | MPS building reports (Oct. 1, 2024 enrollment, design enrollment, utilization rating, condition), used to check the workbook's capacity column | reference only |
-| `school_addresses_approx.csv` | Street addresses and approximate coordinates | reference only |
+| `school_locations.csv` | Each school's street address geocoded to an Overture Maps address point | `tools/routing/` |
+| `school_drive_matrix.csv` | Road miles and driving minutes for all 3,600 ordered school pairs | `geography.py` |
+| `school_drive_matrix_meta.json` | Settings used to build the drive matrix and where its data came from (Overture release, speeds, traffic factors) | reference |
+| `school_addresses_approx.csv` | **Superseded** by `tools/routing/school_addresses.csv` and `school_locations.csv`. Kept for history only. Its Las Estrellas row wrongly gives Ella Baker's building (1200 W 26th St); Las Estrellas is at 1201 University Ave NE. | not used |
 
-Positions were read off the map image and checked against the street grid (122 pixels per mile,
+Road data © OpenStreetMap contributors, ODbL, via Overture Maps Foundation.
+
+Map positions were read off the map image and checked against the street grid (122 pixels per mile,
 median error about 0.15 mile).
 
 **Check before public use.** Demographics and test scores in `school_profiles_public.csv` come from
@@ -40,5 +45,6 @@ These files were not created by us. Review them before publishing the repository
 |---|---|
 | `district/*` (workbook, three maps, growth map) | Public documents released by MPS for community review. Likely fine to share with attribution, but they are the district's work. If in doubt, replace them with download instructions. |
 | `compiled/school_profiles_public.csv` | Facts compiled from SchoolDigger, allk12, NCES and exploremps.org. Facts are generally reusable, but SchoolDigger's terms restrict republishing its pages; the underlying MDE and NCES data are public. Consider re-sourcing from the Minnesota Report Card. |
+| `compiled/school_drive_matrix.csv`, `school_locations.csv`, `school_drive_matrix_meta.json` | Derived from OpenStreetMap data, which is licensed under the Open Database License (ODbL). Republishing them requires the attribution line above, and a database derived from them must stay under ODbL (share-alike). This affects the license choice for the repository's data, though not necessarily for its code. |
 | `compiled/mps_building_reports_2024.csv` | Figures transcribed from MPS's public building report pages (URLs included). |
 | `docs/research/*.md` | Our notes, with short quotations from news articles and links to them. |

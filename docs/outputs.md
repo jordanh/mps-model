@@ -14,7 +14,7 @@ from a clean run are in `reference_outputs/`. Dollar amounts are annual unless n
 | `three_plans_levers.csv` | plan | The main result: closures, sharing and recruitment together, recruits needed, campaign cost, years and bridge funding at the evidence and stretch paces |
 | `lever_tradeoff_by_closures.csv` | N (0-16) | Families lost and recruits needed to balance at each number of closures |
 | `glide_path.csv` | plan and school year | Shortfall bridge funding must cover each year (Family Trust and Middle Ground) |
-| `plan_reassignments.csv` | plan, closed school, receiver | Students moved, miles, whether they keep their pathway, whether the student body is split |
+| `plan_reassignments.csv` | plan, closed school, receiver | Students moved, routed road miles and driving minutes, whether they keep their pathway, whether the student body is split |
 | `plan_specialist_pairs.csv` | plan and pair | Schools sharing specialists, drive time and saving |
 | `capacity_class_size_impacts.csv` | plan and affected school | Enrollment, utilization, sections and class size before and after |
 | `capacity_summary.csv` | plan | District-wide buildings, seats, utilization and average class size |

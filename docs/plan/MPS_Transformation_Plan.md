@@ -1,6 +1,6 @@
 # Three Levers, Three Plans: Balancing the MPS Budget While Keeping Families' Trust
 
-*An alternative to the district's September 15, 2026 Options 1 to 3. Prepared October 8, 2026; revised October 9, 2026 with a higher cost per added student and a receiving-school capacity limit (Loring stays open; Jenny Lind merges into Lucy Laney), and again with capacity from the 2024 Physical Space Study for every building and a recruit value that falls as buildings pass 80% and 90% full, and on Oct. 10, 2026 with a Middle Ground of 5 closures, the fewest within 5% of the best net savings (Jenny Lind and Wenonah stay open).*
+*An alternative to the district's September 15, 2026 Options 1 to 3. Prepared October 8, 2026; revised October 9, 2026 with a higher cost per added student and a receiving-school capacity limit (Loring stays open; Jenny Lind merges into Lucy Laney), and again with capacity from the 2024 Physical Space Study for every building and a recruit value that falls as buildings pass 80% and 90% full, and on Oct. 10, 2026 with a Middle Ground of 5 closures, the fewest within 5% of the best net savings (Jenny Lind and Wenonah stay open). Revised again on Oct. 10, 2026 with distances and driving times routed on real streets instead of estimated from straight lines (Section 8.1). Many numbers moved slightly; the closures chosen did not change.*
 
 > **How to read the numbers.** Every dollar figure is an annual, steady-state estimate from the model in `model/`:
 > - `closure_model.py` handles closures, bussing, families leaving and specialist sharing.
@@ -19,31 +19,31 @@ MPS has **three levers** to close an estimated **$35M** structural gap in FY28:
 2. **Share specialists.** Small nearby schools split art, music and PE specialists half-days. This saves money and costs no families.
 3. **Recruit students.** Each added student brings about $11,500 a year. About half of it pays for that student, because some recruits fit into existing classes and others need new teachers, so MPS keeps about $5,750 a year. That holds while the buildings left open are under 80% full on average. Past 80%, extra busing eats into it, and past 90% each added student costs money, because MPS has to add classrooms or reopen buildings (Section 6).
 
-The levers trade off against each other. **Closures can never close more than about $11M of the gap on their own** (plus $2.8-3.1M from sharing). **Net savings are nearly flat from 5 to 9 closures**, within $0.6M a year of each other, and **past 7 closures every additional closure makes the recruiting job bigger, not smaller**, because more families leave than the closure saves. So the Middle Ground stops at 5. Recruitment therefore carries most of the load in every plan. The real choice is how much of the system to disrupt in exchange for a smaller recruiting target.
+The levers trade off against each other. **Closures can never close more than about $11M of the gap on their own** (plus $2.7-3.1M from sharing). **Net savings are nearly flat from 5 to 9 closures**, within $0.6M a year of each other, and **past 7 closures every additional closure makes the recruiting job bigger, not smaller**, because more families leave than the closure saves. So the Middle Ground stops at 5. Recruitment therefore carries most of the load in every plan. The real choice is how much of the system to disrupt in exchange for a smaller recruiting target.
 
 | | **Family Trust plan** | **Middle Ground plan** | **Footprint-First plan** (district Options 1-3) |
 |---|---|---|---|
 | Buildings closed | 2 small HS programs merge; **no neighborhood or magnet school closes** | 5 (4 small HS programs + Cityview into HIA) | 14-16 |
 | Students who change buildings | 105 | 776 | 3,032-3,538 |
-| Families who leave MPS | about 20 | about 130 | about 1,230-1,600 |
-| Net savings from closures + sharing | $8.2M | $12.0M | $3.5-7.1M |
+| Families who leave MPS | about 20 | about 135 | about 1,250-1,640 |
+| Net savings from closures + sharing | $8.1M | $11.9M | $1.7-6.7M |
 | Recruitment effort | Full campaign | Full campaign | District's own strategy (enrollment held about flat) |
-| New students needed to balance | 4,950 | 4,234 | 5,413-6,506 if it recruited (cost per recruit 40-60% higher) |
-| Gap left with the plan's own recruitment | $0 | $0 | **$27.9-31.5M a year** |
-| Years to balance at the evidence-based pace (2%/yr) | 8.5 | 7.6 | 13.1-16.8 if it recruited |
-| Years to balance at the stretch pace (3%/yr) | 5.7 | 5.1 | 8.8-11.2 if it recruited |
-| Bridge funding needed (evidence / stretch pace) | $108M / $67M | $80M / $49M | Never closes as planned |
+| New students needed to balance | 4,955 | 4,255 | 5,516-7,208 if it recruited (cost per recruit 50-80% higher) |
+| Gap left with the plan's own recruitment | $0 | $0 | **$28.3-33.3M a year** |
+| Years to balance at the evidence-based pace (2%/yr) | 8.6 | 7.6 | 13.6-18.6 if it recruited |
+| Years to balance at the stretch pace (3%/yr) | 5.7 | 5.1 | 9.1-12.4 if it recruited |
+| Bridge funding needed (evidence / stretch pace) | $108M / $67M | $81M / $50M | Never closes as planned |
 
 **What this means**
-- **Footprint-First is the weakest on every lever.** It closes the most schools and loses the most families, yet it saves less than the Middle Ground. It still leaves a $28-31M gap a year. If it tried to recruit its way out, it would need *more* students than the Family Trust plan, and each one would cost more to win. Its buildings are also fuller, so its last recruits are worth less: Option 3 would end at 86% of design enrollment.
-- **Family Trust keeps the system intact.** It loses almost no families and has the cheapest cost per recruit. In exchange it needs about 720 more recruits than the Middle Ground, about a year longer to balance, and about $18-27M more bridge funding.
+- **Footprint-First is the weakest on every lever.** It closes the most schools and loses the most families, yet it saves less than the Middle Ground. It still leaves a $28-33M gap a year. If it tried to recruit its way out, it would need *more* students than the Family Trust plan, and each one would cost more to win. Its buildings are also fuller, so its last recruits are worth less: Option 3 would end at 88% of design enrollment.
+- **Family Trust keeps the system intact.** It loses almost no families and has the cheapest cost per recruit. In exchange it needs about 700 more recruits than the Middle Ground, about a year longer to balance, and about $17-27M more bridge funding.
 - **Both of our plans return Kenwood to the Southwest pathway** through its neighborhood middle school, Anwatin, which stays open. Southwest has 790-1,000 open seats (Section 3.4).
-- **Middle Ground reaches balance soonest.** It has the smallest recruiting target, the fastest path to balance and the least bridge funding. In exchange it moves 776 students and loses about 130 families. Only one elementary building closes: Cityview, 29% full, into HIA.
-- **Why 5 and not 7.** Closures 6 and 7 (Jenny Lind and Wenonah) would add only $0.6M a year, about 100 fewer recruits, and would move another 348 students and lose about 120 more families. The 5-closure plan balances slightly sooner (7.6 years against 7.7), because fewer families leave and each recruit is cheaper to win.
+- **Middle Ground reaches balance soonest.** It has the smallest recruiting target, the fastest path to balance and the least bridge funding. In exchange it moves 776 students and loses about 135 families. Only one elementary building closes: Cityview, 29% full, into HIA.
+- **Why 5 and not 7.** Closures 6 and 7 (Jenny Lind and Wenonah) would add only $0.6M a year, about 100 fewer recruits, and would move another 348 students and lose about 120 more families. The 5-closure plan balances slightly sooner (7.6 years against 7.8), because fewer families leave and each recruit is cheaper to win.
 
 **Your intuition, with two corrections.**
 - "7 closures if you invest little in recruitment" is not quite right. **No plan balances without about 4,000 or more recruits.** Even the Middle Ground leaves $23M to recruitment. A plan that does the minimum on recruitment (Footprint-First) does not balance the budget at all.
-- **The precedents set the timeline.** No urban district we could find grew about 10% in three years through recruitment alone. **Tampa (Hillsborough) did not**: its district-run enrollment fell about 9% since 2018, including a 7,177-student drop in 2025-26. The best similar case is **Saint Paul**, next door. Its targeted Enrollment Project grew target schools 7-48% for about $425K, but the district as a whole gained only about 2% (about 600 students) in its best year. At that 2% pace, our plans balance in **about 7.5-8.5 years with bridge funding**. Balancing in 5-6 years needs the 3% stretch pace, with pre-K, identity programs and retention all working together.
+- **The precedents set the timeline.** No urban district we could find grew about 10% in three years through recruitment alone. **Tampa (Hillsborough) did not**: its district-run enrollment fell about 9% since 2018, including a 7,177-student drop in 2025-26. The best similar case is **Saint Paul**, next door. Its targeted Enrollment Project grew target schools 7-48% for about $425K, but the district as a whole gained only about 2% (about 600 students) in its best year. At that 2% pace, our plans balance in **about 7.6-8.6 years with bridge funding**. Balancing in 5-6 years needs the 3% stretch pace, with pre-K, identity programs and retention all working together.
 
 **Recommendation.** Lead with the **Family Trust plan** if the Board's first goal is rebuilding confidence, and with the **Middle Ground** if its first goal is reaching balance soonest. Either is better than Footprint-First on savings, families kept and recruits needed. The deck presents all three side by side.
 
@@ -53,7 +53,7 @@ The levers trade off against each other. **Closures can never close more than ab
 
 | Lever | What it does | Best case | Limit |
 |---|---|---|---|
-| **School closures** | Removes duplicated staffing floors and building costs | About +$9.2M net at 5 closures, rising to $10.5M at 7 | Net savings barely change from 5 to 9 closures. Past 7, each closure costs more in departures and bussing than it saves. At 15 closures, net turns negative. |
+| **School closures** | Removes duplicated staffing floors and building costs | About +$9.2M net at 5 closures, rising to $10.4M at 7 | Net savings barely change from 5 to 9 closures. Past 7, each closure costs more in departures and bussing than it saves. At 15 closures, net turns negative. |
 | **Specialist sharing** | Two small schools split a 3-person specialist team half-days | $3.1M with no or few closures (13 pairs) | Pairs must be within about 15 minutes. Closures absorb small schools, so sharing falls to $0.5-1.0M at 14+ closures. |
 | **Recruitment** | Fills empty seats with Minneapolis children now in charters (13,389), other districts (6,685), nonpublic schools (4,814), or never enrolled at K (K entry is 44%) | 2-3% growth a year, about 580-870 students | No precedent above about 3% a year without population growth. Cost per recruit rises with volume and with lost trust. |
 
@@ -61,9 +61,9 @@ The levers trade off against each other. **Closures can never close more than ab
 
 | Schools closed | 0 | 2 | 3 | **5** | 6 | 7 | 8 | 9 | 11 | 15 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Families who leave | 0 | 20 | 52 | **132** | 198 | 252 | 355 | 470 | 788 | 1,768 |
-| New students needed to balance | 5,896 | 4,950 | 4,665 | **4,234** | 4,164 | 4,132 | 4,149 | 4,211 | 4,608 | can't balance |
-| Cost per recruit | $1,737 | $1,628 | $1,606 | **$1,596** | $1,619 | $1,653 | $1,700 | $1,760 | $1,939 | n/a |
+| Families who leave | 0 | 22 | 54 | **135** | 202 | 257 | 359 | 475 | 785 | 1,724 |
+| New students needed to balance | 5,898 | 4,955 | 4,683 | **4,255** | 4,183 | 4,150 | 4,192 | 4,273 | 4,692 | can't balance |
+| Cost per recruit | $1,737 | $1,629 | $1,608 | **$1,599** | $1,621 | $1,656 | $1,706 | $1,769 | $1,953 | n/a |
 
 **How the recruitment lever is modeled** (all values are **ESTIMATES** in `assumptions.json > recruitment`)
 - **Base cost:** $1,000 per recruited student. Benchmarks are Florida pay-per-recruit contracts at $935 per student (Orange and Osceola, 2025-26) and Newark at $890.
@@ -83,14 +83,14 @@ The levers trade off against each other. **Closures can never close more than ab
   - Heritage Academy (68 students) into Edison's Somali Heritage pathway
   - Longfellow Alternative (37) into North's Teen Parent Services
 - **Specialist sharing:** 13 pairs, $3.1M a year.
-- **Net savings:** $8.2M a year. Families who leave: about 20.
-- **Recruitment:** 4,950 net new students, the full campaign in Section 14. Campaign cost is about $8.1M over the campaign years, at $1,628 per recruit.
-- **Timeline:** balanced in about 8.5 years at the evidence-based pace, 5.7 at the stretch pace.
+- **Net savings:** $8.1M a year. Families who leave: about 20.
+- **Recruitment:** 4,955 net new students, the full campaign in Section 14. Campaign cost is about $8.1M over the campaign years, at $1,629 per recruit.
+- **Timeline:** balanced in about 8.6 years at the evidence-based pace, 5.7 at the stretch pace.
 - **Bridge funding:** $108M (evidence-based pace) or $67M (stretch).
 - **Promise to families:** a **five-year footprint pledge**. No neighborhood school closes through 2032.
 - **Strongest when** the Board believes the trust lost after the 2021 redesign is the main reason families leave. In the two years after that redesign, more than 4,200 students left.
 - **Main risk:** recruitment under-delivers. At 60% of target, an $11.4M gap remains.
-- **Variant with zero closures**, keeping Heritage and Longfellow in place: $3.1M net, 5,896 recruits, 10.1 years at the evidence-based pace.
+- **Variant with zero closures**, keeping Heritage and Longfellow in place: $3.1M net, 5,898 recruits, 10.1 years at the evidence-based pace.
 
 ### 3.2 The Middle Ground plan: 5 closures, the fewest that capture nearly all the savings, plus full recruitment
 
@@ -99,32 +99,32 @@ The levers trade off against each other. **Closures can never close more than ab
   - One elementary building, the emptiest in the district that can move whole into a school in the same pathway: Cityview (186 students, 29% of its MPS design enrollment) into HIA, 1.1 mi.
 - No student changes high school pathway, and no growth-area school closes.
 - **No receiving school goes above 75% of its MPS design enrollment** (Section 10.1). The fullest is North at 75%.
-- **Why 5 (Oct. 10 revision):** net savings are nearly flat from 5 to 9 closures, between $12.0M and $12.6M a year. We now pick the fewest closures within 5% of the best result. The next two closures the model would add are Jenny Lind into Lucy Laney (+$0.4M a year) and Wenonah into its paired Keewaydin campus (+$0.2M). Together they would move another 348 students and lose about 120 more families for $0.6M a year and about 100 fewer recruits. Without them the plan balances slightly sooner.
+- **Why 5 (Oct. 10 revision):** net savings are nearly flat from 5 to 9 closures, between $11.9M and $12.5M a year. We now pick the fewest closures within 5% of the best result. The next two closures the model would add are Jenny Lind into Lucy Laney (+$0.4M a year) and Wenonah into its paired Keewaydin campus (+$0.2M). Together they would move another 348 students and lose about 120 more families for $0.6M a year and about 100 fewer recruits. Without them the plan balances slightly sooner.
 - **Kept open: Jenny Lind, Wenonah and Loring.** Jenny Lind's scores are rising and no district option closes it. Wenonah stays as the K-1 campus of the Lake Nokomis Community School. An earlier version merged Loring into Jenny Lind and called both buildings nearly empty. That was wrong: Loring is 80-85% full, which MPS rates "efficient". Every district option still closes Loring and Wenonah.
-- **Specialist sharing:** 13 pairs, $2.8M a year.
-- **Kept open: Anwatin Middle,** the neighborhood middle school for Kenwood and Bryn Mawr (Section 3.4). Closing it would add only about $0.6M a year and would send Kenwood's 11-to-14-year-olds to Franklin in North Minneapolis.
-- **Net savings:** $12.0M a year. Families who leave: about 130.
-- **Recruitment:** 4,234 net new students. Campaign cost is about $6.8M at $1,596 per recruit.
+- **Specialist sharing:** 12 pairs, $2.7M a year.
+- **Kept open: Anwatin Middle,** the neighborhood middle school for Kenwood and Bryn Mawr (Section 3.4). Closing it would add only about $0.7M a year and would send Kenwood's 11-to-14-year-olds to Franklin in North Minneapolis.
+- **Net savings:** $11.9M a year. Families who leave: about 135.
+- **Recruitment:** 4,255 net new students. Campaign cost is about $6.8M at $1,599 per recruit.
 - **Timeline:** balanced in about 7.6 years at the evidence-based pace, 5.1 at the stretch pace.
-- **Bridge funding:** $80M or $49M.
+- **Bridge funding:** $81M or $50M.
 - **Strongest when** the Board wants the fastest path to balance while closing only one neighborhood building.
-- **Main risk:** recruitment under-delivers. At 60% of target, a $9.7M gap remains. Even at 1.5 times our attrition and bussing assumptions, net savings are still $11.6M.
+- **Main risk:** recruitment under-delivers. At 60% of target, a $9.8M gap remains. Even at 1.5 times our attrition and bussing assumptions, net savings are still $11.5M.
 
 ### 3.3 The Footprint-First plan: the district's Options 1-3
 
 - **Closures:** 14-16 buildings (Option 1: 15; Option 2: 14; Option 3: 16), moving 3,032-3,538 students. It includes schools in growth areas: HIA, Pratt, Webster, Bethune, Hiawatha and Howe.
 - **Specialist sharing:** mostly lost ($0.5-1.0M), because the small schools that could share are the ones closed.
-- **Net savings:** $3.5-7.1M a year in our model. The district's own figure is $0.2-2.4M after reinvestment.
-- **Families who leave:** about 1,230-1,600. This matches research: closing districts in California lost about 288 students on average per district and saw no financial gain (Pearman, Stanford, Sept. 2026).
-- **Recruitment:** the district's enrollment strategy holds K-12 at about 28,000 through 2035-36 (deck slide 95). The gap left is therefore **$27.9-31.5M a year**.
-- To recruit its way to balance it would need 5,413-6,506 students at $2,341-2,728 each. At the trust-reduced pace that takes 13.1-16.8 years, with over $180M of bridge funding.
-- **Kenwood:** Option 1 sends Kenwood to Franklin and North. Options 2 and 3 return Kenwood to Southwest, but through Anthony Middle, about 5.7 road miles away, because Anwatin closes. In the model that route alone adds about $1.3M a year in bussing.
+- **Net savings:** $1.7-6.7M a year in our model. The district's own figure is $0.2-2.4M after reinvestment.
+- **Families who leave:** about 1,250-1,640. This matches research: closing districts in California lost about 288 students on average per district and saw no financial gain (Pearman, Stanford, Sept. 2026).
+- **Recruitment:** the district's enrollment strategy holds K-12 at about 28,000 through 2035-36 (deck slide 95). The gap left is therefore **$28.3-33.3M a year**.
+- To recruit its way to balance it would need 5,516-7,208 students at $2,407-2,860 each. At the trust-reduced pace that takes 13.6-18.6 years, with over $190M of bridge funding.
+- **Kenwood:** Option 1 sends Kenwood to Franklin and North. Options 2 and 3 return Kenwood to Southwest, but through Anthony Middle, about 8.2 road miles away, because Anwatin closes. In the model that route alone adds about $2M a year in bussing.
 - **Strongest when** the only goal is a smaller building footprint.
 - **Main risk:** it locks in the largest departures and the largest structural gap.
 
 ### 3.4 Neighborhood pathways: Kenwood returns to Southwest (Family Trust and Middle Ground)
 
-- **The change:** Kenwood Elementary feeds Anwatin Middle (1.1 road miles, as today) and then **Southwest High instead of North**. This restores the high school Kenwood fed before the 2021 redesign. Bryn Mawr stays on its North pathway.
+- **The change:** Kenwood Elementary feeds Anwatin Middle (3.1 road miles, about 10 minutes by car, as today; I-394, the bluff and Cedar Lake leave no direct street) and then **Southwest High instead of North**. This restores the high school Kenwood fed before the 2021 redesign. Bryn Mawr stays on its North pathway.
 - **Why:** few Kenwood-area families followed the 2021 move.
   - North's principal estimates that about 15 white students came from the new south-side zones in five years (Star Tribune, Oct. 18, 2025).
   - Kenwood parents described a handful of former classmates at Anwatin, and families moving to St. Louis Park or choosing Southwest anyway.
@@ -132,14 +132,14 @@ The levers trade off against each other. **Closures can never close more than ab
 - **It is feasible.**
   - Southwest has 1,170 students in a building designed for 1,959-2,177, so it has 790-1,000 open seats.
   - Kenwood has about 62 students per grade, so even full continuation adds at most about 250 high schoolers.
-  - Southwest is about 3.1 miles from Kenwood in a straight line, against 2.5 to North. High schoolers ride Metro Transit with a student pass, so no yellow-bus routes are added.
+  - Southwest is about 4.1 road miles from Kenwood, against 3.8 to North. High schoolers ride Metro Transit with a student pass, so no yellow-bus routes are added.
   - Default phase-in: incoming 9th graders from fall 2027. Current North students may stay through graduation.
 - **The middle school is what makes it work.** Both of our plans keep Anwatin open.
-  - The district's Options 2 and 3 also return Kenwood to Southwest, but they close Anwatin and route Kenwood's middle schoolers to Anthony, about 5.7 road miles away, where only about 100-200 seats are open.
-  - In the model that route adds about $1.3M a year in bussing.
+  - The district's Options 2 and 3 also return Kenwood to Southwest, but they close Anwatin and route Kenwood's middle schoolers to Anthony, about 8.2 road miles away (about 16 minutes by car), where only about 100-200 seats are open.
+  - In the model that route adds about $2M a year in bussing.
 - **What it costs:**
   - Family Trust: nothing, since Anwatin was already open.
-  - Middle Ground: about $0.6M a year against closing Anwatin, and about 100 more recruits than if Anwatin closed.
+  - Middle Ground: about $0.7M a year against closing Anwatin, and about 120 more recruits than if Anwatin closed.
 - **The selling point:** a **neighborhood pathway guarantee**. Every family can name its K-5, 6-8 and 9-12 schools from its address, and each is the nearby school its neighbors attend. Kenwood-area families who left MPS after 2021 are a natural "Come Home" audience (Section 14). That upside is not counted in the totals.
 
 **Figures for this section:**
@@ -228,8 +228,8 @@ The case studies matter because recruitment is the lever every plan depends on. 
 | FY27 general fund (adopted June 9, 2026) | $734.7M spending / $737.3M revenue | MPS FY27 budget |
 | FY27 gap closed with recurring cuts | $39.7M | MPS budget updates, Feb to June 2026 |
 | **FY28 structural gap (planning figure)** | **$35M** (range $25-45M) | **ESTIMATE**: compensation grows 3-4% on a ~$580M staff base vs. 2-3% formula growth. MPS has re-forecast each year's gap upward by ~$20M mid-cycle. |
-| Net savings from closures + specialist sharing | **-$8.2M** (Family Trust) / **-$12.0M** (Middle Ground) | Model |
-| **Remaining gap closed by recruitment** | **-$26.8M** / **-$23.0M** | 4,950 / 4,234 students x $5,750, less the amortized campaign cost ($1.6M / $1.4M a year) |
+| Net savings from closures + specialist sharing | **-$8.1M** (Family Trust) / **-$11.9M** (Middle Ground) | Model |
+| **Remaining gap closed by recruitment** | **-$26.9M** / **-$23.1M** | 4,955 / 4,255 students x $5,750, less the amortized campaign cost ($1.6M / $1.4M a year) |
 | Net revenue per added student | $5,750 while open buildings are under 80% full; falls to $1,900 at 90%; -$1,900 above 90% | $11,500 marginal revenue (FY27 basic formula $7,683 + referendum ~$2,140 + compensatory) x 50% kept after the cost of serving the student, less busing and new-capacity costs as buildings fill (below). **ESTIMATE**, revised Oct. 9, 2026 |
 
 **Why students and not more closures.** Each added student brings about $11,500 in revenue. MPS buildings are only about 60% full, so space is not the constraint, but teachers are. A student who fills a seat in a class that already exists costs about 30% of that revenue (supplies, services, some aide time). A student who forces a new class also needs about a 25th of a teacher plus a fifth of a specialist, about $6,000 more. Recruits cluster at kindergarten entry and at popular schools, so we assume about 40% need new classes, a blended cost of about 50%. Closing schools beyond 7 still costs more in departing families and bussing than it saves (Section 9).
@@ -242,15 +242,15 @@ The case studies matter because recruitment is the lever every plan depends on. 
 
 | | Family Trust | Middle Ground | Option 1 | Option 2 | Option 3 |
 |---|---|---|---|---|---|
-| Students in buildings left open, after families leave | 27,405 | 27,293 | 26,024 | 26,197 | 25,828 |
+| Students in buildings left open, after families leave | 27,403 | 27,290 | 25,991 | 26,173 | 25,790 |
 | Design enrollment of buildings left open (MPS 2024 study) | 44,282 | 42,696 | 37,918 | 38,821 | 37,723 |
-| Full before recruiting | 62% | 64% | 69% | 68% | 69% |
-| Recruits that fit before 80% / 90% | 8,021 / 12,449 | 6,863 / 11,133 | 4,310 / 8,102 | 4,860 / 8,742 | 4,350 / 8,122 |
-| Recruits needed to balance | 4,950 | 4,234 | 5,413 | 5,528 | 6,506 |
-| Full after recruiting | 73% | 74% | 83% | 82% | 86% |
-| Average value per recruit | $5,750 | $5,750 | $5,636 | $5,710 | $5,385 |
+| Full before recruiting | 62% | 64% | 69% | 67% | 68% |
+| Recruits that fit before 80% / 90% | 8,022 / 12,450 | 6,866 / 11,136 | 4,343 / 8,134 | 4,883 / 8,766 | 4,388 / 8,161 |
+| Recruits needed to balance | 4,955 | 4,255 | 5,516 | 5,912 | 7,208 |
+| Full after recruiting | 73% | 74% | 83% | 83% | 88% |
+| Average value per recruit | $5,750 | $5,750 | $5,623 | $5,661 | $5,187 |
 
-**What this changes.** Nothing for our two plans: both stay well below 80% full, with 2,600-3,100 recruits of room to spare before the busing costs start. The district options start fuller, so their last 700-2,200 recruits are worth less and they need more of them: 5,413-6,506, up from 5,282-6,030, and 13.1-16.8 years to balance at the evidence-based pace instead of 13.0-15.6. Past 14 closures the gap can no longer be closed by recruiting at all, because the open buildings would pass 90% first.
+**What this changes.** Nothing for our two plans: both stay well below 80% full, with 2,600-3,100 recruits of room to spare before the busing costs start. The district options start fuller, so their last 1,000-2,800 recruits are worth less and they need more of them: 5,516-7,208, up from 5,378-6,387, and 13.6-18.6 years to balance at the evidence-based pace instead of 13.3-16.5. Past 14 closures the gap can no longer be closed by recruiting at all, because the open buildings would pass 90% first.
 
 Figure 12 (`figures/fig12_recruit_value_capacity.png`) draws this curve with each plan's recruiting on it.
 
@@ -327,8 +327,7 @@ For each closure set it computes:
 - Specialty high school programs go where the district already plans: FAIR and Longfellow to North, Heritage to Edison, Wellstone to South.
 
 **3. Extra bussing**
-- Recomputed from the real map distance between the closed school and its receiver.
-- Road miles are 1.35 times straight-line distance.
+- Recomputed from the road distance between the closed school and its receiver, routed on the street network (Section 8.1).
 - Walk zones are 0.5 mi (elementary) and 1.0 mi (middle).
 - A rider costs $1,600 plus $900 per road mile per year. This is calibrated to MPS's $73M for about 19,000 riders, about $3,850 each.
 - Once more than 600 new riders are added district-wide, new routes are needed and the marginal cost rises 60%.
@@ -350,14 +349,26 @@ For each closure set it computes:
   - lost teaching time for the midday trip (minutes / 435-minute day x salary);
   - mileage at the IRS rate of $0.725/mi x 174 days;
   - $15k in coordination.
-- Pairs more than 15 minutes apart (about 2 road miles) are not allowed.
-- A maximum-weight matching picks the best set of pairs. As schools close, the remaining small schools are farther apart, so sharing savings shrink: $3.1M at 0-2 closures, $2.2-2.5M at 6-7, $0.5-1.0M at 14 or more.
+- Pairs more than 15 minutes apart are not allowed. That counts the routed driving time plus 8 minutes to park and set up (Section 8.1).
+- A maximum-weight matching picks the best set of pairs. As schools close, the remaining small schools are farther apart, so sharing savings shrink: $3.1M at 0-2 closures, $2.1-2.4M at 6-7, $0.5-1.0M at 14 or more.
 
 **6. Search**
 - For N = 1 to 16 (and on to 30 as a stress test), the model adds the single best closure, then tries every one-for-one swap until no swap improves net savings.
 - District Options 1 to 3 are evaluated with exactly the same engine. Their closure sets come from the workbook: a blank in the Option column means the building is unprogrammed.
 
 **Net savings** = gross closure savings + sharing savings - bussing - lost-family revenue - amortized one-time costs.
+
+### 8.1 Road distances and driving times (Oct. 10, 2026)
+
+Until Oct. 10, 2026 the model estimated road miles as the straight-line distance on the district's pathway map times 1.35, and driving time at an average 18 mph. It now uses real routes.
+- **Streets:** every trip is routed on OpenStreetMap streets, from the Overture Maps release of Sept. 2026 (2026-09-23.1). One-way streets are respected.
+- **Addresses:** each school is placed at its street address, not its position on the pathway map.
+- **Driving time:** each street's posted speed limit, or Minneapolis's defaults where none is posted (20 mph on residential streets, 25 mph on other city streets), slowed by an estimated traffic factor for signals and school-hour traffic: 70% of the limit on arterials, 75% on local streets and 85% on freeways. This is our **ESTIMATE**. We use no live traffic data.
+- **Construction:** current closures (the Penn Ave bridge over I-394 and part of Nicollet) are treated as open, because the plan starts in fall 2027.
+- **How it compares:** routed road miles are a median 1.08 times the old estimate (half of school pairs fall between 1.01 and 1.21 times). Routed driving times are a median 0.76 times the old estimate. Short trips under 2 miles take about 18% longer than we had estimated, and cross-city trips about 40% less time, because they use freeways.
+- **Two data corrections:** Las Estrellas's address was listed as Ella Baker's building. It is at 1201 University Ave NE (its map position was already right). Northrop's position on the pathway map was 1.1 miles off, and is corrected.
+- **What changed in the results:** the closures chosen did not change for any plan. Middle Ground's net savings moved from $12.0M to $11.9M, and it now has 12 sharing pairs instead of 13. The district options fall more, to $1.7-6.7M, because their larger moves have longer real routes (Anwatin to Anthony is 9.4 road miles), so their bussing rises $1.5-2.4M a year.
+- **How close the rule now is:** the 5-closure Middle Ground still clears the "fewest closures within 5% of the best" rule, but now by only about $8,500 a year (the 5% line is $11.89M, against the plan's $11.90M). If traffic were 20% slower than we assume, fewer specialist pairs would fit inside 15 minutes, and the rule would pick 6 closures, adding Jenny Lind.
 
 ---
 
@@ -367,15 +378,15 @@ For each closure set it computes:
 
 | Schools closed | 0 | 1 | 2 | 3 | 4 | **5** | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Net savings ($M/yr) | 3.1 | 5.7 | 8.2 | 9.7 | 11.0 | **12.0** | 12.4 | 12.6 | 12.6 | 12.3 | 11.6 | 10.3 | 8.4 | 6.6 | 3.4 | -0.2 | -4.5 |
+| Net savings ($M/yr) | 3.1 | 5.7 | 8.1 | 9.6 | 10.9 | **11.9** | 12.3 | 12.5 | 12.3 | 11.9 | 11.4 | 9.9 | 7.8 | 5.3 | 0.8 | -4.1 | -10.1 |
 
 - N = 0 is specialist sharing alone.
-- Savings rise steeply through the specialty high school merges and the emptiest elementary building, then flatten: from 5 to 9 closures net savings stay between $12.0M and $12.6M a year (Figure 1 shades this stretch). Beyond 9 closures, net savings fall faster than gross savings rise.
-- The peak is $12.61M at 7 closures. **The plan takes the fewest closures within 5% of the peak: 5 closures, $12.01M** (rule changed Oct. 10, 2026; it was within $0.1M of the peak, which picked 7).
+- Savings rise steeply through the specialty high school merges and the emptiest elementary building, then flatten: from 5 to 9 closures net savings stay between $11.9M and $12.5M a year (Figure 1 shades this stretch). Beyond 9 closures, net savings fall faster than gross savings rise.
+- The peak is $12.51M at 7 closures. **The plan takes the fewest closures within 5% of the peak: 5 closures, $11.90M** (rule changed Oct. 10, 2026; it was within $0.1M of the peak, which picked 7). With routed distances it clears the 5% line ($11.89M) by only about $8,500 (Section 8.1).
 - **Receiving-school limit (Oct. 9 revision):** no receiving school is filled past 90% of its design enrollment in MPS's 2024 Physical Space Study, the figure on MPS's public building reports. This leaves room for growth and programs, and it is applied to every plan, including the district options.
 - Anwatin is no longer a candidate: it stays open as Kenwood's and Bryn Mawr's neighborhood middle school (Section 3.4).
-- Net savings turn negative at 15 closures. At 16 they are about -$4.5M, and about 2,030 students leave.
-- Past 16 closures (Figure 1b), net savings drop to -$97M at 30 closures, driven by long bus rides and a collapse in family confidence.
+- Net savings turn negative at 15 closures. At 16 they are about -$10.1M, and about 2,060 students leave.
+- Past 16 closures (Figure 1b), net savings drop to -$112M at 30 closures, driven by long bus rides and a collapse in family confidence.
 
 ### 9.2 Plan comparison (Figure 2, main results table)
 
@@ -383,19 +394,19 @@ All figures are $ millions a year, in the same model with the same assumptions.
 
 | Plan | Schools closed | Students moved | Gross closure savings | Specialist sharing | **Gross savings** | Bussing | Families leaving | One-time (amortized) | **Total costs** | **Net savings** | Students lost | Remaining gap (of $35M) | **Recruits, before campaign cost** |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| **Middle Ground** | 5 | 776 | 10.88 | 2.81 | **13.70** | 0.33 | 0.76 | 0.60 | **1.69** | **12.01** | 132 | 22.99 | **3,999** |
-| 3-closure plan | 3 | 291 | 7.80 | 2.81 | **10.61** | 0.27 | 0.30 | 0.36 | **0.94** | **9.67** | 52 | 25.33 | **4,405** |
-| District Option 1 | 15 | 3,338 | 24.24 | 0.60 | **24.84** | 7.87 | 8.06 | 1.80 | **17.73** | **7.11** | 1,401 | 27.89 | **4,851** |
-| District Option 2 | 14 | 3,032 | 22.13 | 0.70 | **22.83** | 8.07 | 7.06 | 1.68 | **16.81** | **6.02** | 1,228 | 28.98 | **5,040** |
-| District Option 3 | 16 | 3,538 | 24.02 | 0.20 | **24.22** | 9.60 | 9.18 | 1.92 | **20.71** | **3.51** | 1,597 | 31.49 | **5,477** |
+| **Middle Ground** | 5 | 776 | 10.88 | 2.74 | **13.62** | 0.35 | 0.78 | 0.60 | **1.72** | **11.90** | 135 | 23.10 | **4,018** |
+| 3-closure plan | 3 | 291 | 7.80 | 2.74 | **10.53** | 0.28 | 0.31 | 0.36 | **0.95** | **9.58** | 54 | 25.42 | **4,421** |
+| District Option 1 | 15 | 3,338 | 25.78 | 0.57 | **26.35** | 9.63 | 8.24 | 1.80 | **19.68** | **6.67** | 1,434 | 28.33 | **4,927** |
+| District Option 2 | 14 | 3,032 | 22.13 | 0.70 | **22.83** | 9.57 | 7.20 | 1.68 | **18.45** | **4.38** | 1,252 | 30.62 | **5,326** |
+| District Option 3 | 16 | 3,538 | 24.86 | 0.20 | **25.06** | 12.00 | 9.40 | 1.92 | **23.33** | **1.73** | 1,635 | 33.27 | **5,786** |
 
-Recruits before campaign cost = remaining gap / $5,750 (flat; the targets in Sections 1-3 and 14 also apply the capacity limits in Section 6), and already include replacing the students each plan expects to lose. The plan targets in Sections 1-3 and 14 also pay for the campaign itself, so they are higher (Middle Ground 4,234, 3-closure 4,665); the authoritative figures are in `outputs/three_plans_levers.csv`. The "Optimum plan" here is the Middle Ground plan.
+Recruits before campaign cost = remaining gap / $5,750 (flat; the targets in Sections 1-3 and 14 also apply the capacity limits in Section 6), and already include replacing the students each plan expects to lose. The plan targets in Sections 1-3 and 14 also pay for the campaign itself, so they are higher (Middle Ground 4,255, 3-closure 4,683); the authoritative figures are in `outputs/three_plans_levers.csv`. The "Optimum plan" here is the Middle Ground plan.
 
 **Why our figures differ from the district's.** The district reported net savings of about $0.2M to $2.4M for its options (Sept. 25, 2026). That is because it reinvests most of the freed staffing into the student experience and assumes only about 200 students leave. Our "gross savings" is the budget capacity a closure frees *before* reinvestment, because this plan uses it to close the gap and pays for the experience at small schools through specialist sharing instead. Our Options 2 and 3 follow the district's address split of Anwatin: Kenwood-area students (48%) to Anthony and Bryn Mawr-area students to Franklin. The long Anthony ride is one reason Option 2 models below Option 1.
 
 ### 9.3 The 3-closure plan
-- The three most efficient closures are **Heritage to Edison, Longfellow to North, and Cityview to HIA**. Together they move 291 students and save $9.67M a year net, including $2.81M from 13 specialist-sharing pairs.
-- It captures about four fifths of the Middle Ground's savings. It needs about 430 more recruits than the Middle Ground (4,665 against 4,234). The Middle Ground adds the two other specialty high school merges, Wellstone and FAIR. The Family Trust plan drops Cityview from this set and keeps it open.
+- The three most efficient closures are **Heritage to Edison, Longfellow to North, and Cityview to HIA**. Together they move 291 students and save $9.58M a year net, including $2.74M from 12 specialist-sharing pairs.
+- It captures about four fifths of the Middle Ground's savings. It needs about 430 more recruits than the Middle Ground (4,683 against 4,255). The Middle Ground adds the two other specialty high school merges, Wellstone and FAIR. The Family Trust plan drops Cityview from this set and keeps it open.
 
 ### 9.4 Sensitivity
 
@@ -403,13 +414,13 @@ The same closure sets were re-run with family-loss and bussing assumptions halve
 
 | Scenario | Best N | Middle Ground (5) | 3-closure | Option 1 | Option 2 | Option 3 |
 |---|---|---|---|---|---|---|
-| Low (x0.5) | 9 | 12.40 | 9.87 | 12.71 | 11.24 | 10.05 |
-| Central | 7 | 12.01 | 9.67 | 7.11 | 6.02 | 3.51 |
-| High (x1.5) | 7 | 11.62 | 9.48 | 1.51 | 0.80 | -3.03 |
+| Low (x0.5) | 9 | 12.30 | 9.78 | 12.84 | 10.00 | 8.98 |
+| Central | 7 | 11.90 | 9.58 | 6.67 | 4.38 | 1.73 |
+| High (x1.5) | 7 | 11.50 | 9.38 | 0.50 | -1.25 | -5.48 |
 
-- **The 5-closure Middle Ground holds up where it matters.** If families leave at 1.5 times our estimate, it is within $0.1M of the best closure set. It gives up the most, $1.8M a year, only if families are much more loyal than we assume, when more closures would pay.
-- In the central and high cases it beats every district option by about $5-15M a year. In the low case Option 1 saves $12.7M against the Middle Ground's $12.4M, but only by closing 15 buildings and losing about 1,400 families in the central case.
-- **What protecting growth areas costs.** With protection turned off, the model would also close Franklin, Hall and HIA in Near North (projected to grow 21%), Pratt and Webster in University and Northeast, and Hiawatha in Longfellow. Net savings would peak at $14.4M with 12 closures. Protecting growth areas therefore costs about **$1.7M a year**, about 300 recruited students, and avoids closing buildings the district will need again within 10 years.
+- **The 5-closure Middle Ground holds up where it matters.** If families leave at 1.5 times our estimate, it is within $0.1M of the best closure set. It gives up the most, $1.6M a year, only if families are much more loyal than we assume, when more closures would pay.
+- In the central and high cases it beats every district option by about $5-17M a year. In the low case Option 1 saves $12.8M against the Middle Ground's $12.3M, but only by closing 15 buildings and losing about 1,430 families in the central case.
+- **What protecting growth areas costs.** With protection turned off, the model would also close Hall and HIA in Near North (projected to grow 21%) and Webster in Northeast. Net savings would peak at $13.7M with 9 closures. Protecting growth areas therefore costs about **$1.2M a year**, about 200 recruited students, and avoids closing buildings the district will need again within 10 years.
 
 ---
 
@@ -417,9 +428,9 @@ The same closure sets were re-run with family-loss and bussing assumptions halve
 
 | Closed building | Students | Moves to | Road miles | Pathway | Kept together | Also closed in district options? |
 |---|---|---|---|---|---|---|
-| Heritage Academy (9-12) | 68 | Edison High (Somali Heritage + CTE programming) | 6.0 | kept (Districtwide to Edison program) | yes | 1, 2, 3 |
+| Heritage Academy (9-12) | 68 | Edison High (Somali Heritage + CTE programming) | 7.4 | kept (Districtwide to Edison program) | yes | 1, 2, 3 |
 | Longfellow Alternative High (7-12) | 37 | North High (Teen Parent Services) | 6.4 | kept | yes | 1, 2, 3 |
-| Wellstone International High (9-12) | 174 | South High (multilingual 18+ supports) | 3.6 | kept | yes | 1, 2, 3 |
+| Wellstone International High (9-12) | 174 | South High (multilingual 18+ supports) | 4.3 | kept | yes | 1, 2, 3 |
 | FAIR School for Arts (9-12) | 311 | North High (Arts magnet) | 2.2 | kept | yes | 1, 2, 3 |
 | Cityview (PK-5) | 186 | Hmong International Academy | 1.1 | Camden | yes | 1, 3 |
 
@@ -431,23 +442,24 @@ The same closure sets were re-run with family-loss and bussing assumptions halve
 - **Southwest schools:** Kenny, Lake Harriet Lower and Field. Each adds little or nothing to net savings, and they save money by sharing specialists instead.
 - It also keeps **Jenny Lind** open, which no district option closes.
 
-**Specialist-sharing pairs in the Middle Ground plan (13 pairs, $2.81M a year):**
+**Specialist-sharing pairs in the Middle Ground plan (12 pairs, $2.74M a year):**
 
 | Pair | Combined enrollment | Road miles | Travel minutes | Net saving |
 |---|---|---|---|---|
-| Nellie Stone Johnson + HIA | 673 | 0.6 | 10 | $164k |
-| Webster + Las Estrellas | 565 | 0.7 | 10 | $252k |
-| Kenny + Armatage | 697 | 1.0 | 11 | $142k |
-| Anishinabe + Dowling | 629 | 1.1 | 12 | $198k |
-| Wenonah + Hale | 460 | 1.3 | 13 | $337k |
-| Howe + Northrop | 617 | 1.4 | 13 | $207k |
-| Lake Harriet Upper + Lake Harriet Lower | 586 | 1.5 | 13 | $233k |
-| Jenny Lind + Loring | 517 | 1.6 | 13 | $289k |
+| Howe + Anishinabe | 426 | 0.8 | 11 | $347k |
+| Webster + Las Estrellas | 565 | 0.8 | 11 | $252k |
+| Bethune + Hall | 479 | 0.9 | 12 | $322k |
+| Keewaydin + Wenonah | 471 | 0.9 | 12 | $328k |
+| Armatage + Kenny | 697 | 1.0 | 11 | $142k |
+| Northrop + Hale | 700 | 1.3 | 13 | $139k |
+| Lake Harriet Upper + Lake Harriet Lower | 586 | 1.5 | 14 | $232k |
 | Pillsbury + Waite Park | 691 | 1.7 | 14 | $145k |
-| Bethune + Bryn Mawr | 668 | 1.8 | 14 | $164k |
-| Hiawatha + Keewaydin | 503 | 1.9 | 14 | $300k |
-| Windom + Field | 684 | 2.0 | 15 | $150k |
-| Hall + Lucy Laney | 582 | 2.1 | 15 | $234k |
+| Lucy Laney + Nellie Stone Johnson | 658 | 1.7 | 14 | $172k |
+| Jenny Lind + Loring | 517 | 1.9 | 14 | $288k |
+| Hiawatha + Folwell | 599 | 2.0 | 14 | $220k |
+| Windom + Field | 684 | 2.6 | 13 | $151k |
+
+Travel minutes are the routed driving time plus 8 minutes to park and set up.
 
 *(The exact list is in `outputs/plan_specialist_pairs.csv`. The design agent should use that file, which is authoritative.)*
 
@@ -478,12 +490,12 @@ Family Trust only merges Heritage into Edison (59% to 64% full) and Longfellow i
 |---|---|---|---|---|---|---|
 | School buildings in use | 60 | 58 | 55 | 45 | 46 | 44 |
 | Share of design enrollment in use (MPS 2024 study) | 61% | 62% | 64% | 72% | 71% | 73% |
-| Average class size (modeled) | 24.0 | 24.2 | 24.4 | 24.5 | 24.6 | 24.5 |
-| Receiving schools at 88% or more of MPS design enrollment | | 0 | 0 | 12 | 8 | 14 |
+| Average class size (modeled) | 24.0 | 24.2 | 24.4 | 24.8 | 24.6 | 24.6 |
+| Receiving schools at 88% or more of MPS design enrollment | | 0 | 0 | 11 | 8 | 12 |
 
-Under the district options, a dozen or more receiving schools end up at or near the 90% limit our model allows (Anthony at 99%, because the district's address split sends Kenwood-area Anwatin students there). Those buildings have little room left for growth, new programs or pre-K. The district's own workbook forecasts lower enrollments at many receivers, which implies more families leaving or moving outside their new attendance area.
+Under the district options, 8 to 12 receiving schools end up at or near the 90% limit our model allows (Anthony at 99%, because the district's address split sends Kenwood-area Anwatin students there). Those buildings have little room left for growth, new programs or pre-K. The district's own workbook forecasts lower enrollments at many receivers, which implies more families leaving or moving outside their new attendance area.
 
-**Data check (Oct. 9, 2026).** The building data come from the district's Oct. 6, 2026 utilization workbook. We checked them against MPS's 2024 building reports for 57 schools (`data/mps_building_reports_2024.csv`). The design enrollments match. Between Oct. 2024 and SY26, enrollment fell about 5% at the median school and 20-30% at Cityview, HIA, Jenny Lind, Pratt, Webster, Lyndale and Las Estrellas. Loring: 335 of 396 in Oct. 2024 (85%, "efficient") and 315 in SY26 (80%). Bethune: 244 of 532 in Oct. 2024 (46%) and 271 in SY26 (51%). Bethune is about half full, not nearly empty, and it stays open in our plans because Near North is projected to grow 21%. It shares specialists with Bryn Mawr in the Middle Ground.
+**Data check (Oct. 9, 2026).** The building data come from the district's Oct. 6, 2026 utilization workbook. We checked them against MPS's 2024 building reports for 57 schools (`data/mps_building_reports_2024.csv`). The design enrollments match. Between Oct. 2024 and SY26, enrollment fell about 5% at the median school and 20-30% at Cityview, HIA, Jenny Lind, Pratt, Webster, Lyndale and Las Estrellas. Loring: 335 of 396 in Oct. 2024 (85%, "efficient") and 315 in SY26 (80%). Bethune: 244 of 532 in Oct. 2024 (46%) and 271 in SY26 (51%). Bethune is about half full, not nearly empty, and it stays open in our plans because Near North is projected to grow 21%. It shares specialists with Hall in the Middle Ground.
 
 ---
 
@@ -491,11 +503,11 @@ Under the district options, a dozen or more receiving schools end up at or near 
 
 | Closed building | Students | Moves to | Road miles |
 |---|---|---|---|
-| Heritage Academy | 68 | Edison High | 6.0 |
+| Heritage Academy | 68 | Edison High | 7.4 |
 | Longfellow High | 37 | North High | 6.4 |
 | Cityview | 186 | HIA | 1.1 |
 
-Plus 13 specialist-sharing pairs ($2.81M), including Jenny Lind + Loring, which stay open and share specialists.
+Plus 12 specialist-sharing pairs ($2.74M), including Jenny Lind + Loring, which stay open and share specialists.
 
 ---
 
@@ -557,23 +569,23 @@ Full profiles are in `outputs/closure_school_profiles.md` and `.csv`. The Middle
 
 | | Family Trust | Middle Ground | Footprint-First (if it recruited) |
 |---|---|---|---|
-| Net new students to balance | **4,950** | **4,234** | 5,413-6,506 |
-| Growth on today's 29,149 | 17.0% | 14.5% | 18.6-22.3% |
-| Cost per recruit | $1,628 | $1,596 | $2,341-2,728 |
-| Campaign cost (total) | $8.1M | $6.8M | $12.9-17.7M |
+| Net new students to balance | **4,955** | **4,255** | 5,516-7,208 |
+| Growth on today's 29,149 | 17.0% | 14.6% | 18.9-24.7% |
+| Cost per recruit | $1,629 | $1,599 | $2,407-2,860 |
+| Campaign cost (total) | $8.1M | $6.8M | $13.4-20.6M |
 | Recruits a year at the evidence-based pace (2%) | 580 | 559 | 387-421 |
-| Years to balance | 8.5 | 7.6 | 13.1-16.8 |
-| Open buildings full, before and after recruiting | 62% to 73% | 64% to 74% | 68-69% to 82-86% |
-| Average value per recruit | $5,750 | $5,750 | $5,385-5,710 (buildings pass 80% full) |
+| Years to balance | 8.6 | 7.6 | 13.6-18.6 |
+| Open buildings full, before and after recruiting | 62% to 73% | 64% to 74% | 67-69% to 83-88% |
+| Average value per recruit | $5,750 | $5,750 | $5,187-5,661 (buildings pass 80% full) |
 
-**Timeline: a 7.5-8.5 year glide path at the evidence-based pace.** The deck presents the evidence-based pace of about 2% growth a year, the best district-wide year Saint Paul has had in a decade (Section 4.1). The yearly shortfall until recruitment catches up is bridged with reserves, temporary cuts and the first closure savings: $108M in total for Family Trust and $80M for Middle Ground. At the 3% stretch pace the plans balance in 5.7 and 5.1 years, with $67M and $49M of bridging.
+**Timeline: a 7.6-8.6 year glide path at the evidence-based pace.** The deck presents the evidence-based pace of about 2% growth a year, the best district-wide year Saint Paul has had in a decade (Section 4.1). The yearly shortfall until recruitment catches up is bridged with reserves, temporary cuts and the first closure savings: $108M in total for Family Trust and $81M for Middle Ground. At the 3% stretch pace the plans balance in 5.7 and 5.1 years, with $67M and $50M of bridging.
 
 **Milestones (October official counts, net new students over today):**
 
 | October of year | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 |---|---|---|---|---|---|---|---|---|---|
-| Family Trust | 580 | 1,160 | 1,740 | 2,320 | 2,900 | 3,480 | 4,060 | 4,640 | **4,950** |
-| Middle Ground | 559 | 1,118 | 1,677 | 2,236 | 2,795 | 3,354 | 3,913 | **4,234** | |
+| Family Trust | 580 | 1,160 | 1,740 | 2,320 | 2,900 | 3,480 | 4,060 | 4,640 | **4,955** |
+| Middle Ground | 559 | 1,118 | 1,677 | 2,236 | 2,795 | 3,354 | 3,913 | **4,255** | |
 
 **Where the students come from** (full-scale targets, with about a 5% buffer above each plan's need; all **ESTIMATES**):
 
@@ -633,7 +645,7 @@ Why Family Trust can ask for more: it has the lowest trust penalty (cost multipl
 - No rigorous evaluation of programs like this was found, so it runs as a pilot with a comparison group.
 
 **5. Guaranteeing stability**
-- **A five-year footprint pledge:** a Board resolution that no neighborhood school closes through 2032 (Family Trust), or no further closures beyond the plan's 7 (Middle Ground).
+- **A five-year footprint pledge:** a Board resolution that no neighborhood school closes through 2032 (Family Trust), or no further closures beyond the plan's 5 (Middle Ground).
 - **A pathway guarantee:** any student can finish their pathway K-12, and siblings get priority.
 - **Staff stability:** teachers and partners move with their students, and class-size and specialist guarantees are published for each school.
 - **A transportation guarantee:** a bus stop within 0.25 mi and published ride-time caps.
@@ -648,15 +660,15 @@ Why Family Trust can ask for more: it has the lowest trust penalty (cost multipl
 ## 15. Risks and what to verify
 
 - **FY28 gap.** $35M is an estimate. If the gap is $45M, about 1,740 more recruits are needed. If it is $25M, about 1,740 fewer.
-- **Recruitment is now the biggest risk in every plan.** At 60% of target, Family Trust leaves an $11.4M gap and Middle Ground $9.7M. No district we found grew about 10% through recruitment alone (Section 4), so the milestones in Section 14 are the early warning.
-- **Bridge funding.** The 7.5-8.5 year glide path needs $80-108M of bridging ($49-67M at the stretch pace). The $112M general fund balance is already below the 8% policy, so reserves cannot carry all of it: plan on a mix of reserves, temporary cuts and, for Middle Ground, front-loaded closure savings.
-- **Cost per added student.** We assume half of each recruit's $11,500 goes to serving them. If recruits fit mostly into existing classes (30%), Middle Ground needs about 3,000; if most need new classes (65%), about 6,300. Track new sections opened against students added each October.
+- **Recruitment is now the biggest risk in every plan.** At 60% of target, Family Trust leaves an $11.4M gap and Middle Ground $9.8M. No district we found grew about 10% through recruitment alone (Section 4), so the milestones in Section 14 are the early warning.
+- **Bridge funding.** The 7.6-8.6 year glide path needs $81-108M of bridging ($50-67M at the stretch pace). The $112M general fund balance is already below the 8% policy, so reserves cannot carry all of it: plan on a mix of reserves, temporary cuts and, for Middle Ground, front-loaded closure savings.
+- **Cost per added student.** We assume half of each recruit's $11,500 goes to serving them. If recruits fit mostly into existing classes (30%), Middle Ground needs about 3,000; if most need new classes (65%), about 6,100. Track new sections opened against students added each October.
 - **Capacity is an average.** The busing and new-classroom costs start when the open buildings average 80% and 90% full. Popular schools reach those lines sooner. Track the number of schools above 90% each October, and steer recruits to schools with room.
 - **Family-loss behavior** is the biggest uncertainty in the closure lever (Section 9.4). The Middle Ground stays the best closure set under it.
 - **Building data.**
   - Wellstone has no square footage in the workbook (we assumed 80,000).
   - Heritage and Wellstone have no design capacity in the workbook (we assumed 1.3 times current enrollment), and Longfellow and Anishinabe have no 2024 study figure (we used the workbook's modeled future design).
-  - Las Estrellas and Ella Baker share or have moved buildings (secondary sources disagree with the map). The model uses the district map's positions.
+  - Las Estrellas's address was listed as Ella Baker's building. We corrected it on Oct. 10, 2026 to 1201 University Ave NE; its map position was already right. Northrop's map position, 1.1 miles off, was corrected at the same time.
 - **Score data** comes from secondary sites that republish MDE data. It should be checked against the Minnesota Report Card before publication. 2023-2024 scores were found for only a handful of schools.
 - **Ask MPS for:**
   - the option-level cost breakdown;
@@ -719,6 +731,9 @@ Public documents only. Savings, families leaving, recruits and bridge funding ar
 - Minnesota Reformer (Oct. 17, 2024), MPS financial projections.
 - Star Tribune (Mar. 6, 2020; Mar. 2025; Oct. 18, 2025); New York Times (Nov. 2021).
 - Sahan Journal (Jan. 2024, Aug. 2026); KSTP (Nov. 2024).
+
+**Roads**
+- OpenStreetMap street network, via the Overture Maps Foundation transportation release 2026-09-23.1 (Sept. 2026), for road distances and driving times (Section 8.1).
 
 **Research**
 - UChicago Consortium on School Research (2015), on Chicago's 2013 closures.

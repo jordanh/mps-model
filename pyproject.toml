@@ -1,6 +1,6 @@
 [project]
 name = "mps-model"
-version = "6.0.0"
+version = "8.0.0"
 description = "Closure, specialist-sharing and recruitment model for Minneapolis Public Schools"
 requires-python = ">=3.11"
 

@@ -1,0 +1,3601 @@
+from_school,to_school,road_miles,drive_minutes
+Cityview,Cityview,0.0,0.0
+Cityview,HIA,1.136,3.96
+Cityview,Jenny Lind,2.944,7.61
+Cityview,Loring,2.743,8.83
+Cityview,Lucy Laney,1.398,5.75
+Cityview,Olson,3.378,9.03
+Cityview,Camden,2.328,7.61
+Cityview,Pillsbury,2.96,9.21
+Cityview,Pratt,8.436,15.27
+Cityview,Waite Park,4.028,12.84
+Cityview,Webster,2.964,9.22
+Cityview,Northeast,3.565,11.27
+Cityview,Edison,2.223,7.04
+Cityview,Bryn Mawr,5.006,10.59
+Cityview,Kenwood,5.111,13.19
+Cityview,Nellie Stone Johnson,1.018,3.86
+Cityview,Anwatin,5.022,10.69
+Cityview,North,2.395,8.35
+Cityview,Franklin,1.961,7.07
+Cityview,Hiawatha,9.346,17.3
+Cityview,Howe,9.138,17.67
+Cityview,Keewaydin,10.558,21.08
+Cityview,Northrop,9.395,17.02
+Cityview,Wenonah,12.804,20.79
+Cityview,Sanford,8.862,17.63
+Cityview,Roosevelt,8.767,16.7
+Cityview,Bancroft,8.224,16.42
+Cityview,Dowling,9.496,18.98
+Cityview,Folwell,8.461,16.06
+Cityview,Whittier,4.986,12.6
+Cityview,Andersen,7.258,14.13
+Cityview,South,7.516,14.07
+Cityview,Armatage,12.532,20.55
+Cityview,Kenny,10.623,19.19
+Cityview,Lake Harriet Lower,10.969,19.76
+Cityview,Lake Harriet Upper,12.152,21.09
+Cityview,Windom,10.323,17.02
+Cityview,Anthony,10.937,19.98
+Cityview,Southwest,11.34,21.18
+Cityview,Barton,8.479,16.93
+Cityview,Burroughs,9.854,18.28
+Cityview,Field,8.456,14.29
+Cityview,Hale,10.319,18.64
+Cityview,Lyndale,6.969,13.6
+Cityview,Justice Page,8.862,15.85
+Cityview,Washburn,8.883,16.01
+Cityview,Anishinabe,8.835,17.84
+Cityview,Bethune,3.629,7.6
+Cityview,Ella Baker,4.808,11.98
+Cityview,Emerson,4.119,9.55
+Cityview,Green,7.346,13.55
+Cityview,Hall,1.754,6.32
+Cityview,Las Estrellas,2.366,7.28
+Cityview,Marcy,3.571,10.98
+Cityview,Seward,7.061,12.87
+Cityview,Sullivan,7.538,14.9
+Cityview,FAIR,4.491,9.02
+Cityview,Heritage,7.294,14.35
+Cityview,Longfellow,7.845,14.79
+Cityview,Wellstone,3.716,8.24
+HIA,Cityview,1.137,3.96
+HIA,HIA,0.0,0.0
+HIA,Jenny Lind,3.949,10.06
+HIA,Loring,2.477,7.84
+HIA,Lucy Laney,1.117,3.84
+HIA,Olson,3.011,10.37
+HIA,Camden,2.302,7.23
+HIA,Pillsbury,3.473,10.58
+HIA,Pratt,8.495,15.85
+HIA,Waite Park,4.541,14.22
+HIA,Webster,3.304,10.57
+HIA,Northeast,4.079,12.65
+HIA,Edison,2.736,8.42
+HIA,Bryn Mawr,5.066,11.17
+HIA,Kenwood,5.171,13.77
+HIA,Nellie Stone Johnson,0.735,3.03
+HIA,Anwatin,5.082,11.26
+HIA,North,1.613,5.96
+HIA,Franklin,1.625,5.95
+HIA,Hiawatha,9.406,17.87
+HIA,Howe,9.198,18.24
+HIA,Keewaydin,10.618,21.65
+HIA,Northrop,9.455,17.59
+HIA,Wenonah,12.863,21.36
+HIA,Sanford,8.922,18.21
+HIA,Roosevelt,8.827,17.27
+HIA,Bancroft,8.284,17.0
+HIA,Dowling,9.555,19.55
+HIA,Folwell,8.521,16.64
+HIA,Whittier,5.045,13.18
+HIA,Andersen,7.318,14.71
+HIA,South,7.576,14.64
+HIA,Armatage,12.592,21.12
+HIA,Kenny,10.683,19.76
+HIA,Lake Harriet Lower,11.029,20.34
+HIA,Lake Harriet Upper,12.212,21.66
+HIA,Windom,10.383,17.6
+HIA,Anthony,10.997,20.55
+HIA,Southwest,11.4,21.75
+HIA,Barton,8.539,17.5
+HIA,Burroughs,9.914,18.86
+HIA,Field,8.516,14.86
+HIA,Hale,10.379,19.22
+HIA,Lyndale,7.029,14.17
+HIA,Justice Page,8.922,16.43
+HIA,Washburn,8.943,16.58
+HIA,Anishinabe,8.895,18.42
+HIA,Bethune,1.988,7.17
+HIA,Ella Baker,4.868,12.55
+HIA,Emerson,4.179,10.12
+HIA,Green,7.406,14.12
+HIA,Hall,1.567,5.69
+HIA,Las Estrellas,2.705,8.64
+HIA,Marcy,3.911,12.34
+HIA,Seward,7.121,13.44
+HIA,Sullivan,7.597,15.48
+HIA,FAIR,4.192,10.17
+HIA,Heritage,7.354,14.93
+HIA,Longfellow,7.904,15.36
+HIA,Wellstone,3.776,8.81
+Jenny Lind,Cityview,2.792,6.61
+Jenny Lind,HIA,3.77,9.68
+Jenny Lind,Jenny Lind,0.0,0.0
+Jenny Lind,Loring,1.946,6.33
+Jenny Lind,Lucy Laney,3.045,9.6
+Jenny Lind,Olson,0.556,2.45
+Jenny Lind,Camden,1.531,5.11
+Jenny Lind,Pillsbury,5.609,14.55
+Jenny Lind,Pratt,10.87,16.94
+Jenny Lind,Waite Park,7.115,15.57
+Jenny Lind,Webster,5.686,11.77
+Jenny Lind,Northeast,6.214,16.61
+Jenny Lind,Edison,4.872,12.39
+Jenny Lind,Bryn Mawr,7.44,12.26
+Jenny Lind,Kenwood,7.546,14.86
+Jenny Lind,Nellie Stone Johnson,3.653,9.58
+Jenny Lind,Anwatin,7.456,12.36
+Jenny Lind,North,5.12,10.36
+Jenny Lind,Franklin,4.685,9.07
+Jenny Lind,Hiawatha,11.78,18.97
+Jenny Lind,Howe,11.572,19.34
+Jenny Lind,Keewaydin,12.992,22.74
+Jenny Lind,Northrop,11.83,18.69
+Jenny Lind,Wenonah,15.238,22.46
+Jenny Lind,Sanford,11.296,19.3
+Jenny Lind,Roosevelt,11.201,18.37
+Jenny Lind,Bancroft,10.658,18.09
+Jenny Lind,Dowling,11.93,20.65
+Jenny Lind,Folwell,10.895,17.73
+Jenny Lind,Whittier,7.42,14.27
+Jenny Lind,Andersen,9.692,15.8
+Jenny Lind,South,9.95,15.73
+Jenny Lind,Armatage,14.966,22.22
+Jenny Lind,Kenny,13.058,20.85
+Jenny Lind,Lake Harriet Lower,13.403,21.43
+Jenny Lind,Lake Harriet Upper,14.586,22.75
+Jenny Lind,Windom,12.757,18.69
+Jenny Lind,Anthony,13.371,21.64
+Jenny Lind,Southwest,13.775,22.84
+Jenny Lind,Barton,10.913,18.59
+Jenny Lind,Burroughs,12.289,19.95
+Jenny Lind,Field,10.891,15.96
+Jenny Lind,Hale,12.753,20.31
+Jenny Lind,Lyndale,9.403,15.27
+Jenny Lind,Justice Page,11.296,17.52
+Jenny Lind,Washburn,11.317,17.68
+Jenny Lind,Anishinabe,11.27,19.51
+Jenny Lind,Bethune,5.163,9.19
+Jenny Lind,Ella Baker,7.242,13.65
+Jenny Lind,Emerson,6.554,11.21
+Jenny Lind,Green,9.781,15.22
+Jenny Lind,Hall,4.478,8.32
+Jenny Lind,Las Estrellas,5.088,9.83
+Jenny Lind,Marcy,6.924,13.22
+Jenny Lind,Seward,9.495,14.54
+Jenny Lind,Sullivan,9.972,16.57
+Jenny Lind,FAIR,6.025,10.61
+Jenny Lind,Heritage,9.728,16.02
+Jenny Lind,Longfellow,10.279,16.45
+Jenny Lind,Wellstone,6.15,9.91
+Loring,Cityview,2.616,8.62
+Loring,HIA,2.481,7.72
+Loring,Jenny Lind,1.839,6.13
+Loring,Loring,0.0,0.0
+Loring,Lucy Laney,1.756,5.67
+Loring,Olson,1.748,5.75
+Loring,Camden,0.495,1.91
+Loring,Pillsbury,5.299,15.81
+Loring,Pratt,10.701,19.06
+Loring,Waite Park,6.031,17.42
+Loring,Webster,5.517,13.89
+Loring,Northeast,5.905,17.87
+Loring,Edison,4.562,13.65
+Loring,Bryn Mawr,7.271,14.38
+Loring,Kenwood,7.377,16.98
+Loring,Nellie Stone Johnson,3.108,9.88
+Loring,Anwatin,7.287,14.48
+Loring,North,3.476,10.86
+Loring,Franklin,4.516,11.19
+Loring,Hiawatha,11.611,21.08
+Loring,Howe,11.403,21.45
+Loring,Keewaydin,12.823,24.86
+Loring,Northrop,11.661,20.8
+Loring,Wenonah,15.069,24.58
+Loring,Sanford,11.127,21.42
+Loring,Roosevelt,11.032,20.49
+Loring,Bancroft,10.489,20.21
+Loring,Dowling,11.761,22.77
+Loring,Folwell,10.727,19.85
+Loring,Whittier,7.251,16.39
+Loring,Andersen,9.524,17.92
+Loring,South,9.781,17.85
+Loring,Armatage,15.782,23.74
+Loring,Kenny,12.889,22.97
+Loring,Lake Harriet Lower,11.541,20.28
+Loring,Lake Harriet Upper,12.724,21.6
+Loring,Windom,12.588,20.81
+Loring,Anthony,13.202,23.76
+Loring,Southwest,11.913,21.69
+Loring,Barton,10.744,20.71
+Loring,Burroughs,12.12,22.07
+Loring,Field,10.722,18.08
+Loring,Hale,12.584,22.43
+Loring,Lyndale,9.234,17.38
+Loring,Justice Page,11.127,19.64
+Loring,Washburn,11.149,19.8
+Loring,Anishinabe,11.101,21.63
+Loring,Bethune,4.994,11.31
+Loring,Ella Baker,7.074,15.77
+Loring,Emerson,6.385,13.33
+Loring,Green,9.612,17.34
+Loring,Hall,4.309,10.44
+Loring,Las Estrellas,4.919,11.95
+Loring,Marcy,6.755,15.34
+Loring,Seward,9.326,16.66
+Loring,Sullivan,9.803,18.69
+Loring,FAIR,5.856,12.73
+Loring,Heritage,9.559,18.14
+Loring,Longfellow,10.11,18.57
+Loring,Wellstone,5.981,12.02
+Lucy Laney,Cityview,1.398,5.75
+Lucy Laney,HIA,1.118,3.84
+Lucy Laney,Jenny Lind,3.045,9.6
+Lucy Laney,Loring,1.576,5.73
+Lucy Laney,Lucy Laney,0.0,0.0
+Lucy Laney,Olson,2.955,9.21
+Lucy Laney,Camden,1.578,5.18
+Lucy Laney,Pillsbury,4.234,12.78
+Lucy Laney,Pratt,9.349,17.83
+Lucy Laney,Waite Park,5.302,16.42
+Lucy Laney,Webster,4.158,12.56
+Lucy Laney,Northeast,4.84,14.84
+Lucy Laney,Edison,3.497,10.62
+Lucy Laney,Bryn Mawr,3.586,11.17
+Lucy Laney,Kenwood,6.025,15.75
+Lucy Laney,Nellie Stone Johnson,1.744,6.0
+Lucy Laney,Anwatin,3.602,11.26
+Lucy Laney,North,2.112,6.98
+Lucy Laney,Franklin,2.479,7.93
+Lucy Laney,Hiawatha,10.26,19.85
+Lucy Laney,Howe,10.052,20.22
+Lucy Laney,Keewaydin,11.472,23.63
+Lucy Laney,Northrop,10.309,19.57
+Lucy Laney,Wenonah,13.717,23.35
+Lucy Laney,Sanford,9.775,20.19
+Lucy Laney,Roosevelt,9.681,19.26
+Lucy Laney,Bancroft,9.138,18.98
+Lucy Laney,Dowling,10.409,21.54
+Lucy Laney,Folwell,9.375,18.62
+Lucy Laney,Whittier,5.899,15.16
+Lucy Laney,Andersen,8.172,16.69
+Lucy Laney,South,8.43,16.62
+Lucy Laney,Armatage,13.446,23.11
+Lucy Laney,Kenny,11.537,21.74
+Lucy Laney,Lake Harriet Lower,10.796,21.25
+Lucy Laney,Lake Harriet Upper,11.979,22.57
+Lucy Laney,Windom,11.237,19.58
+Lucy Laney,Anthony,11.851,22.53
+Lucy Laney,Southwest,11.168,22.66
+Lucy Laney,Barton,9.393,19.48
+Lucy Laney,Burroughs,10.768,20.84
+Lucy Laney,Field,9.37,16.85
+Lucy Laney,Hale,11.233,21.2
+Lucy Laney,Lyndale,7.883,16.15
+Lucy Laney,Justice Page,9.776,18.41
+Lucy Laney,Washburn,9.797,18.57
+Lucy Laney,Anishinabe,9.749,20.4
+Lucy Laney,Bethune,2.842,9.15
+Lucy Laney,Ella Baker,5.722,14.53
+Lucy Laney,Emerson,5.033,12.1
+Lucy Laney,Green,8.26,16.11
+Lucy Laney,Hall,2.421,7.67
+Lucy Laney,Las Estrellas,3.559,10.62
+Lucy Laney,Marcy,4.765,14.32
+Lucy Laney,Seward,7.975,15.43
+Lucy Laney,Sullivan,8.451,17.46
+Lucy Laney,FAIR,5.046,12.15
+Lucy Laney,Heritage,8.208,16.91
+Lucy Laney,Longfellow,8.758,17.34
+Lucy Laney,Wellstone,4.63,10.79
+Olson,Cityview,3.089,7.77
+Olson,HIA,3.011,10.23
+Olson,Jenny Lind,0.556,2.45
+Olson,Loring,1.855,5.95
+Olson,Lucy Laney,2.955,9.21
+Olson,Olson,0.0,0.0
+Olson,Camden,1.441,4.73
+Olson,Pillsbury,5.906,15.71
+Olson,Pratt,11.167,18.11
+Olson,Waite Park,7.4,16.26
+Olson,Webster,5.983,12.93
+Olson,Northeast,6.511,17.78
+Olson,Edison,5.169,13.55
+Olson,Bryn Mawr,7.737,13.43
+Olson,Kenwood,7.842,16.03
+Olson,Nellie Stone Johnson,3.95,10.74
+Olson,Anwatin,7.753,13.52
+Olson,North,5.417,11.52
+Olson,Franklin,4.981,10.24
+Olson,Hiawatha,12.077,20.13
+Olson,Howe,11.869,20.5
+Olson,Keewaydin,13.289,23.91
+Olson,Northrop,12.127,19.85
+Olson,Wenonah,15.535,23.62
+Olson,Sanford,11.593,20.46
+Olson,Roosevelt,11.498,19.53
+Olson,Bancroft,10.955,19.25
+Olson,Dowling,12.227,21.81
+Olson,Folwell,11.192,18.9
+Olson,Whittier,7.717,15.43
+Olson,Andersen,9.989,16.96
+Olson,South,10.247,16.9
+Olson,Armatage,15.263,23.38
+Olson,Kenny,13.354,22.02
+Olson,Lake Harriet Lower,12.997,22.18
+Olson,Lake Harriet Upper,14.18,23.5
+Olson,Windom,13.054,19.85
+Olson,Anthony,13.668,22.81
+Olson,Southwest,13.369,23.59
+Olson,Barton,11.21,19.76
+Olson,Burroughs,12.585,21.11
+Olson,Field,11.188,17.12
+Olson,Hale,13.05,21.48
+Olson,Lyndale,9.7,16.43
+Olson,Justice Page,11.593,18.68
+Olson,Washburn,11.614,18.84
+Olson,Anishinabe,11.566,20.68
+Olson,Bethune,5.46,10.35
+Olson,Ella Baker,7.539,14.81
+Olson,Emerson,6.851,12.38
+Olson,Green,10.077,16.38
+Olson,Hall,4.775,9.48
+Olson,Las Estrellas,5.385,11.0
+Olson,Marcy,7.221,14.38
+Olson,Seward,9.792,15.7
+Olson,Sullivan,10.269,17.73
+Olson,FAIR,6.322,11.77
+Olson,Heritage,10.025,17.18
+Olson,Longfellow,10.576,17.62
+Olson,Wellstone,6.447,11.07
+Camden,Cityview,2.309,7.59
+Camden,HIA,2.303,7.23
+Camden,Jenny Lind,1.531,5.11
+Camden,Loring,0.603,2.1
+Camden,Lucy Laney,1.578,5.18
+Camden,Olson,1.441,4.73
+Camden,Camden,0.0,0.0
+Camden,Pillsbury,4.992,14.78
+Camden,Pratt,10.393,18.04
+Camden,Waite Park,5.724,16.4
+Camden,Webster,5.21,12.86
+Camden,Northeast,5.598,16.85
+Camden,Edison,4.255,12.62
+Camden,Bryn Mawr,6.964,13.36
+Camden,Kenwood,7.069,15.96
+Camden,Nellie Stone Johnson,2.929,9.39
+Camden,Anwatin,6.98,13.45
+Camden,North,3.297,10.37
+Camden,Franklin,4.208,10.17
+Camden,Hiawatha,11.304,20.06
+Camden,Howe,11.096,20.43
+Camden,Keewaydin,12.516,23.84
+Camden,Northrop,11.353,19.78
+Camden,Wenonah,14.762,23.55
+Camden,Sanford,10.82,20.39
+Camden,Roosevelt,10.725,19.46
+Camden,Bancroft,10.182,19.18
+Camden,Dowling,11.454,21.74
+Camden,Folwell,10.419,18.82
+Camden,Whittier,6.944,15.36
+Camden,Andersen,9.216,16.89
+Camden,South,9.474,16.83
+Camden,Armatage,14.49,23.31
+Camden,Kenny,12.581,21.95
+Camden,Lake Harriet Lower,12.579,21.07
+Camden,Lake Harriet Upper,13.762,22.39
+Camden,Windom,12.281,19.78
+Camden,Anthony,12.895,22.74
+Camden,Southwest,12.951,22.48
+Camden,Barton,10.437,19.69
+Camden,Burroughs,11.812,21.04
+Camden,Field,10.414,17.05
+Camden,Hale,12.277,21.4
+Camden,Lyndale,8.927,16.36
+Camden,Justice Page,10.82,18.61
+Camden,Washburn,10.841,18.77
+Camden,Anishinabe,10.793,20.61
+Camden,Bethune,4.687,10.28
+Camden,Ella Baker,6.766,14.74
+Camden,Emerson,6.077,12.31
+Camden,Green,9.304,16.31
+Camden,Hall,4.002,9.41
+Camden,Las Estrellas,4.611,10.93
+Camden,Marcy,6.448,14.31
+Camden,Seward,9.019,15.63
+Camden,Sullivan,9.496,17.66
+Camden,FAIR,5.549,11.7
+Camden,Heritage,9.252,17.11
+Camden,Longfellow,9.803,17.55
+Camden,Wellstone,5.674,11.0
+Pillsbury,Cityview,2.959,9.2
+Pillsbury,HIA,3.471,10.58
+Pillsbury,Jenny Lind,5.472,14.44
+Pillsbury,Loring,5.412,16.1
+Pillsbury,Lucy Laney,4.231,12.77
+Pillsbury,Olson,5.906,15.86
+Pillsbury,Camden,4.998,14.88
+Pillsbury,Pillsbury,0.0,0.0
+Pillsbury,Pratt,4.158,10.47
+Pillsbury,Waite Park,1.692,6.19
+Pillsbury,Webster,2.433,8.1
+Pillsbury,Northeast,1.228,4.59
+Pillsbury,Edison,1.131,4.56
+Pillsbury,Bryn Mawr,7.774,13.1
+Pillsbury,Kenwood,6.409,12.75
+Pillsbury,Nellie Stone Johnson,3.354,10.48
+Pillsbury,Anwatin,7.79,13.2
+Pillsbury,North,4.451,14.03
+Pillsbury,Franklin,4.015,12.74
+Pillsbury,Hiawatha,7.286,13.62
+Pillsbury,Howe,7.078,13.99
+Pillsbury,Keewaydin,8.498,17.4
+Pillsbury,Northrop,8.796,15.19
+Pillsbury,Wenonah,12.204,18.96
+Pillsbury,Sanford,6.801,13.95
+Pillsbury,Roosevelt,6.707,13.02
+Pillsbury,Bancroft,6.398,13.95
+Pillsbury,Dowling,7.435,15.3
+Pillsbury,Folwell,6.401,12.38
+Pillsbury,Whittier,6.252,11.73
+Pillsbury,Andersen,4.74,10.23
+Pillsbury,South,5.456,10.39
+Pillsbury,Armatage,11.932,18.72
+Pillsbury,Kenny,10.024,17.35
+Pillsbury,Lake Harriet Lower,9.093,19.5
+Pillsbury,Lake Harriet Upper,10.231,19.38
+Pillsbury,Windom,9.723,15.19
+Pillsbury,Anthony,10.337,18.14
+Pillsbury,Southwest,10.743,21.07
+Pillsbury,Barton,7.879,15.1
+Pillsbury,Burroughs,9.255,16.45
+Pillsbury,Field,7.857,12.46
+Pillsbury,Hale,9.719,16.81
+Pillsbury,Lyndale,6.369,11.77
+Pillsbury,Justice Page,8.262,14.02
+Pillsbury,Washburn,8.283,14.18
+Pillsbury,Anishinabe,6.775,14.17
+Pillsbury,Bethune,7.119,12.32
+Pillsbury,Ella Baker,6.26,11.36
+Pillsbury,Emerson,5.362,10.31
+Pillsbury,Green,6.747,11.72
+Pillsbury,Hall,3.809,11.99
+Pillsbury,Las Estrellas,2.381,7.68
+Pillsbury,Marcy,2.733,6.22
+Pillsbury,Seward,4.768,10.25
+Pillsbury,Sullivan,5.477,11.22
+Pillsbury,FAIR,5.236,9.96
+Pillsbury,Heritage,6.694,12.52
+Pillsbury,Longfellow,5.784,11.11
+Pillsbury,Wellstone,5.794,10.4
+Pratt,Cityview,9.184,15.08
+Pratt,HIA,8.534,16.66
+Pratt,Jenny Lind,10.692,17.09
+Pratt,Loring,10.74,19.17
+Pratt,Lucy Laney,9.395,18.59
+Pratt,Olson,11.126,18.51
+Pratt,Camden,10.326,17.96
+Pratt,Pillsbury,4.191,10.53
+Pratt,Pratt,0.0,0.0
+Pratt,Waite Park,5.573,15.28
+Pratt,Webster,3.115,9.54
+Pratt,Northeast,5.108,13.68
+Pratt,Edison,4.703,12.19
+Pratt,Bryn Mawr,6.961,12.43
+Pratt,Kenwood,5.595,12.08
+Pratt,Nellie Stone Johnson,7.967,14.78
+Pratt,Anwatin,6.977,12.52
+Pratt,North,6.844,13.6
+Pratt,Franklin,6.715,12.88
+Pratt,Hiawatha,6.016,13.29
+Pratt,Howe,3.72,12.4
+Pratt,Keewaydin,7.229,17.07
+Pratt,Northrop,7.936,14.55
+Pratt,Wenonah,11.344,18.32
+Pratt,Sanford,3.464,11.54
+Pratt,Roosevelt,5.437,12.69
+Pratt,Bancroft,5.128,13.38
+Pratt,Dowling,3.64,13.06
+Pratt,Folwell,3.612,12.05
+Pratt,Whittier,5.438,11.06
+Pratt,Andersen,3.921,10.08
+Pratt,South,3.029,9.78
+Pratt,Armatage,11.073,18.08
+Pratt,Kenny,9.164,16.72
+Pratt,Lake Harriet Lower,8.234,18.86
+Pratt,Lake Harriet Upper,9.372,18.74
+Pratt,Windom,8.864,14.56
+Pratt,Anthony,9.478,17.51
+Pratt,Southwest,9.884,20.44
+Pratt,Barton,7.02,14.46
+Pratt,Burroughs,8.395,15.82
+Pratt,Field,6.997,11.82
+Pratt,Hale,8.86,16.18
+Pratt,Lyndale,5.51,11.13
+Pratt,Justice Page,7.403,13.38
+Pratt,Washburn,7.424,13.54
+Pratt,Anishinabe,2.923,9.86
+Pratt,Bethune,6.305,11.65
+Pratt,Ella Baker,5.446,10.69
+Pratt,Emerson,4.548,9.64
+Pratt,Green,5.887,11.08
+Pratt,Hall,6.603,12.49
+Pratt,Las Estrellas,3.658,10.9
+Pratt,Marcy,2.457,7.45
+Pratt,Seward,1.471,5.17
+Pratt,Sullivan,1.85,6.5
+Pratt,FAIR,4.422,9.29
+Pratt,Heritage,5.835,11.89
+Pratt,Longfellow,2.334,8.25
+Pratt,Wellstone,4.98,9.73
+Waite Park,Cityview,4.029,12.87
+Waite Park,HIA,4.541,14.24
+Waite Park,Jenny Lind,7.532,16.17
+Waite Park,Loring,6.134,17.61
+Waite Park,Lucy Laney,5.301,16.44
+Waite Park,Olson,7.818,16.86
+Waite Park,Camden,5.719,16.39
+Waite Park,Pillsbury,1.692,6.19
+Waite Park,Pratt,5.534,15.19
+Waite Park,Waite Park,0.0,0.0
+Waite Park,Webster,3.816,12.25
+Waite Park,Northeast,0.769,3.25
+Waite Park,Edison,2.451,8.25
+Waite Park,Bryn Mawr,9.151,17.81
+Waite Park,Kenwood,7.785,17.47
+Waite Park,Nellie Stone Johnson,4.424,14.14
+Waite Park,Anwatin,9.166,17.91
+Waite Park,North,5.793,18.07
+Waite Park,Franklin,5.358,16.78
+Waite Park,Hiawatha,8.662,18.33
+Waite Park,Howe,8.454,18.7
+Waite Park,Keewaydin,9.874,22.11
+Waite Park,Northrop,10.172,19.9
+Waite Park,Wenonah,13.58,23.67
+Waite Park,Sanford,8.178,18.67
+Waite Park,Roosevelt,8.083,17.73
+Waite Park,Bancroft,7.775,18.66
+Waite Park,Dowling,8.812,20.01
+Waite Park,Folwell,7.777,17.1
+Waite Park,Whittier,7.628,16.45
+Waite Park,Andersen,6.116,14.95
+Waite Park,South,6.832,15.1
+Waite Park,Armatage,13.308,23.43
+Waite Park,Kenny,11.4,22.07
+Waite Park,Lake Harriet Lower,10.469,24.21
+Waite Park,Lake Harriet Upper,11.607,24.09
+Waite Park,Windom,11.099,19.91
+Waite Park,Anthony,11.714,22.86
+Waite Park,Southwest,12.12,25.79
+Waite Park,Barton,9.255,19.81
+Waite Park,Burroughs,10.631,21.16
+Waite Park,Field,9.233,17.17
+Waite Park,Hale,11.096,21.53
+Waite Park,Lyndale,7.746,16.48
+Waite Park,Justice Page,9.638,18.73
+Waite Park,Washburn,9.66,18.89
+Waite Park,Anishinabe,8.151,18.88
+Waite Park,Bethune,8.495,17.03
+Waite Park,Ella Baker,7.636,16.08
+Waite Park,Emerson,6.738,15.02
+Waite Park,Green,8.123,16.43
+Waite Park,Hall,5.151,16.03
+Waite Park,Las Estrellas,3.66,11.53
+Waite Park,Marcy,4.109,10.93
+Waite Park,Seward,6.144,14.96
+Waite Park,Sullivan,6.854,15.94
+Waite Park,FAIR,6.612,14.68
+Waite Park,Heritage,8.07,17.24
+Waite Park,Longfellow,7.161,15.82
+Waite Park,Wellstone,7.17,15.12
+Webster,Cityview,2.959,9.2
+Webster,HIA,3.472,10.57
+Webster,Jenny Lind,5.494,11.8
+Webster,Loring,5.542,13.88
+Webster,Lucy Laney,4.148,12.53
+Webster,Olson,5.928,13.22
+Webster,Camden,5.128,12.66
+Webster,Pillsbury,2.363,8.13
+Webster,Pratt,3.034,9.28
+Webster,Waite Park,3.743,12.23
+Webster,Webster,0.0,0.0
+Webster,Northeast,3.28,10.66
+Webster,Edison,1.448,5.07
+Webster,Bryn Mawr,4.249,9.89
+Webster,Kenwood,5.292,12.03
+Webster,Nellie Stone Johnson,2.72,8.72
+Webster,Anwatin,4.265,9.99
+Webster,North,2.874,9.11
+Webster,Franklin,2.438,7.82
+Webster,Hiawatha,6.169,12.89
+Webster,Howe,5.962,13.26
+Webster,Keewaydin,7.382,16.67
+Webster,Northrop,7.679,14.46
+Webster,Wenonah,11.087,18.23
+Webster,Sanford,5.685,13.23
+Webster,Roosevelt,5.59,12.29
+Webster,Bancroft,5.282,13.22
+Webster,Dowling,6.319,14.57
+Webster,Folwell,5.285,11.66
+Webster,Whittier,5.136,11.01
+Webster,Andersen,3.624,9.5
+Webster,South,4.339,9.66
+Webster,Armatage,10.816,17.99
+Webster,Kenny,8.907,16.63
+Webster,Lake Harriet Lower,7.977,18.77
+Webster,Lake Harriet Upper,9.115,18.65
+Webster,Windom,8.607,14.46
+Webster,Anthony,9.221,17.42
+Webster,Southwest,10.415,20.24
+Webster,Barton,6.763,14.37
+Webster,Burroughs,8.138,15.72
+Webster,Field,6.74,11.73
+Webster,Hale,8.603,16.09
+Webster,Lyndale,5.253,11.04
+Webster,Justice Page,7.146,13.29
+Webster,Washburn,7.167,13.45
+Webster,Anishinabe,5.659,13.44
+Webster,Bethune,2.5,8.65
+Webster,Ella Baker,5.143,10.64
+Webster,Emerson,2.577,8.49
+Webster,Green,5.63,10.99
+Webster,Hall,2.232,7.07
+Webster,Las Estrellas,0.804,2.76
+Webster,Marcy,0.713,2.76
+Webster,Seward,3.652,9.52
+Webster,Sullivan,4.361,10.5
+Webster,FAIR,1.905,6.19
+Webster,Heritage,5.578,11.79
+Webster,Longfellow,4.668,10.38
+Webster,Wellstone,2.349,7.78
+Northeast,Cityview,3.564,11.27
+Northeast,HIA,4.076,12.64
+Northeast,Jenny Lind,6.077,16.5
+Northeast,Loring,6.018,18.16
+Northeast,Lucy Laney,4.837,14.83
+Northeast,Olson,6.511,17.92
+Northeast,Camden,5.603,16.94
+Northeast,Pillsbury,1.228,4.59
+Northeast,Pratt,5.069,13.58
+Northeast,Waite Park,0.769,3.25
+Northeast,Webster,3.352,10.64
+Northeast,Northeast,0.0,0.0
+Northeast,Edison,1.987,6.65
+Northeast,Bryn Mawr,8.686,16.21
+Northeast,Kenwood,7.321,15.86
+Northeast,Nellie Stone Johnson,3.959,12.54
+Northeast,Anwatin,8.702,16.3
+Northeast,North,5.329,16.46
+Northeast,Franklin,4.893,15.17
+Northeast,Hiawatha,8.197,16.73
+Northeast,Howe,7.99,17.1
+Northeast,Keewaydin,9.41,20.51
+Northeast,Northrop,9.707,18.3
+Northeast,Wenonah,13.116,22.07
+Northeast,Sanford,7.713,17.06
+Northeast,Roosevelt,7.618,16.13
+Northeast,Bancroft,7.31,17.06
+Northeast,Dowling,8.347,18.41
+Northeast,Folwell,7.313,15.49
+Northeast,Whittier,7.164,14.84
+Northeast,Andersen,5.652,13.34
+Northeast,South,6.367,13.5
+Northeast,Armatage,12.844,21.83
+Northeast,Kenny,10.935,20.46
+Northeast,Lake Harriet Lower,10.005,22.61
+Northeast,Lake Harriet Upper,11.143,22.49
+Northeast,Windom,10.635,18.3
+Northeast,Anthony,11.249,21.25
+Northeast,Southwest,11.655,24.18
+Northeast,Barton,8.791,18.21
+Northeast,Burroughs,10.166,19.56
+Northeast,Field,8.768,15.57
+Northeast,Hale,10.631,19.92
+Northeast,Lyndale,7.281,14.88
+Northeast,Justice Page,9.174,17.13
+Northeast,Washburn,9.195,17.29
+Northeast,Anishinabe,7.687,17.27
+Northeast,Bethune,8.03,15.43
+Northeast,Ella Baker,7.172,14.47
+Northeast,Emerson,6.274,13.42
+Northeast,Green,7.658,14.83
+Northeast,Hall,4.687,14.42
+Northeast,Las Estrellas,3.196,9.93
+Northeast,Marcy,3.645,9.33
+Northeast,Seward,5.68,13.36
+Northeast,Sullivan,6.389,14.33
+Northeast,FAIR,6.147,13.07
+Northeast,Heritage,7.606,15.63
+Northeast,Longfellow,6.696,14.22
+Northeast,Wellstone,6.706,13.51
+Edison,Cityview,2.222,7.04
+Edison,HIA,2.734,8.41
+Edison,Jenny Lind,4.735,12.28
+Edison,Loring,4.675,13.94
+Edison,Lucy Laney,3.494,10.61
+Edison,Olson,5.169,13.7
+Edison,Camden,4.261,12.72
+Edison,Pillsbury,1.131,4.56
+Edison,Pratt,4.664,12.13
+Edison,Waite Park,2.45,8.22
+Edison,Webster,1.448,5.07
+Edison,Northeast,1.987,6.65
+Edison,Edison,0.0,0.0
+Edison,Bryn Mawr,5.784,12.96
+Edison,Kenwood,6.915,14.41
+Edison,Nellie Stone Johnson,2.617,8.31
+Edison,Anwatin,5.8,13.05
+Edison,North,3.467,11.0
+Edison,Franklin,3.031,9.71
+Edison,Hiawatha,7.792,15.28
+Edison,Howe,7.585,15.65
+Edison,Keewaydin,9.005,19.06
+Edison,Northrop,9.302,16.84
+Edison,Wenonah,12.71,20.62
+Edison,Sanford,7.308,15.61
+Edison,Roosevelt,7.213,14.68
+Edison,Bancroft,6.905,15.6
+Edison,Dowling,7.942,16.96
+Edison,Folwell,6.908,14.04
+Edison,Whittier,6.759,13.39
+Edison,Andersen,5.247,11.89
+Edison,South,5.962,12.04
+Edison,Armatage,12.439,20.38
+Edison,Kenny,10.53,19.01
+Edison,Lake Harriet Lower,9.6,21.16
+Edison,Lake Harriet Upper,10.738,21.04
+Edison,Windom,10.23,16.85
+Edison,Anthony,10.844,19.8
+Edison,Southwest,11.25,22.73
+Edison,Barton,8.386,16.75
+Edison,Burroughs,9.761,18.11
+Edison,Field,8.363,14.12
+Edison,Hale,10.226,18.47
+Edison,Lyndale,6.876,13.42
+Edison,Justice Page,8.769,15.68
+Edison,Washburn,8.79,15.84
+Edison,Anishinabe,7.282,15.82
+Edison,Bethune,3.389,11.39
+Edison,Ella Baker,6.766,13.02
+Edison,Emerson,4.898,11.91
+Edison,Green,7.253,13.38
+Edison,Hall,2.824,8.96
+Edison,Las Estrellas,1.288,4.59
+Edison,Marcy,1.751,6.22
+Edison,Seward,5.274,11.91
+Edison,Sullivan,5.984,12.88
+Edison,FAIR,3.061,10.03
+Edison,Heritage,7.201,14.18
+Edison,Longfellow,6.291,12.76
+Edison,Wellstone,4.494,10.6
+Bryn Mawr,Cityview,6.111,10.81
+Bryn Mawr,HIA,3.559,11.63
+Bryn Mawr,Jenny Lind,7.619,12.82
+Bryn Mawr,Loring,8.238,14.85
+Bryn Mawr,Lucy Laney,3.586,11.17
+Bryn Mawr,Olson,8.053,14.24
+Bryn Mawr,Camden,7.252,13.68
+Bryn Mawr,Pillsbury,7.701,13.42
+Bryn Mawr,Pratt,6.902,12.3
+Bryn Mawr,Waite Park,9.082,18.17
+Bryn Mawr,Webster,4.479,10.35
+Bryn Mawr,Northeast,8.618,16.56
+Bryn Mawr,Edison,5.957,13.48
+Bryn Mawr,Bryn Mawr,0.0,0.0
+Bryn Mawr,Kenwood,3.086,10.07
+Bryn Mawr,Nellie Stone Johnson,4.893,10.51
+Bryn Mawr,Anwatin,0.13,0.78
+Bryn Mawr,North,2.311,7.84
+Bryn Mawr,Franklin,2.67,8.98
+Bryn Mawr,Hiawatha,7.812,14.33
+Bryn Mawr,Howe,7.604,14.7
+Bryn Mawr,Keewaydin,9.024,18.11
+Bryn Mawr,Northrop,7.862,14.05
+Bryn Mawr,Wenonah,11.27,17.82
+Bryn Mawr,Sanford,7.328,14.66
+Bryn Mawr,Roosevelt,7.233,13.73
+Bryn Mawr,Bancroft,6.69,13.45
+Bryn Mawr,Dowling,7.962,16.01
+Bryn Mawr,Folwell,6.928,13.09
+Bryn Mawr,Whittier,3.267,9.73
+Bryn Mawr,Andersen,5.725,11.16
+Bryn Mawr,South,5.982,11.1
+Bryn Mawr,Armatage,11.461,17.44
+Bryn Mawr,Kenny,9.09,16.22
+Bryn Mawr,Lake Harriet Lower,7.219,13.98
+Bryn Mawr,Lake Harriet Upper,8.402,15.3
+Bryn Mawr,Windom,8.789,14.05
+Bryn Mawr,Anthony,9.403,17.01
+Bryn Mawr,Southwest,7.591,15.39
+Bryn Mawr,Barton,6.945,13.96
+Bryn Mawr,Burroughs,8.321,15.31
+Bryn Mawr,Field,6.923,11.32
+Bryn Mawr,Hale,8.785,15.67
+Bryn Mawr,Lyndale,5.435,10.63
+Bryn Mawr,Justice Page,7.328,12.88
+Bryn Mawr,Washburn,7.349,13.04
+Bryn Mawr,Anishinabe,7.302,14.87
+Bryn Mawr,Bethune,2.104,7.32
+Bryn Mawr,Ella Baker,3.09,9.11
+Bryn Mawr,Emerson,2.401,6.67
+Bryn Mawr,Green,5.813,10.58
+Bryn Mawr,Hall,4.405,8.86
+Bryn Mawr,Las Estrellas,4.77,9.67
+Bryn Mawr,Marcy,4.429,10.24
+Bryn Mawr,Seward,5.527,9.9
+Bryn Mawr,Sullivan,6.004,11.93
+Bryn Mawr,FAIR,2.478,5.74
+Bryn Mawr,Heritage,5.76,11.38
+Bryn Mawr,Longfellow,6.311,11.82
+Bryn Mawr,Wellstone,1.998,5.36
+Kenwood,Cityview,6.087,12.94
+Kenwood,HIA,5.437,14.52
+Kenwood,Jenny Lind,7.595,14.95
+Kenwood,Loring,7.643,17.03
+Kenwood,Lucy Laney,6.297,16.45
+Kenwood,Olson,8.029,16.37
+Kenwood,Camden,7.228,15.82
+Kenwood,Pillsbury,6.504,12.76
+Kenwood,Pratt,5.705,11.65
+Kenwood,Waite Park,7.886,17.51
+Kenwood,Webster,5.426,12.16
+Kenwood,Northeast,7.421,15.91
+Kenwood,Edison,7.016,14.42
+Kenwood,Bryn Mawr,3.056,10.15
+Kenwood,Kenwood,0.0,0.0
+Kenwood,Nellie Stone Johnson,4.869,12.64
+Kenwood,Anwatin,3.072,10.25
+Kenwood,North,3.766,12.48
+Kenwood,Franklin,4.587,11.74
+Kenwood,Hiawatha,6.615,13.67
+Kenwood,Howe,6.408,14.04
+Kenwood,Keewaydin,7.828,17.45
+Kenwood,Northrop,6.665,13.39
+Kenwood,Wenonah,10.073,17.16
+Kenwood,Sanford,6.131,14.01
+Kenwood,Roosevelt,6.036,13.07
+Kenwood,Bancroft,5.493,12.8
+Kenwood,Dowling,6.765,15.35
+Kenwood,Folwell,5.731,12.44
+Kenwood,Whittier,2.026,7.27
+Kenwood,Andersen,4.528,10.51
+Kenwood,South,4.785,10.44
+Kenwood,Armatage,9.801,16.92
+Kenwood,Kenny,7.893,15.56
+Kenwood,Lake Harriet Lower,3.158,11.25
+Kenwood,Lake Harriet Upper,4.823,15.88
+Kenwood,Windom,7.592,13.4
+Kenwood,Anthony,8.206,16.35
+Kenwood,Southwest,4.057,13.95
+Kenwood,Barton,3.901,12.39
+Kenwood,Burroughs,7.124,14.66
+Kenwood,Field,5.726,10.66
+Kenwood,Hale,7.588,15.02
+Kenwood,Lyndale,2.887,9.46
+Kenwood,Justice Page,6.131,12.23
+Kenwood,Washburn,6.153,12.39
+Kenwood,Anishinabe,6.105,14.22
+Kenwood,Bethune,3.226,10.53
+Kenwood,Ella Baker,1.413,5.41
+Kenwood,Emerson,1.901,6.76
+Kenwood,Green,4.616,9.93
+Kenwood,Hall,4.381,10.99
+Kenwood,Las Estrellas,4.746,11.8
+Kenwood,Marcy,4.768,10.07
+Kenwood,Seward,4.33,9.24
+Kenwood,Sullivan,4.807,11.28
+Kenwood,FAIR,2.29,8.09
+Kenwood,Heritage,4.563,10.73
+Kenwood,Longfellow,5.114,11.16
+Kenwood,Wellstone,1.874,6.74
+Nellie Stone Johnson,Cityview,1.01,3.9
+Nellie Stone Johnson,HIA,0.733,3.02
+Nellie Stone Johnson,Jenny Lind,4.638,9.59
+Nellie Stone Johnson,Loring,3.103,9.93
+Nellie Stone Johnson,Lucy Laney,1.743,5.93
+Nellie Stone Johnson,Olson,5.072,11.01
+Nellie Stone Johnson,Camden,2.928,9.32
+Nellie Stone Johnson,Pillsbury,3.346,10.52
+Nellie Stone Johnson,Pratt,7.882,13.98
+Nellie Stone Johnson,Waite Park,4.415,14.16
+Nellie Stone Johnson,Webster,2.699,8.63
+Nellie Stone Johnson,Northeast,3.952,12.59
+Nellie Stone Johnson,Edison,2.609,8.36
+Nellie Stone Johnson,Bryn Mawr,4.452,9.3
+Nellie Stone Johnson,Kenwood,4.558,11.9
+Nellie Stone Johnson,Nellie Stone Johnson,0.0,0.0
+Nellie Stone Johnson,Anwatin,4.468,9.39
+Nellie Stone Johnson,North,1.499,5.62
+Nellie Stone Johnson,Franklin,1.135,4.72
+Nellie Stone Johnson,Hiawatha,8.792,16.0
+Nellie Stone Johnson,Howe,8.584,16.37
+Nellie Stone Johnson,Keewaydin,10.005,19.78
+Nellie Stone Johnson,Northrop,8.842,15.72
+Nellie Stone Johnson,Wenonah,12.25,19.49
+Nellie Stone Johnson,Sanford,8.308,16.34
+Nellie Stone Johnson,Roosevelt,8.213,15.4
+Nellie Stone Johnson,Bancroft,7.67,15.13
+Nellie Stone Johnson,Dowling,8.942,17.68
+Nellie Stone Johnson,Folwell,7.908,14.77
+Nellie Stone Johnson,Whittier,4.432,11.31
+Nellie Stone Johnson,Andersen,6.705,12.84
+Nellie Stone Johnson,South,6.962,12.77
+Nellie Stone Johnson,Armatage,11.978,19.25
+Nellie Stone Johnson,Kenny,10.07,17.89
+Nellie Stone Johnson,Lake Harriet Lower,10.415,18.47
+Nellie Stone Johnson,Lake Harriet Upper,11.598,19.79
+Nellie Stone Johnson,Windom,9.769,15.73
+Nellie Stone Johnson,Anthony,10.383,18.68
+Nellie Stone Johnson,Southwest,10.787,19.88
+Nellie Stone Johnson,Barton,7.925,15.63
+Nellie Stone Johnson,Burroughs,9.301,16.99
+Nellie Stone Johnson,Field,7.903,12.99
+Nellie Stone Johnson,Hale,9.765,17.35
+Nellie Stone Johnson,Lyndale,6.415,12.3
+Nellie Stone Johnson,Justice Page,8.308,14.56
+Nellie Stone Johnson,Washburn,8.33,14.71
+Nellie Stone Johnson,Anishinabe,8.282,16.55
+Nellie Stone Johnson,Bethune,1.908,6.83
+Nellie Stone Johnson,Ella Baker,4.255,10.68
+Nellie Stone Johnson,Emerson,3.566,8.25
+Nellie Stone Johnson,Green,6.793,12.25
+Nellie Stone Johnson,Hall,1.103,4.17
+Nellie Stone Johnson,Las Estrellas,2.101,6.69
+Nellie Stone Johnson,Marcy,3.306,10.39
+Nellie Stone Johnson,Seward,6.507,11.57
+Nellie Stone Johnson,Sullivan,6.984,13.61
+Nellie Stone Johnson,FAIR,3.578,8.3
+Nellie Stone Johnson,Heritage,6.74,13.06
+Nellie Stone Johnson,Longfellow,7.291,13.49
+Nellie Stone Johnson,Wellstone,3.162,6.94
+Anwatin,Cityview,6.126,10.9
+Anwatin,HIA,3.575,11.72
+Anwatin,Jenny Lind,7.635,12.92
+Anwatin,Loring,8.254,14.94
+Anwatin,Lucy Laney,3.602,11.26
+Anwatin,Olson,8.068,14.33
+Anwatin,Camden,7.268,13.78
+Anwatin,Pillsbury,7.717,13.51
+Anwatin,Pratt,6.918,12.4
+Anwatin,Waite Park,9.098,18.26
+Anwatin,Webster,4.495,10.45
+Anwatin,Northeast,8.634,16.66
+Anwatin,Edison,5.973,13.58
+Anwatin,Bryn Mawr,0.13,0.78
+Anwatin,Kenwood,3.102,10.17
+Anwatin,Nellie Stone Johnson,4.909,10.6
+Anwatin,Anwatin,0.0,0.0
+Anwatin,North,2.327,7.93
+Anwatin,Franklin,2.686,9.08
+Anwatin,Hiawatha,7.828,14.42
+Anwatin,Howe,7.62,14.79
+Anwatin,Keewaydin,9.04,18.2
+Anwatin,Northrop,7.878,14.14
+Anwatin,Wenonah,11.286,17.91
+Anwatin,Sanford,7.344,14.76
+Anwatin,Roosevelt,7.249,13.82
+Anwatin,Bancroft,6.706,13.55
+Anwatin,Dowling,7.978,16.1
+Anwatin,Folwell,6.943,13.19
+Anwatin,Whittier,3.283,9.82
+Anwatin,Andersen,5.74,11.26
+Anwatin,South,5.998,11.19
+Anwatin,Armatage,11.477,17.54
+Anwatin,Kenny,9.105,16.31
+Anwatin,Lake Harriet Lower,7.235,14.08
+Anwatin,Lake Harriet Upper,8.418,15.4
+Anwatin,Windom,8.805,14.15
+Anwatin,Anthony,9.419,17.1
+Anwatin,Southwest,7.607,15.49
+Anwatin,Barton,6.961,14.05
+Anwatin,Burroughs,8.337,15.41
+Anwatin,Field,6.939,11.41
+Anwatin,Hale,8.801,15.77
+Anwatin,Lyndale,5.451,10.72
+Anwatin,Justice Page,7.344,12.98
+Anwatin,Washburn,7.365,13.14
+Anwatin,Anishinabe,7.317,14.97
+Anwatin,Bethune,2.12,7.42
+Anwatin,Ella Baker,3.106,9.2
+Anwatin,Emerson,2.417,6.77
+Anwatin,Green,5.829,10.68
+Anwatin,Hall,4.421,8.95
+Anwatin,Las Estrellas,4.786,9.76
+Anwatin,Marcy,4.445,10.33
+Anwatin,Seward,5.543,10.0
+Anwatin,Sullivan,6.02,12.03
+Anwatin,FAIR,2.494,5.84
+Anwatin,Heritage,5.776,11.48
+Anwatin,Longfellow,6.327,11.91
+Anwatin,Wellstone,2.013,5.46
+North,Cityview,2.386,8.32
+North,HIA,1.519,6.23
+North,Jenny Lind,5.177,11.11
+North,Loring,3.467,10.97
+North,Lucy Laney,2.106,6.96
+North,Olson,5.611,12.52
+North,Camden,3.292,10.36
+North,Pillsbury,4.461,14.07
+North,Pratt,6.937,13.22
+North,Waite Park,5.813,18.1
+North,Webster,2.878,9.12
+North,Northeast,5.35,16.52
+North,Edison,3.466,11.0
+North,Bryn Mawr,2.311,7.84
+North,Kenwood,3.61,12.29
+North,Nellie Stone Johnson,1.505,5.6
+North,Anwatin,2.327,7.93
+North,North,0.0,0.0
+North,Franklin,0.506,2.22
+North,Hiawatha,7.847,15.25
+North,Howe,7.639,15.62
+North,Keewaydin,9.059,19.02
+North,Northrop,7.897,14.97
+North,Wenonah,11.305,18.74
+North,Sanford,7.363,15.58
+North,Roosevelt,7.268,14.65
+North,Bancroft,6.725,14.37
+North,Dowling,7.997,16.93
+North,Folwell,6.963,14.01
+North,Whittier,3.484,11.69
+North,Andersen,5.76,12.08
+North,South,6.017,12.01
+North,Armatage,11.033,18.5
+North,Kenny,9.125,17.13
+North,Lake Harriet Lower,8.714,18.31
+North,Lake Harriet Upper,9.332,19.16
+North,Windom,8.824,14.97
+North,Anthony,9.438,17.92
+North,Southwest,9.086,19.73
+North,Barton,6.98,14.87
+North,Burroughs,8.356,16.23
+North,Field,6.958,12.24
+North,Hale,8.82,16.59
+North,Lyndale,5.47,11.55
+North,Justice Page,7.363,13.8
+North,Washburn,7.385,13.96
+North,Anishinabe,7.337,15.79
+North,Bethune,0.744,3.11
+North,Ella Baker,3.306,11.07
+North,Emerson,2.618,8.64
+North,Green,5.848,11.5
+North,Hall,0.69,2.89
+North,Las Estrellas,2.279,7.18
+North,Marcy,3.248,10.54
+North,Seward,5.562,10.82
+North,Sullivan,6.039,12.85
+North,FAIR,1.995,7.14
+North,Heritage,5.795,12.3
+North,Longfellow,6.346,12.73
+North,Wellstone,2.214,7.33
+Franklin,Cityview,1.951,7.03
+Franklin,HIA,1.611,5.95
+Franklin,Jenny Lind,4.741,9.82
+Franklin,Loring,3.832,11.88
+Franklin,Lucy Laney,2.472,7.88
+Franklin,Olson,5.175,11.23
+Franklin,Camden,4.375,10.68
+Franklin,Pillsbury,4.025,12.78
+Franklin,Pratt,6.827,12.65
+Franklin,Waite Park,5.377,16.81
+Franklin,Webster,2.442,7.83
+Franklin,Northeast,4.914,15.23
+Franklin,Edison,3.031,9.71
+Franklin,Bryn Mawr,4.204,8.43
+Franklin,Kenwood,4.31,11.03
+Franklin,Nellie Stone Johnson,1.135,4.72
+Franklin,Anwatin,4.22,8.52
+Franklin,North,0.506,2.22
+Franklin,Franklin,0.0,0.0
+Franklin,Hiawatha,7.737,14.68
+Franklin,Howe,7.53,15.05
+Franklin,Keewaydin,8.95,18.46
+Franklin,Northrop,7.787,14.4
+Franklin,Wenonah,11.195,18.17
+Franklin,Sanford,7.253,15.01
+Franklin,Roosevelt,7.158,14.08
+Franklin,Bancroft,6.616,13.8
+Franklin,Dowling,7.887,16.36
+Franklin,Folwell,6.853,13.44
+Franklin,Whittier,4.184,10.43
+Franklin,Andersen,5.65,11.51
+Franklin,South,5.907,11.45
+Franklin,Armatage,10.924,17.93
+Franklin,Kenny,9.015,16.57
+Franklin,Lake Harriet Lower,10.167,17.6
+Franklin,Lake Harriet Upper,9.223,18.59
+Franklin,Windom,8.714,14.4
+Franklin,Anthony,9.329,17.36
+Franklin,Southwest,10.539,19.01
+Franklin,Barton,6.87,14.31
+Franklin,Burroughs,8.246,15.66
+Franklin,Field,6.848,11.67
+Franklin,Hale,8.711,16.02
+Franklin,Lyndale,5.361,10.98
+Franklin,Justice Page,7.253,13.23
+Franklin,Washburn,7.275,13.39
+Franklin,Anishinabe,7.227,15.22
+Franklin,Bethune,0.731,2.87
+Franklin,Ella Baker,4.006,9.81
+Franklin,Emerson,3.318,7.38
+Franklin,Green,5.738,10.93
+Franklin,Hall,0.257,1.15
+Franklin,Las Estrellas,1.844,5.89
+Franklin,Marcy,2.96,9.51
+Franklin,Seward,5.452,10.25
+Franklin,Sullivan,5.929,12.28
+Franklin,FAIR,1.885,6.57
+Franklin,Heritage,5.685,11.73
+Franklin,Longfellow,6.236,12.17
+Franklin,Wellstone,2.914,6.07
+Hiawatha,Cityview,10.219,17.09
+Hiawatha,HIA,9.568,18.67
+Hiawatha,Jenny Lind,11.727,19.11
+Hiawatha,Loring,11.775,21.19
+Hiawatha,Lucy Laney,10.429,20.6
+Hiawatha,Olson,12.161,20.52
+Hiawatha,Camden,11.36,19.97
+Hiawatha,Pillsbury,7.231,13.89
+Hiawatha,Pratt,5.955,12.88
+Hiawatha,Waite Park,8.612,18.64
+Hiawatha,Webster,6.153,13.28
+Hiawatha,Northeast,8.148,17.03
+Hiawatha,Edison,7.743,15.54
+Hiawatha,Bryn Mawr,7.995,14.44
+Hiawatha,Kenwood,6.63,14.1
+Hiawatha,Nellie Stone Johnson,9.001,16.79
+Hiawatha,Anwatin,8.011,14.54
+Hiawatha,North,7.879,15.61
+Hiawatha,Franklin,7.75,14.9
+Hiawatha,Hiawatha,0.0,0.0
+Hiawatha,Howe,0.706,2.58
+Hiawatha,Keewaydin,2.119,7.54
+Hiawatha,Northrop,2.521,7.6
+Hiawatha,Wenonah,2.997,10.5
+Hiawatha,Sanford,0.96,3.48
+Hiawatha,Roosevelt,1.074,3.66
+Hiawatha,Bancroft,2.529,7.84
+Hiawatha,Dowling,0.865,3.22
+Hiawatha,Folwell,2.027,6.18
+Hiawatha,Whittier,6.473,13.07
+Hiawatha,Andersen,3.565,9.3
+Hiawatha,South,2.4,6.47
+Hiawatha,Armatage,9.158,15.74
+Hiawatha,Kenny,8.311,15.16
+Hiawatha,Lake Harriet Lower,6.609,20.92
+Hiawatha,Lake Harriet Upper,10.464,18.27
+Hiawatha,Windom,7.347,13.94
+Hiawatha,Anthony,8.438,15.47
+Hiawatha,Southwest,10.852,19.61
+Hiawatha,Barton,3.977,13.55
+Hiawatha,Burroughs,5.354,15.65
+Hiawatha,Field,3.455,10.23
+Hiawatha,Hale,3.63,11.34
+Hiawatha,Lyndale,4.894,13.3
+Hiawatha,Justice Page,4.362,13.22
+Hiawatha,Washburn,4.383,13.38
+Hiawatha,Anishinabe,1.394,5.01
+Hiawatha,Bethune,7.34,13.66
+Hiawatha,Ella Baker,6.481,12.7
+Hiawatha,Emerson,5.583,11.65
+Hiawatha,Green,3.51,10.59
+Hiawatha,Hall,7.638,14.5
+Hiawatha,Las Estrellas,6.696,14.64
+Hiawatha,Marcy,5.495,11.19
+Hiawatha,Seward,3.382,8.76
+Hiawatha,Sullivan,3.039,7.71
+Hiawatha,FAIR,5.457,11.31
+Hiawatha,Heritage,3.148,9.33
+Hiawatha,Longfellow,1.828,5.97
+Hiawatha,Wellstone,6.015,11.74
+Howe,Cityview,10.013,17.42
+Howe,HIA,9.363,19.0
+Howe,Jenny Lind,11.521,19.43
+Howe,Loring,11.569,21.52
+Howe,Lucy Laney,10.223,20.93
+Howe,Olson,11.955,20.85
+Howe,Camden,11.154,20.3
+Howe,Pillsbury,7.025,14.21
+Howe,Pratt,3.255,12.22
+Howe,Waite Park,8.407,18.97
+Howe,Webster,5.948,13.61
+Howe,Northeast,7.942,17.36
+Howe,Edison,7.537,15.87
+Howe,Bryn Mawr,7.79,14.77
+Howe,Kenwood,6.424,14.42
+Howe,Nellie Stone Johnson,8.796,17.12
+Howe,Anwatin,7.806,14.86
+Howe,North,7.673,15.94
+Howe,Franklin,7.544,15.23
+Howe,Hiawatha,0.706,2.58
+Howe,Howe,0.0,0.0
+Howe,Keewaydin,2.725,9.69
+Howe,Northrop,3.127,9.76
+Howe,Wenonah,3.603,12.65
+Howe,Sanford,0.441,1.81
+Howe,Roosevelt,1.528,5.76
+Howe,Bancroft,2.321,8.2
+Howe,Dowling,0.543,2.18
+Howe,Folwell,1.819,6.54
+Howe,Whittier,6.267,13.4
+Howe,Andersen,3.359,9.63
+Howe,South,2.194,6.8
+Howe,Armatage,9.764,17.89
+Howe,Kenny,8.917,17.32
+Howe,Lake Harriet Lower,6.403,21.25
+Howe,Lake Harriet Upper,11.07,20.42
+Howe,Windom,7.953,16.1
+Howe,Anthony,9.044,17.62
+Howe,Southwest,11.458,21.76
+Howe,Barton,4.583,15.7
+Howe,Burroughs,5.96,17.8
+Howe,Field,4.061,12.38
+Howe,Hale,4.236,13.49
+Howe,Lyndale,4.688,13.63
+Howe,Justice Page,4.968,15.37
+Howe,Washburn,4.989,15.53
+Howe,Anishinabe,0.746,3.11
+Howe,Bethune,7.134,13.99
+Howe,Ella Baker,6.275,13.03
+Howe,Emerson,5.377,11.98
+Howe,Green,3.304,10.92
+Howe,Hall,7.432,14.83
+Howe,Las Estrellas,6.49,14.97
+Howe,Marcy,5.289,11.52
+Howe,Seward,2.807,8.87
+Howe,Sullivan,1.948,6.69
+Howe,FAIR,5.251,11.63
+Howe,Heritage,2.942,9.65
+Howe,Longfellow,1.63,5.68
+Howe,Wellstone,5.809,12.07
+Keewaydin,Cityview,11.283,21.04
+Keewaydin,HIA,10.633,22.62
+Keewaydin,Jenny Lind,12.791,23.05
+Keewaydin,Loring,12.839,25.13
+Keewaydin,Lucy Laney,11.493,24.55
+Keewaydin,Olson,13.225,24.47
+Keewaydin,Camden,12.424,23.92
+Keewaydin,Pillsbury,8.295,17.83
+Keewaydin,Pratt,7.019,16.83
+Keewaydin,Waite Park,9.677,22.59
+Keewaydin,Webster,7.217,17.23
+Keewaydin,Northeast,9.212,20.98
+Keewaydin,Edison,8.807,19.49
+Keewaydin,Bryn Mawr,9.06,18.39
+Keewaydin,Kenwood,7.694,18.04
+Keewaydin,Nellie Stone Johnson,10.066,20.74
+Keewaydin,Anwatin,9.075,18.48
+Keewaydin,North,8.943,19.56
+Keewaydin,Franklin,8.814,18.84
+Keewaydin,Hiawatha,2.126,7.57
+Keewaydin,Howe,2.732,9.72
+Keewaydin,Keewaydin,0.0,0.0
+Keewaydin,Northrop,1.712,6.85
+Keewaydin,Wenonah,0.94,3.94
+Keewaydin,Sanford,2.986,10.63
+Keewaydin,Roosevelt,1.749,6.33
+Keewaydin,Bancroft,2.998,10.13
+Keewaydin,Dowling,2.96,10.5
+Keewaydin,Folwell,2.636,9.39
+Keewaydin,Whittier,8.131,14.88
+Keewaydin,Andersen,4.629,13.25
+Keewaydin,South,3.464,10.42
+Keewaydin,Armatage,5.703,11.14
+Keewaydin,Kenny,4.856,10.56
+Keewaydin,Lake Harriet Lower,9.039,18.3
+Keewaydin,Lake Harriet Upper,7.009,13.67
+Keewaydin,Windom,3.891,9.34
+Keewaydin,Anthony,4.983,10.87
+Keewaydin,Southwest,7.397,15.01
+Keewaydin,Barton,6.546,13.13
+Keewaydin,Burroughs,5.805,12.9
+Keewaydin,Field,2.768,9.61
+Keewaydin,Hale,2.62,7.48
+Keewaydin,Lyndale,7.131,13.57
+Keewaydin,Justice Page,4.941,10.62
+Keewaydin,Washburn,5.168,11.48
+Keewaydin,Anishinabe,3.42,12.16
+Keewaydin,Bethune,8.404,17.61
+Keewaydin,Ella Baker,8.635,15.97
+Keewaydin,Emerson,6.647,15.59
+Keewaydin,Green,6.789,11.85
+Keewaydin,Hall,8.702,18.45
+Keewaydin,Las Estrellas,7.76,18.59
+Keewaydin,Marcy,6.559,15.14
+Keewaydin,Seward,4.447,12.71
+Keewaydin,Sullivan,4.104,11.66
+Keewaydin,FAIR,6.521,15.25
+Keewaydin,Heritage,3.896,12.73
+Keewaydin,Longfellow,3.383,10.27
+Keewaydin,Wellstone,7.079,15.69
+Northrop,Cityview,10.218,16.49
+Northrop,HIA,9.568,18.07
+Northrop,Jenny Lind,11.726,18.51
+Northrop,Loring,11.774,20.59
+Northrop,Lucy Laney,10.428,20.0
+Northrop,Olson,12.16,19.92
+Northrop,Camden,11.359,19.37
+Northrop,Pillsbury,8.724,15.22
+Northrop,Pratt,7.925,14.11
+Northrop,Waite Park,10.106,19.97
+Northrop,Webster,7.646,14.62
+Northrop,Northeast,9.641,18.37
+Northrop,Edison,9.236,16.88
+Northrop,Bryn Mawr,7.995,13.84
+Northrop,Kenwood,6.629,13.5
+Northrop,Nellie Stone Johnson,9.001,16.19
+Northrop,Anwatin,8.011,13.94
+Northrop,North,7.878,15.01
+Northrop,Franklin,7.749,14.3
+Northrop,Hiawatha,2.522,7.61
+Northrop,Howe,3.128,9.76
+Northrop,Keewaydin,1.712,6.85
+Northrop,Northrop,0.0,0.0
+Northrop,Wenonah,1.98,6.46
+Northrop,Sanford,3.53,10.57
+Northrop,Roosevelt,1.848,5.8
+Northrop,Bancroft,1.234,4.49
+Northrop,Dowling,3.351,10.61
+Northrop,Folwell,1.743,5.6
+Northrop,Whittier,4.227,9.97
+Northrop,Andersen,4.212,9.15
+Northrop,South,2.386,7.61
+Northrop,Armatage,5.758,11.43
+Northrop,Kenny,3.787,10.13
+Northrop,Lake Harriet Lower,4.483,15.63
+Northrop,Lake Harriet Upper,3.992,11.83
+Northrop,Windom,3.487,7.97
+Northrop,Anthony,4.101,10.92
+Northrop,Southwest,4.504,13.52
+Northrop,Barton,2.64,8.08
+Northrop,Burroughs,3.015,8.9
+Northrop,Field,1.116,3.47
+Northrop,Hale,1.259,4.91
+Northrop,Lyndale,3.227,8.65
+Northrop,Justice Page,2.023,6.47
+Northrop,Washburn,2.044,6.63
+Northrop,Anishinabe,3.816,12.19
+Northrop,Bethune,7.339,13.06
+Northrop,Ella Baker,4.731,11.05
+Northrop,Emerson,5.632,11.11
+Northrop,Green,2.885,6.94
+Northrop,Hall,7.637,13.9
+Northrop,Las Estrellas,8.877,15.35
+Northrop,Marcy,6.988,12.53
+Northrop,Seward,3.905,11.66
+Northrop,Sullivan,3.562,10.6
+Northrop,FAIR,5.506,10.77
+Northrop,Heritage,2.448,7.4
+Northrop,Longfellow,3.154,10.01
+Northrop,Wellstone,6.014,11.14
+Wenonah,Cityview,13.314,20.09
+Wenonah,HIA,12.664,21.67
+Wenonah,Jenny Lind,14.823,22.1
+Wenonah,Loring,14.87,24.18
+Wenonah,Lucy Laney,13.525,23.6
+Wenonah,Olson,15.257,23.52
+Wenonah,Camden,14.456,22.97
+Wenonah,Pillsbury,11.821,18.82
+Wenonah,Pratt,11.022,17.71
+Wenonah,Waite Park,13.202,23.57
+Wenonah,Webster,10.743,18.22
+Wenonah,Northeast,12.738,21.97
+Wenonah,Edison,12.333,20.48
+Wenonah,Bryn Mawr,11.091,17.44
+Wenonah,Kenwood,9.726,17.09
+Wenonah,Nellie Stone Johnson,12.097,19.79
+Wenonah,Anwatin,11.107,17.53
+Wenonah,North,10.975,18.61
+Wenonah,Franklin,10.846,17.9
+Wenonah,Hiawatha,2.998,10.5
+Wenonah,Howe,3.604,12.65
+Wenonah,Keewaydin,0.94,3.94
+Wenonah,Northrop,1.98,6.46
+Wenonah,Wenonah,0.0,0.0
+Wenonah,Sanford,4.005,13.47
+Wenonah,Roosevelt,2.324,8.69
+Wenonah,Bancroft,3.151,10.01
+Wenonah,Dowling,3.827,13.5
+Wenonah,Folwell,3.288,10.27
+Wenonah,Whittier,7.324,13.57
+Wenonah,Andersen,7.308,12.74
+Wenonah,South,3.931,12.28
+Wenonah,Armatage,4.896,9.83
+Wenonah,Kenny,4.048,9.25
+Wenonah,Lake Harriet Lower,8.231,16.99
+Wenonah,Lake Harriet Upper,6.202,12.36
+Wenonah,Windom,3.084,8.03
+Wenonah,Anthony,4.175,9.56
+Wenonah,Southwest,6.59,13.69
+Wenonah,Barton,5.739,11.82
+Wenonah,Burroughs,4.998,11.59
+Wenonah,Field,4.594,8.3
+Wenonah,Hale,1.221,5.07
+Wenonah,Lyndale,6.323,12.25
+Wenonah,Justice Page,4.133,9.3
+Wenonah,Washburn,4.36,10.17
+Wenonah,Anishinabe,4.292,15.09
+Wenonah,Bethune,10.436,16.66
+Wenonah,Ella Baker,7.828,14.65
+Wenonah,Emerson,8.729,14.71
+Wenonah,Green,5.982,10.54
+Wenonah,Hall,10.734,17.5
+Wenonah,Las Estrellas,11.974,18.95
+Wenonah,Marcy,10.085,16.13
+Wenonah,Seward,9.647,15.31
+Wenonah,Sullivan,4.874,14.41
+Wenonah,FAIR,8.603,14.37
+Wenonah,Heritage,6.43,11.94
+Wenonah,Longfellow,4.153,13.02
+Wenonah,Wellstone,9.111,14.74
+Sanford,Cityview,9.734,17.42
+Sanford,HIA,9.084,19.0
+Sanford,Jenny Lind,11.242,19.43
+Sanford,Loring,11.29,21.51
+Sanford,Lucy Laney,9.944,20.93
+Sanford,Olson,11.676,20.85
+Sanford,Camden,10.876,20.3
+Sanford,Pillsbury,6.746,14.21
+Sanford,Pratt,3.082,11.29
+Sanford,Waite Park,8.128,18.97
+Sanford,Webster,5.669,13.61
+Sanford,Northeast,7.664,17.36
+Sanford,Edison,7.258,15.87
+Sanford,Bryn Mawr,7.511,14.77
+Sanford,Kenwood,6.145,14.42
+Sanford,Nellie Stone Johnson,8.517,17.12
+Sanford,Anwatin,7.527,14.86
+Sanford,North,7.394,15.94
+Sanford,Franklin,7.265,15.22
+Sanford,Hiawatha,0.96,3.48
+Sanford,Howe,0.441,1.81
+Sanford,Keewaydin,2.978,10.6
+Sanford,Northrop,3.527,10.56
+Sanford,Wenonah,4.004,13.46
+Sanford,Sanford,0.0,0.0
+Sanford,Roosevelt,1.656,6.34
+Sanford,Bancroft,2.449,8.78
+Sanford,Dowling,0.922,3.52
+Sanford,Folwell,1.778,6.67
+Sanford,Whittier,5.988,13.4
+Sanford,Andersen,3.08,9.63
+Sanford,South,1.915,6.8
+Sanford,Armatage,10.018,18.8
+Sanford,Kenny,9.17,18.22
+Sanford,Lake Harriet Lower,6.125,21.25
+Sanford,Lake Harriet Upper,11.324,21.33
+Sanford,Windom,8.206,17.0
+Sanford,Anthony,9.297,18.53
+Sanford,Southwest,11.712,22.67
+Sanford,Barton,4.713,16.38
+Sanford,Burroughs,6.29,18.58
+Sanford,Field,4.461,13.18
+Sanford,Hale,4.636,14.3
+Sanford,Lyndale,4.409,13.63
+Sanford,Justice Page,5.298,16.15
+Sanford,Washburn,5.319,16.31
+Sanford,Anishinabe,0.62,2.48
+Sanford,Bethune,6.855,13.98
+Sanford,Ella Baker,5.996,13.03
+Sanford,Emerson,5.098,11.97
+Sanford,Green,3.025,10.91
+Sanford,Hall,7.153,14.83
+Sanford,Las Estrellas,6.212,14.97
+Sanford,Marcy,5.01,11.52
+Sanford,Seward,2.537,8.45
+Sanford,Sullivan,1.568,5.73
+Sanford,FAIR,4.972,11.63
+Sanford,Heritage,2.663,9.65
+Sanford,Longfellow,1.252,5.07
+Sanford,Wellstone,5.53,12.07
+Roosevelt,Cityview,9.683,16.62
+Roosevelt,HIA,9.033,18.2
+Roosevelt,Jenny Lind,11.192,18.63
+Roosevelt,Loring,11.239,20.71
+Roosevelt,Lucy Laney,9.894,20.13
+Roosevelt,Olson,11.626,20.05
+Roosevelt,Camden,10.825,19.5
+Roosevelt,Pillsbury,6.696,13.41
+Roosevelt,Pratt,5.42,12.41
+Roosevelt,Waite Park,8.077,18.17
+Roosevelt,Webster,5.618,12.81
+Roosevelt,Northeast,7.613,16.56
+Roosevelt,Edison,7.208,15.07
+Roosevelt,Bryn Mawr,7.46,13.97
+Roosevelt,Kenwood,6.095,13.62
+Roosevelt,Nellie Stone Johnson,8.466,16.32
+Roosevelt,Anwatin,7.476,14.06
+Roosevelt,North,7.344,15.14
+Roosevelt,Franklin,7.215,14.43
+Roosevelt,Hiawatha,1.074,3.66
+Roosevelt,Howe,1.529,5.76
+Roosevelt,Keewaydin,1.749,6.33
+Roosevelt,Northrop,1.847,5.8
+Roosevelt,Wenonah,2.324,8.69
+Roosevelt,Sanford,1.657,6.34
+Roosevelt,Roosevelt,0.0,0.0
+Roosevelt,Bancroft,1.897,6.36
+Roosevelt,Dowling,1.903,6.66
+Roosevelt,Folwell,1.266,4.83
+Roosevelt,Whittier,5.938,12.6
+Roosevelt,Andersen,3.03,8.83
+Roosevelt,South,1.865,6.0
+Roosevelt,Armatage,7.17,15.43
+Roosevelt,Kenny,6.322,14.86
+Roosevelt,Lake Harriet Lower,5.747,19.92
+Roosevelt,Lake Harriet Upper,5.657,16.77
+Roosevelt,Windom,5.152,12.91
+Roosevelt,Anthony,6.449,15.16
+Roosevelt,Southwest,6.169,18.47
+Roosevelt,Barton,3.303,11.75
+Roosevelt,Burroughs,4.68,13.84
+Roosevelt,Field,2.781,8.42
+Roosevelt,Hale,2.956,9.54
+Roosevelt,Lyndale,4.359,12.83
+Roosevelt,Justice Page,3.688,11.41
+Roosevelt,Washburn,3.709,11.57
+Roosevelt,Anishinabe,2.216,8.2
+Roosevelt,Bethune,6.805,13.19
+Roosevelt,Ella Baker,5.946,12.23
+Roosevelt,Emerson,5.048,11.18
+Roosevelt,Green,2.975,10.12
+Roosevelt,Hall,7.103,14.03
+Roosevelt,Las Estrellas,6.161,14.17
+Roosevelt,Marcy,4.96,10.72
+Roosevelt,Seward,2.847,8.29
+Roosevelt,Sullivan,2.504,7.24
+Roosevelt,FAIR,4.922,10.83
+Roosevelt,Heritage,2.613,8.85
+Roosevelt,Longfellow,1.784,5.85
+Roosevelt,Wellstone,5.48,11.27
+Bancroft,Cityview,9.044,15.86
+Bancroft,HIA,8.394,17.44
+Bancroft,Jenny Lind,10.553,17.87
+Bancroft,Loring,10.6,19.95
+Bancroft,Lucy Laney,9.255,19.37
+Bancroft,Olson,10.987,19.29
+Bancroft,Camden,10.186,18.73
+Bancroft,Pillsbury,6.497,14.58
+Bancroft,Pratt,5.115,13.07
+Bancroft,Waite Park,7.879,19.33
+Bancroft,Webster,5.419,13.98
+Bancroft,Northeast,7.414,17.73
+Bancroft,Edison,7.009,16.24
+Bancroft,Bryn Mawr,6.821,13.2
+Bancroft,Kenwood,5.456,12.86
+Bancroft,Nellie Stone Johnson,7.827,15.56
+Bancroft,Anwatin,6.837,13.3
+Bancroft,North,6.705,14.37
+Bancroft,Franklin,6.576,13.66
+Bancroft,Hiawatha,2.53,7.83
+Bancroft,Howe,2.322,8.2
+Bancroft,Keewaydin,2.998,10.13
+Bancroft,Northrop,1.234,4.49
+Bancroft,Wenonah,3.151,10.01
+Bancroft,Sanford,2.45,8.78
+Bancroft,Roosevelt,1.898,6.37
+Bancroft,Bancroft,0.0,0.0
+Bancroft,Dowling,2.68,9.51
+Bancroft,Folwell,0.942,3.54
+Bancroft,Whittier,3.054,9.33
+Bancroft,Andersen,1.831,6.4
+Bancroft,South,1.586,5.55
+Bancroft,Armatage,6.37,14.12
+Bancroft,Kenny,4.461,12.76
+Bancroft,Lake Harriet Lower,4.184,14.39
+Bancroft,Lake Harriet Upper,4.666,14.46
+Bancroft,Windom,4.161,10.59
+Bancroft,Anthony,4.775,13.55
+Bancroft,Southwest,5.178,16.15
+Bancroft,Barton,2.469,8.55
+Bancroft,Burroughs,3.689,11.53
+Bancroft,Field,1.79,6.1
+Bancroft,Hale,2.308,8.54
+Bancroft,Lyndale,2.051,7.52
+Bancroft,Justice Page,2.697,9.1
+Bancroft,Washburn,2.718,9.25
+Bancroft,Anishinabe,3.01,10.63
+Bancroft,Bethune,6.166,12.42
+Bancroft,Ella Baker,3.558,10.42
+Bancroft,Emerson,4.459,10.48
+Bancroft,Green,1.33,4.64
+Bancroft,Hall,6.464,13.27
+Bancroft,Las Estrellas,7.704,14.71
+Bancroft,Marcy,4.761,11.89
+Bancroft,Seward,3.104,9.6
+Bancroft,Sullivan,2.761,8.54
+Bancroft,FAIR,4.333,10.13
+Bancroft,Heritage,0.96,3.77
+Bancroft,Longfellow,2.353,7.95
+Bancroft,Wellstone,4.841,10.51
+Dowling,Cityview,10.37,18.73
+Dowling,HIA,9.72,20.31
+Dowling,Jenny Lind,11.878,20.75
+Dowling,Loring,11.926,22.83
+Dowling,Lucy Laney,10.581,22.24
+Dowling,Olson,12.312,22.16
+Dowling,Camden,11.512,21.61
+Dowling,Pillsbury,7.383,15.53
+Dowling,Pratt,3.693,13.28
+Dowling,Waite Park,8.764,20.28
+Dowling,Webster,6.305,14.93
+Dowling,Northeast,8.3,18.67
+Dowling,Edison,7.895,17.18
+Dowling,Bryn Mawr,8.147,16.08
+Dowling,Kenwood,6.782,15.74
+Dowling,Nellie Stone Johnson,9.153,18.43
+Dowling,Anwatin,8.163,16.18
+Dowling,North,8.031,17.25
+Dowling,Franklin,7.902,16.54
+Dowling,Hiawatha,0.865,3.22
+Dowling,Howe,0.543,2.18
+Dowling,Keewaydin,2.95,10.47
+Dowling,Northrop,3.35,10.61
+Dowling,Wenonah,5.856,13.43
+Dowling,Sanford,0.922,3.52
+Dowling,Roosevelt,1.903,6.66
+Dowling,Bancroft,2.679,9.51
+Dowling,Dowling,0.0,0.0
+Dowling,Folwell,2.177,7.86
+Dowling,Whittier,6.625,14.71
+Dowling,Andersen,3.717,10.94
+Dowling,South,2.552,8.12
+Dowling,Armatage,9.99,18.67
+Dowling,Kenny,9.143,18.09
+Dowling,Lake Harriet Lower,6.761,22.56
+Dowling,Lake Harriet Upper,11.296,21.2
+Dowling,Windom,8.178,16.87
+Dowling,Anthony,9.269,18.4
+Dowling,Southwest,11.684,22.54
+Dowling,Barton,4.805,16.56
+Dowling,Burroughs,6.183,18.65
+Dowling,Field,4.284,13.23
+Dowling,Hale,4.459,14.35
+Dowling,Lyndale,5.046,14.94
+Dowling,Justice Page,5.19,16.22
+Dowling,Washburn,5.212,16.38
+Dowling,Anishinabe,1.089,4.44
+Dowling,Bethune,7.491,15.3
+Dowling,Ella Baker,6.633,14.35
+Dowling,Emerson,5.735,13.29
+Dowling,Green,3.662,12.23
+Dowling,Hall,7.789,16.14
+Dowling,Las Estrellas,6.848,16.28
+Dowling,Marcy,5.647,12.83
+Dowling,Seward,3.165,10.18
+Dowling,Sullivan,2.429,8.39
+Dowling,FAIR,5.608,12.95
+Dowling,Heritage,3.3,10.97
+Dowling,Longfellow,1.987,6.99
+Dowling,Wellstone,6.167,13.38
+Folwell,Cityview,9.376,16.0
+Folwell,HIA,8.726,17.58
+Folwell,Jenny Lind,10.884,18.01
+Folwell,Loring,10.932,20.1
+Folwell,Lucy Laney,9.587,19.51
+Folwell,Olson,11.318,19.43
+Folwell,Camden,10.518,18.88
+Folwell,Pillsbury,6.389,12.79
+Folwell,Pratt,5.112,11.79
+Folwell,Waite Park,7.77,17.55
+Folwell,Webster,5.311,12.19
+Folwell,Northeast,7.306,15.94
+Folwell,Edison,6.9,14.45
+Folwell,Bryn Mawr,7.153,13.35
+Folwell,Kenwood,5.788,13.0
+Folwell,Nellie Stone Johnson,8.159,15.7
+Folwell,Anwatin,7.169,13.44
+Folwell,North,7.037,14.52
+Folwell,Franklin,6.908,13.81
+Folwell,Hiawatha,2.028,6.18
+Folwell,Howe,1.82,6.55
+Folwell,Keewaydin,2.64,9.4
+Folwell,Northrop,1.743,5.6
+Folwell,Wenonah,3.288,10.27
+Folwell,Sanford,1.778,6.67
+Folwell,Roosevelt,1.266,4.83
+Folwell,Bancroft,0.942,3.54
+Folwell,Dowling,2.178,7.86
+Folwell,Folwell,0.0,0.0
+Folwell,Whittier,3.41,10.78
+Folwell,Andersen,1.947,6.38
+Folwell,South,0.709,3.03
+Folwell,Armatage,7.066,15.24
+Folwell,Kenny,6.218,14.66
+Folwell,Lake Harriet Lower,4.786,16.46
+Folwell,Lake Harriet Upper,5.553,16.58
+Folwell,Windom,5.42,12.54
+Folwell,Anthony,6.345,14.97
+Folwell,Southwest,6.065,18.27
+Folwell,Barton,3.206,11.15
+Folwell,Burroughs,4.576,13.65
+Folwell,Field,2.677,8.23
+Folwell,Hale,2.852,9.34
+Folwell,Lyndale,2.407,9.01
+Folwell,Justice Page,3.584,11.22
+Folwell,Washburn,3.605,11.38
+Folwell,Anishinabe,2.132,8.29
+Folwell,Bethune,6.497,12.57
+Folwell,Ella Baker,5.639,11.61
+Folwell,Emerson,4.741,10.56
+Folwell,Green,1.686,6.13
+Folwell,Hall,6.795,13.41
+Folwell,Las Estrellas,5.854,13.55
+Folwell,Marcy,4.653,10.1
+Folwell,Seward,2.54,7.67
+Folwell,Sullivan,2.197,6.62
+Folwell,FAIR,4.614,10.21
+Folwell,Heritage,1.325,4.87
+Folwell,Longfellow,1.476,5.23
+Folwell,Wellstone,5.172,10.65
+Whittier,Cityview,5.765,11.49
+Whittier,HIA,5.115,13.07
+Whittier,Jenny Lind,7.273,13.51
+Whittier,Loring,7.321,15.59
+Whittier,Lucy Laney,5.975,15.0
+Whittier,Olson,7.707,14.92
+Whittier,Camden,6.906,14.37
+Whittier,Pillsbury,6.118,11.41
+Whittier,Pratt,5.318,10.3
+Whittier,Waite Park,7.499,16.16
+Whittier,Webster,5.04,10.81
+Whittier,Northeast,7.035,14.56
+Whittier,Edison,6.629,13.07
+Whittier,Bryn Mawr,3.544,8.77
+Whittier,Kenwood,1.862,6.53
+Whittier,Nellie Stone Johnson,4.547,11.19
+Whittier,Anwatin,3.56,8.87
+Whittier,North,3.444,11.03
+Whittier,Franklin,4.265,10.29
+Whittier,Hiawatha,6.229,12.33
+Whittier,Howe,6.021,12.69
+Whittier,Keewaydin,8.585,15.96
+Whittier,Northrop,4.64,11.12
+Whittier,Wenonah,8.049,14.89
+Whittier,Sanford,5.744,12.66
+Whittier,Roosevelt,5.65,11.73
+Whittier,Bancroft,3.469,10.52
+Whittier,Dowling,6.378,14.01
+Whittier,Folwell,5.344,11.09
+Whittier,Whittier,0.0,0.0
+Whittier,Andersen,1.871,6.72
+Whittier,South,4.399,9.09
+Whittier,Armatage,7.777,14.65
+Whittier,Kenny,5.868,13.28
+Whittier,Lake Harriet Lower,4.047,11.89
+Whittier,Lake Harriet Upper,4.827,14.33
+Whittier,Windom,5.568,11.12
+Whittier,Anthony,6.182,14.07
+Whittier,Southwest,4.29,14.28
+Whittier,Barton,2.474,7.72
+Whittier,Burroughs,3.851,11.4
+Whittier,Field,3.701,8.39
+Whittier,Hale,5.564,12.74
+Whittier,Lyndale,1.46,4.78
+Whittier,Justice Page,4.107,9.95
+Whittier,Washburn,4.128,10.11
+Whittier,Anishinabe,5.718,12.87
+Whittier,Bethune,2.904,9.08
+Whittier,Ella Baker,0.606,2.23
+Whittier,Emerson,1.579,5.31
+Whittier,Green,2.333,7.37
+Whittier,Hall,4.059,9.54
+Whittier,Las Estrellas,4.424,10.35
+Whittier,Marcy,4.381,8.72
+Whittier,Seward,3.944,7.9
+Whittier,Sullivan,4.42,9.93
+Whittier,FAIR,1.968,6.65
+Whittier,Heritage,2.527,7.88
+Whittier,Longfellow,4.727,9.81
+Whittier,Wellstone,1.552,5.29
+Andersen,Cityview,7.39,13.98
+Andersen,HIA,6.74,15.56
+Andersen,Jenny Lind,8.898,15.99
+Andersen,Loring,8.946,18.07
+Andersen,Lucy Laney,7.6,17.49
+Andersen,Olson,9.332,17.41
+Andersen,Camden,8.531,16.86
+Andersen,Pillsbury,5.41,11.44
+Andersen,Pratt,4.029,9.93
+Andersen,Waite Park,6.792,16.2
+Andersen,Webster,4.333,10.84
+Andersen,Northeast,6.327,14.59
+Andersen,Edison,5.922,13.1
+Andersen,Bryn Mawr,5.167,11.33
+Andersen,Kenwood,3.801,10.98
+Andersen,Nellie Stone Johnson,6.173,13.68
+Andersen,Anwatin,5.183,11.42
+Andersen,North,5.05,12.5
+Andersen,Franklin,4.921,11.78
+Andersen,Hiawatha,3.446,8.75
+Andersen,Howe,3.238,9.12
+Andersen,Keewaydin,4.658,12.53
+Andersen,Northrop,3.128,9.45
+Andersen,Wenonah,4.672,14.12
+Andersen,Sanford,2.962,9.09
+Andersen,Roosevelt,2.867,8.15
+Andersen,Bancroft,1.831,6.4
+Andersen,Dowling,3.596,10.43
+Andersen,Folwell,1.947,6.38
+Andersen,Whittier,1.463,5.29
+Andersen,Andersen,0.0,0.0
+Andersen,South,1.364,4.66
+Andersen,Armatage,7.521,13.99
+Andersen,Kenny,5.613,12.63
+Andersen,Lake Harriet Lower,4.682,14.77
+Andersen,Lake Harriet Upper,5.82,14.65
+Andersen,Windom,5.312,10.47
+Andersen,Anthony,5.927,13.42
+Andersen,Southwest,6.333,16.35
+Andersen,Barton,3.468,10.37
+Andersen,Burroughs,4.844,11.73
+Andersen,Field,3.446,7.73
+Andersen,Hale,5.309,12.09
+Andersen,Lyndale,1.947,6.47
+Andersen,Justice Page,3.851,9.29
+Andersen,Washburn,3.873,9.45
+Andersen,Anishinabe,2.935,9.3
+Andersen,Bethune,4.511,10.54
+Andersen,Ella Baker,1.967,6.9
+Andersen,Emerson,2.226,7.33
+Andersen,Green,1.58,5.16
+Andersen,Hall,4.809,11.39
+Andersen,Las Estrellas,4.876,12.2
+Andersen,Marcy,3.674,8.75
+Andersen,Seward,1.985,6.75
+Andersen,Sullivan,2.078,6.66
+Andersen,FAIR,2.423,7.89
+Andersen,Heritage,1.027,3.66
+Andersen,Longfellow,1.945,6.24
+Andersen,Wellstone,3.186,8.63
+South,Cityview,8.294,14.1
+South,HIA,7.643,15.68
+South,Jenny Lind,9.802,16.12
+South,Loring,9.849,18.2
+South,Lucy Laney,8.504,17.61
+South,Olson,10.236,17.53
+South,Camden,9.435,16.98
+South,Pillsbury,5.306,10.9
+South,Pratt,3.052,9.83
+South,Waite Park,6.687,15.65
+South,Webster,4.228,10.3
+South,Northeast,6.223,14.04
+South,Edison,5.818,12.55
+South,Bryn Mawr,6.07,11.45
+South,Kenwood,4.705,11.11
+South,Nellie Stone Johnson,7.076,13.8
+South,Anwatin,6.086,11.55
+South,North,5.954,12.62
+South,Franklin,5.825,11.91
+South,Hiawatha,2.4,6.46
+South,Howe,2.192,6.83
+South,Keewaydin,3.612,10.24
+South,Northrop,2.386,7.61
+South,Wenonah,3.931,12.28
+South,Sanford,1.916,6.79
+South,Roosevelt,1.821,5.86
+South,Bancroft,1.586,5.55
+South,Dowling,2.549,8.14
+South,Folwell,0.709,3.03
+South,Whittier,2.827,9.06
+South,Andersen,1.364,4.66
+South,South,0.0,0.0
+South,Armatage,8.268,16.18
+South,Kenny,6.359,14.82
+South,Lake Harriet Lower,5.429,16.96
+South,Lake Harriet Upper,6.567,16.84
+South,Windom,6.059,12.65
+South,Anthony,6.673,15.61
+South,Southwest,7.079,18.53
+South,Barton,4.215,12.56
+South,Burroughs,5.59,13.91
+South,Field,4.192,9.92
+South,Hale,3.495,11.35
+South,Lyndale,2.693,8.65
+South,Justice Page,4.597,11.48
+South,Washburn,4.619,11.64
+South,Anishinabe,2.141,7.01
+South,Bethune,5.415,10.67
+South,Ella Baker,4.556,9.72
+South,Emerson,3.658,8.66
+South,Green,1.956,7.07
+South,Hall,5.713,11.51
+South,Las Estrellas,4.771,11.65
+South,Marcy,3.57,8.2
+South,Seward,1.627,5.42
+South,Sullivan,1.284,4.36
+South,FAIR,3.532,8.32
+South,Heritage,1.528,5.5
+South,Longfellow,0.898,3.95
+South,Wellstone,4.09,8.75
+Armatage,Cityview,13.533,20.62
+Armatage,HIA,12.882,22.2
+Armatage,Jenny Lind,15.041,22.64
+Armatage,Loring,14.793,22.97
+Armatage,Lucy Laney,13.743,24.13
+Armatage,Olson,15.475,24.05
+Armatage,Camden,14.674,23.5
+Armatage,Pillsbury,12.039,19.36
+Armatage,Pratt,11.24,18.24
+Armatage,Waite Park,13.42,24.11
+Armatage,Webster,10.961,18.75
+Armatage,Northeast,12.956,22.5
+Armatage,Edison,12.551,21.01
+Armatage,Bryn Mawr,10.795,16.66
+Armatage,Kenwood,9.944,17.63
+Armatage,Nellie Stone Johnson,12.315,20.33
+Armatage,Anwatin,10.811,16.75
+Armatage,North,11.193,19.14
+Armatage,Franklin,11.064,18.43
+Armatage,Hiawatha,9.193,15.82
+Armatage,Howe,9.799,17.98
+Armatage,Keewaydin,5.803,11.44
+Armatage,Northrop,5.751,11.56
+Armatage,Wenonah,5.266,10.37
+Armatage,Sanford,10.052,18.88
+Armatage,Roosevelt,9.43,15.96
+Armatage,Bancroft,7.078,13.95
+Armatage,Dowling,10.026,18.75
+Armatage,Folwell,7.436,15.78
+Armatage,Whittier,7.542,14.1
+Armatage,Andersen,7.526,13.28
+Armatage,South,8.32,16.16
+Armatage,Armatage,0.0,0.0
+Armatage,Kenny,0.97,3.3
+Armatage,Lake Harriet Lower,2.673,9.3
+Armatage,Lake Harriet Upper,1.348,4.6
+Armatage,Windom,1.933,6.32
+Armatage,Anthony,0.858,3.04
+Armatage,Southwest,1.736,5.94
+Armatage,Barton,3.122,9.5
+Armatage,Burroughs,1.367,4.23
+Armatage,Field,4.812,8.83
+Armatage,Hale,4.449,10.4
+Armatage,Lyndale,6.541,12.79
+Armatage,Justice Page,2.405,7.54
+Armatage,Washburn,2.36,7.45
+Armatage,Anishinabe,10.487,20.41
+Armatage,Bethune,10.654,17.19
+Armatage,Ella Baker,8.046,15.19
+Armatage,Emerson,8.947,15.24
+Armatage,Green,6.2,11.08
+Armatage,Hall,10.952,18.04
+Armatage,Las Estrellas,12.192,19.48
+Armatage,Marcy,10.303,16.66
+Armatage,Seward,9.865,15.84
+Armatage,Sullivan,10.685,18.3
+Armatage,FAIR,8.821,14.9
+Armatage,Heritage,6.648,12.48
+Armatage,Longfellow,8.983,17.99
+Armatage,Wellstone,9.329,15.28
+Kenny,Cityview,11.584,19.22
+Kenny,HIA,10.934,20.8
+Kenny,Jenny Lind,13.092,21.23
+Kenny,Loring,15.639,23.16
+Kenny,Lucy Laney,11.794,22.73
+Kenny,Olson,13.526,22.65
+Kenny,Camden,12.726,22.1
+Kenny,Pillsbury,10.09,17.95
+Kenny,Pratt,9.291,16.84
+Kenny,Waite Park,11.472,22.7
+Kenny,Webster,9.013,17.35
+Kenny,Northeast,11.007,21.1
+Kenny,Edison,10.602,19.61
+Kenny,Bryn Mawr,9.361,16.57
+Kenny,Kenwood,7.995,16.22
+Kenny,Nellie Stone Johnson,10.367,18.92
+Kenny,Anwatin,9.377,16.66
+Kenny,North,9.244,17.74
+Kenny,Franklin,9.115,17.03
+Kenny,Hiawatha,8.357,15.33
+Kenny,Howe,8.963,17.49
+Kenny,Keewaydin,4.967,10.96
+Kenny,Northrop,3.803,10.15
+Kenny,Wenonah,4.431,9.88
+Kenny,Sanford,9.217,18.39
+Kenny,Roosevelt,5.469,15.1
+Kenny,Bancroft,5.129,12.54
+Kenny,Dowling,9.19,18.27
+Kenny,Folwell,5.491,14.48
+Kenny,Whittier,5.593,12.7
+Kenny,Andersen,5.578,11.87
+Kenny,South,6.371,14.76
+Kenny,Armatage,0.97,3.3
+Kenny,Kenny,0.0,0.0
+Kenny,Lake Harriet Lower,3.6,11.78
+Kenny,Lake Harriet Upper,2.151,6.72
+Kenny,Windom,0.992,4.05
+Kenny,Anthony,0.414,1.81
+Kenny,Southwest,2.663,8.41
+Kenny,Barton,2.498,7.83
+Kenny,Burroughs,1.215,4.88
+Kenny,Field,2.864,7.43
+Kenny,Hale,2.497,8.84
+Kenny,Lyndale,3.619,11.19
+Kenny,Justice Page,1.781,5.87
+Kenny,Washburn,1.736,5.78
+Kenny,Anishinabe,8.035,19.55
+Kenny,Bethune,8.705,15.79
+Kenny,Ella Baker,4.611,13.72
+Kenny,Emerson,6.998,13.84
+Kenny,Green,4.252,9.67
+Kenny,Hall,9.003,16.63
+Kenny,Las Estrellas,10.243,18.08
+Kenny,Marcy,8.354,15.26
+Kenny,Seward,7.917,14.44
+Kenny,Sullivan,8.737,16.89
+Kenny,FAIR,6.872,13.5
+Kenny,Heritage,4.7,11.07
+Kenny,Longfellow,7.035,16.58
+Kenny,Wellstone,7.38,13.87
+Lake Harriet Lower,Cityview,11.274,18.79
+Lake Harriet Lower,HIA,10.624,20.37
+Lake Harriet Lower,Jenny Lind,12.782,20.8
+Lake Harriet Lower,Loring,10.572,19.52
+Lake Harriet Lower,Lucy Laney,9.344,20.87
+Lake Harriet Lower,Olson,12.61,21.49
+Lake Harriet Lower,Camden,12.296,20.5
+Lake Harriet Lower,Pillsbury,9.143,20.21
+Lake Harriet Lower,Pratt,8.344,19.1
+Lake Harriet Lower,Waite Park,10.525,24.96
+Lake Harriet Lower,Webster,9.643,18.34
+Lake Harriet Lower,Northeast,10.06,23.36
+Lake Harriet Lower,Edison,11.12,21.47
+Lake Harriet Lower,Bryn Mawr,6.574,13.21
+Lake Harriet Lower,Kenwood,3.29,11.66
+Lake Harriet Lower,Nellie Stone Johnson,10.057,18.49
+Lake Harriet Lower,Anwatin,6.59,13.31
+Lake Harriet Lower,North,8.069,17.55
+Lake Harriet Lower,Franklin,9.775,17.59
+Lake Harriet Lower,Hiawatha,6.609,21.03
+Lake Harriet Lower,Howe,6.402,21.4
+Lake Harriet Lower,Keewaydin,9.175,18.66
+Lake Harriet Lower,Northrop,5.356,15.28
+Lake Harriet Lower,Wenonah,8.638,17.58
+Lake Harriet Lower,Sanford,6.125,21.36
+Lake Harriet Lower,Roosevelt,5.742,19.84
+Lake Harriet Lower,Bancroft,4.18,14.3
+Lake Harriet Lower,Dowling,6.759,22.71
+Lake Harriet Lower,Folwell,4.541,16.24
+Lake Harriet Lower,Whittier,4.122,12.42
+Lake Harriet Lower,Andersen,4.631,14.13
+Lake Harriet Lower,South,5.765,16.91
+Lake Harriet Lower,Armatage,2.673,9.3
+Lake Harriet Lower,Kenny,3.6,11.78
+Lake Harriet Lower,Lake Harriet Lower,0.0,0.0
+Lake Harriet Lower,Lake Harriet Upper,1.54,5.75
+Lake Harriet Lower,Windom,4.563,14.8
+Lake Harriet Lower,Anthony,3.488,11.51
+Lake Harriet Lower,Southwest,0.982,4.01
+Lake Harriet Lower,Barton,2.921,10.63
+Lake Harriet Lower,Burroughs,2.5,8.43
+Lake Harriet Lower,Field,4.417,12.55
+Lake Harriet Lower,Hale,6.279,16.91
+Lake Harriet Lower,Lyndale,2.788,9.8
+Lake Harriet Lower,Justice Page,3.538,11.74
+Lake Harriet Lower,Washburn,3.494,11.64
+Lake Harriet Lower,Anishinabe,7.429,21.71
+Lake Harriet Lower,Bethune,7.986,16.25
+Lake Harriet Lower,Ella Baker,3.476,10.5
+Lake Harriet Lower,Emerson,7.565,14.66
+Lake Harriet Lower,Green,3.302,11.43
+Lake Harriet Lower,Hall,9.568,16.84
+Lake Harriet Lower,Las Estrellas,9.934,17.65
+Lake Harriet Lower,Marcy,7.407,17.52
+Lake Harriet Lower,Seward,6.969,16.69
+Lake Harriet Lower,Sullivan,6.572,19.07
+Lake Harriet Lower,FAIR,7.641,13.73
+Lake Harriet Lower,Heritage,3.75,12.83
+Lake Harriet Lower,Longfellow,6.429,18.74
+Lake Harriet Lower,Wellstone,7.161,13.35
+Lake Harriet Upper,Cityview,12.721,20.36
+Lake Harriet Upper,HIA,12.071,21.94
+Lake Harriet Upper,Jenny Lind,14.229,22.37
+Lake Harriet Upper,Loring,12.018,21.1
+Lake Harriet Upper,Lucy Laney,10.791,22.45
+Lake Harriet Upper,Olson,14.056,23.06
+Lake Harriet Upper,Camden,13.743,22.07
+Lake Harriet Upper,Pillsbury,10.282,19.77
+Lake Harriet Upper,Pratt,9.483,18.66
+Lake Harriet Upper,Waite Park,11.664,24.52
+Lake Harriet Upper,Webster,9.205,19.17
+Lake Harriet Upper,Northeast,11.199,22.91
+Lake Harriet Upper,Edison,10.794,21.42
+Lake Harriet Upper,Bryn Mawr,8.021,14.79
+Lake Harriet Upper,Kenwood,4.955,16.29
+Lake Harriet Upper,Nellie Stone Johnson,11.503,20.06
+Lake Harriet Upper,Anwatin,8.037,14.88
+Lake Harriet Upper,North,9.516,19.12
+Lake Harriet Upper,Franklin,9.307,18.84
+Lake Harriet Upper,Hiawatha,10.503,18.37
+Lake Harriet Upper,Howe,11.109,20.52
+Lake Harriet Upper,Keewaydin,7.113,13.99
+Lake Harriet Upper,Northrop,3.992,11.83
+Lake Harriet Upper,Wenonah,6.576,12.91
+Lake Harriet Upper,Sanford,7.267,21.42
+Lake Harriet Upper,Roosevelt,5.658,16.78
+Lake Harriet Upper,Bancroft,4.667,14.32
+Lake Harriet Upper,Dowling,11.336,21.3
+Lake Harriet Upper,Folwell,5.683,16.29
+Lake Harriet Upper,Whittier,5.785,14.51
+Lake Harriet Upper,Andersen,5.77,13.69
+Lake Harriet Upper,South,6.563,16.57
+Lake Harriet Upper,Armatage,1.348,4.6
+Lake Harriet Upper,Kenny,2.151,6.72
+Lake Harriet Upper,Lake Harriet Lower,1.54,5.75
+Lake Harriet Upper,Lake Harriet Upper,0.0,0.0
+Lake Harriet Upper,Windom,3.114,9.74
+Lake Harriet Upper,Anthony,2.039,6.46
+Lake Harriet Upper,Southwest,0.603,2.38
+Lake Harriet Upper,Barton,2.807,8.65
+Lake Harriet Upper,Burroughs,1.051,3.38
+Lake Harriet Upper,Field,3.053,9.1
+Lake Harriet Upper,Hale,3.704,12.35
+Lake Harriet Upper,Lyndale,3.927,12.01
+Lake Harriet Upper,Justice Page,2.089,6.69
+Lake Harriet Upper,Washburn,2.045,6.59
+Lake Harriet Upper,Anishinabe,8.227,21.37
+Lake Harriet Upper,Bethune,8.897,17.6
+Lake Harriet Upper,Ella Baker,3.9,13.69
+Lake Harriet Upper,Emerson,7.19,15.66
+Lake Harriet Upper,Green,4.444,11.49
+Lake Harriet Upper,Hall,11.015,18.41
+Lake Harriet Upper,Las Estrellas,11.38,19.22
+Lake Harriet Upper,Marcy,8.546,17.07
+Lake Harriet Upper,Seward,8.109,16.25
+Lake Harriet Upper,Sullivan,8.929,18.71
+Lake Harriet Upper,FAIR,9.088,15.3
+Lake Harriet Upper,Heritage,4.892,12.89
+Lake Harriet Upper,Longfellow,7.227,18.4
+Lake Harriet Upper,Wellstone,8.608,14.92
+Windom,Cityview,11.271,17.04
+Windom,HIA,10.621,18.62
+Windom,Jenny Lind,12.779,19.05
+Windom,Loring,12.827,21.13
+Windom,Lucy Laney,11.481,20.55
+Windom,Olson,13.213,20.47
+Windom,Camden,12.412,19.91
+Windom,Pillsbury,9.777,15.77
+Windom,Pratt,8.978,14.66
+Windom,Waite Park,11.159,20.52
+Windom,Webster,8.699,15.17
+Windom,Northeast,10.694,18.91
+Windom,Edison,10.289,17.43
+Windom,Bryn Mawr,9.048,14.39
+Windom,Kenwood,7.682,14.04
+Windom,Nellie Stone Johnson,10.054,16.74
+Windom,Anwatin,9.064,14.48
+Windom,North,8.931,15.56
+Windom,Franklin,8.802,14.84
+Windom,Hiawatha,7.382,14.02
+Windom,Howe,7.988,16.17
+Windom,Keewaydin,3.992,9.64
+Windom,Northrop,3.49,7.97
+Windom,Wenonah,3.455,8.56
+Windom,Sanford,8.241,17.08
+Windom,Roosevelt,5.155,12.92
+Windom,Bancroft,4.816,10.36
+Windom,Dowling,8.215,16.95
+Windom,Folwell,5.178,12.29
+Windom,Whittier,5.28,10.51
+Windom,Andersen,5.265,9.69
+Windom,South,6.058,12.57
+Windom,Armatage,1.929,6.32
+Windom,Kenny,0.992,4.05
+Windom,Lake Harriet Lower,6.034,14.2
+Windom,Lake Harriet Upper,4.005,9.58
+Windom,Windom,0.0,0.0
+Windom,Anthony,1.119,4.36
+Windom,Southwest,4.393,10.91
+Windom,Barton,3.695,8.76
+Windom,Burroughs,2.138,6.82
+Windom,Field,2.551,5.24
+Windom,Hale,2.187,6.81
+Windom,Lyndale,4.28,9.2
+Windom,Justice Page,1.396,5.18
+Windom,Washburn,1.623,6.04
+Windom,Anishinabe,7.721,17.37
+Windom,Bethune,8.392,13.6
+Windom,Ella Baker,5.784,11.6
+Windom,Emerson,6.685,11.66
+Windom,Green,3.938,7.49
+Windom,Hall,8.69,14.45
+Windom,Las Estrellas,9.93,15.9
+Windom,Marcy,8.041,13.07
+Windom,Seward,7.603,12.25
+Windom,Sullivan,8.423,14.71
+Windom,FAIR,6.559,11.31
+Windom,Heritage,4.387,8.89
+Windom,Longfellow,6.721,14.4
+Windom,Wellstone,7.067,11.69
+Anthony,Cityview,11.915,20.12
+Anthony,HIA,11.265,21.7
+Anthony,Jenny Lind,13.423,22.13
+Anthony,Loring,14.843,23.09
+Anthony,Lucy Laney,12.126,23.63
+Anthony,Olson,13.857,23.55
+Anthony,Camden,13.057,23.0
+Anthony,Pillsbury,10.422,18.85
+Anthony,Pratt,9.622,17.74
+Anthony,Waite Park,11.803,23.6
+Anthony,Webster,9.344,18.25
+Anthony,Northeast,11.339,22.0
+Anthony,Edison,10.933,20.51
+Anthony,Bryn Mawr,10.845,16.78
+Anthony,Kenwood,8.327,17.12
+Anthony,Nellie Stone Johnson,10.698,19.82
+Anthony,Anwatin,10.861,16.88
+Anthony,North,9.576,18.64
+Anthony,Franklin,9.447,17.92
+Anthony,Hiawatha,8.484,15.64
+Anthony,Howe,9.09,17.8
+Anthony,Keewaydin,5.094,11.26
+Anthony,Northrop,4.134,11.05
+Anthony,Wenonah,4.557,10.19
+Anthony,Sanford,9.343,18.7
+Anthony,Roosevelt,8.721,15.78
+Anthony,Bancroft,5.461,13.44
+Anthony,Dowling,9.317,18.57
+Anthony,Folwell,5.822,15.37
+Anthony,Whittier,5.924,13.6
+Anthony,Andersen,5.909,12.77
+Anthony,South,6.702,15.65
+Anthony,Armatage,0.858,3.04
+Anthony,Kenny,0.414,1.81
+Anthony,Lake Harriet Lower,3.488,11.51
+Anthony,Lake Harriet Upper,2.039,6.46
+Anthony,Windom,1.119,4.36
+Anthony,Anthony,0.0,0.0
+Anthony,Southwest,2.551,8.15
+Anthony,Barton,2.83,8.73
+Anthony,Burroughs,1.185,4.74
+Anthony,Field,3.195,8.32
+Anthony,Hale,2.828,9.73
+Anthony,Lyndale,3.95,12.09
+Anthony,Justice Page,2.112,6.77
+Anthony,Washburn,2.067,6.68
+Anthony,Anishinabe,9.778,20.23
+Anthony,Bethune,9.036,16.68
+Anthony,Ella Baker,4.942,14.61
+Anthony,Emerson,7.33,14.74
+Anthony,Green,4.583,10.57
+Anthony,Hall,9.334,17.53
+Anthony,Las Estrellas,10.575,18.98
+Anthony,Marcy,8.685,16.16
+Anthony,Seward,8.248,15.33
+Anthony,Sullivan,9.068,17.79
+Anthony,FAIR,7.203,14.4
+Anthony,Heritage,5.031,11.97
+Anthony,Longfellow,7.366,17.48
+Anthony,Wellstone,7.711,14.77
+Southwest,Cityview,11.648,20.07
+Southwest,HIA,10.998,21.65
+Southwest,Jenny Lind,13.156,22.09
+Southwest,Loring,10.945,20.81
+Southwest,Lucy Laney,9.718,22.16
+Southwest,Olson,12.983,22.77
+Southwest,Camden,12.67,21.78
+Southwest,Pillsbury,10.795,21.46
+Southwest,Pratt,9.995,20.35
+Southwest,Waite Park,12.176,26.21
+Southwest,Webster,10.016,19.62
+Southwest,Northeast,11.712,24.61
+Southwest,Edison,11.494,22.75
+Southwest,Bryn Mawr,6.948,14.5
+Southwest,Kenwood,4.188,14.36
+Southwest,Nellie Stone Johnson,10.431,19.77
+Southwest,Anwatin,6.964,14.59
+Southwest,North,8.443,18.83
+Southwest,Franklin,10.148,18.87
+Southwest,Hiawatha,10.891,19.7
+Southwest,Howe,11.497,21.86
+Southwest,Keewaydin,7.501,15.33
+Southwest,Northrop,4.505,13.52
+Southwest,Wenonah,6.964,14.25
+Southwest,Sanford,11.75,22.76
+Southwest,Roosevelt,6.171,18.47
+Southwest,Bancroft,5.179,16.01
+Southwest,Dowling,11.724,22.64
+Southwest,Folwell,6.195,17.98
+Southwest,Whittier,4.378,14.86
+Southwest,Andersen,6.282,15.38
+Southwest,South,7.075,18.26
+Southwest,Armatage,1.736,5.94
+Southwest,Kenny,2.663,8.41
+Southwest,Lake Harriet Lower,0.982,4.01
+Southwest,Lake Harriet Upper,0.603,2.38
+Southwest,Windom,3.626,11.43
+Southwest,Anthony,2.551,8.15
+Southwest,Southwest,0.0,0.0
+Southwest,Barton,3.319,10.34
+Southwest,Burroughs,1.563,5.07
+Southwest,Field,3.566,10.79
+Southwest,Hale,4.216,14.04
+Southwest,Lyndale,3.389,11.95
+Southwest,Justice Page,2.601,8.38
+Southwest,Washburn,2.557,8.28
+Southwest,Anishinabe,8.739,23.06
+Southwest,Bethune,8.36,17.53
+Southwest,Ella Baker,3.726,13.06
+Southwest,Emerson,7.938,15.94
+Southwest,Green,4.956,13.18
+Southwest,Hall,9.942,18.12
+Southwest,Las Estrellas,10.307,18.93
+Southwest,Marcy,9.058,18.77
+Southwest,Seward,8.621,17.94
+Southwest,Sullivan,9.441,20.4
+Southwest,FAIR,8.015,15.01
+Southwest,Heritage,5.404,14.58
+Southwest,Longfellow,7.739,20.09
+Southwest,Wellstone,7.535,14.63
+Barton,Cityview,10.298,16.89
+Barton,HIA,9.648,18.47
+Barton,Jenny Lind,11.806,18.91
+Barton,Loring,11.854,20.99
+Barton,Lucy Laney,10.509,20.4
+Barton,Olson,12.24,20.32
+Barton,Camden,11.44,19.77
+Barton,Pillsbury,8.805,15.62
+Barton,Pratt,8.005,14.51
+Barton,Waite Park,10.186,20.38
+Barton,Webster,7.727,15.02
+Barton,Northeast,9.722,18.77
+Barton,Edison,9.316,17.28
+Barton,Bryn Mawr,8.075,14.24
+Barton,Kenwood,3.946,12.54
+Barton,Nellie Stone Johnson,9.081,16.59
+Barton,Anwatin,8.091,14.34
+Barton,North,7.959,15.41
+Barton,Franklin,7.83,14.7
+Barton,Hiawatha,4.103,13.8
+Barton,Howe,4.709,15.96
+Barton,Keewaydin,6.463,12.86
+Barton,Northrop,2.515,7.69
+Barton,Wenonah,5.926,11.78
+Barton,Sanford,4.838,16.71
+Barton,Roosevelt,3.429,12.0
+Barton,Bancroft,2.593,8.87
+Barton,Dowling,4.932,16.81
+Barton,Folwell,3.33,11.47
+Barton,Whittier,2.687,8.63
+Barton,Andersen,4.292,9.55
+Barton,South,5.085,12.43
+Barton,Armatage,2.997,9.11
+Barton,Kenny,2.369,7.43
+Barton,Lake Harriet Lower,2.17,8.91
+Barton,Lake Harriet Upper,2.682,8.25
+Barton,Windom,3.445,8.02
+Barton,Anthony,2.683,8.22
+Barton,Southwest,3.194,9.95
+Barton,Barton,0.0,0.0
+Barton,Burroughs,1.705,5.32
+Barton,Field,1.576,4.96
+Barton,Hale,3.441,9.64
+Barton,Lyndale,1.698,5.72
+Barton,Justice Page,1.615,5.41
+Barton,Washburn,1.32,4.51
+Barton,Anishinabe,6.749,17.23
+Barton,Bethune,7.419,13.46
+Barton,Ella Baker,2.69,8.24
+Barton,Emerson,3.663,11.32
+Barton,Green,2.966,7.34
+Barton,Hall,7.717,14.31
+Barton,Las Estrellas,8.958,15.75
+Barton,Marcy,7.068,12.93
+Barton,Seward,6.631,12.11
+Barton,Sullivan,7.451,14.56
+Barton,FAIR,5.586,11.17
+Barton,Heritage,3.414,8.74
+Barton,Longfellow,5.749,14.26
+Barton,Wellstone,3.636,11.3
+Burroughs,Cityview,10.799,18.11
+Burroughs,HIA,10.149,19.69
+Burroughs,Jenny Lind,12.307,20.12
+Burroughs,Loring,12.355,22.2
+Burroughs,Lucy Laney,11.01,21.62
+Burroughs,Olson,12.741,21.54
+Burroughs,Camden,11.941,20.98
+Burroughs,Pillsbury,9.306,16.84
+Burroughs,Pratt,8.507,15.73
+Burroughs,Waite Park,10.687,21.59
+Burroughs,Webster,8.228,16.24
+Burroughs,Northeast,10.223,19.98
+Burroughs,Edison,9.817,18.49
+Burroughs,Bryn Mawr,8.576,15.46
+Burroughs,Kenwood,7.211,15.11
+Burroughs,Nellie Stone Johnson,9.582,17.81
+Burroughs,Anwatin,8.592,15.55
+Burroughs,North,8.46,16.63
+Burroughs,Franklin,8.331,15.91
+Burroughs,Hiawatha,5.356,15.65
+Burroughs,Howe,5.962,17.81
+Burroughs,Keewaydin,5.858,12.89
+Burroughs,Northrop,3.016,8.9
+Burroughs,Wenonah,5.322,11.81
+Burroughs,Sanford,6.29,18.49
+Burroughs,Roosevelt,4.682,13.85
+Burroughs,Bancroft,3.69,11.39
+Burroughs,Dowling,6.185,18.66
+Burroughs,Folwell,4.706,13.36
+Burroughs,Whittier,4.808,11.58
+Burroughs,Andersen,4.793,10.76
+Burroughs,South,5.586,13.64
+Burroughs,Armatage,1.367,4.23
+Burroughs,Kenny,1.198,4.87
+Burroughs,Lake Harriet Lower,2.5,8.43
+Burroughs,Lake Harriet Upper,1.051,3.38
+Burroughs,Windom,2.036,6.84
+Burroughs,Anthony,1.185,4.74
+Burroughs,Southwest,1.563,5.07
+Burroughs,Barton,1.83,5.72
+Burroughs,Burroughs,0.0,0.0
+Burroughs,Field,2.077,6.17
+Burroughs,Hale,2.727,9.42
+Burroughs,Lyndale,2.951,9.08
+Burroughs,Justice Page,1.113,3.76
+Burroughs,Washburn,1.068,3.66
+Burroughs,Anishinabe,7.25,18.44
+Burroughs,Bethune,7.92,14.67
+Burroughs,Ella Baker,3.943,11.6
+Burroughs,Emerson,6.214,12.73
+Burroughs,Green,3.467,8.56
+Burroughs,Hall,8.218,15.52
+Burroughs,Las Estrellas,9.459,16.97
+Burroughs,Marcy,7.57,14.14
+Burroughs,Seward,7.132,13.32
+Burroughs,Sullivan,7.952,15.78
+Burroughs,FAIR,6.088,12.38
+Burroughs,Heritage,3.915,9.96
+Burroughs,Longfellow,6.25,15.47
+Burroughs,Wellstone,6.596,12.76
+Field,Cityview,9.279,13.76
+Field,HIA,8.629,15.34
+Field,Jenny Lind,10.787,15.78
+Field,Loring,10.835,17.86
+Field,Lucy Laney,9.489,17.27
+Field,Olson,11.221,17.19
+Field,Camden,10.42,16.64
+Field,Pillsbury,7.785,12.49
+Field,Pratt,6.986,11.38
+Field,Waite Park,9.167,17.25
+Field,Webster,6.707,11.89
+Field,Northeast,8.702,15.64
+Field,Edison,8.297,14.15
+Field,Bryn Mawr,7.056,11.11
+Field,Kenwood,5.69,10.77
+Field,Nellie Stone Johnson,8.062,13.46
+Field,Anwatin,7.072,11.21
+Field,North,6.939,12.28
+Field,Franklin,6.81,11.57
+Field,Hiawatha,3.456,10.23
+Field,Howe,4.062,12.38
+Field,Keewaydin,2.768,9.61
+Field,Northrop,1.116,3.47
+Field,Wenonah,5.029,9.0
+Field,Sanford,4.464,13.2
+Field,Roosevelt,2.782,8.42
+Field,Bancroft,1.791,5.96
+Field,Dowling,4.285,13.23
+Field,Folwell,2.677,8.23
+Field,Whittier,3.288,7.24
+Field,Andersen,3.273,6.42
+Field,South,4.066,9.3
+Field,Armatage,4.757,8.76
+Field,Kenny,2.849,7.4
+Field,Lake Harriet Lower,3.544,12.91
+Field,Lake Harriet Upper,3.053,9.1
+Field,Windom,2.548,5.24
+Field,Anthony,3.162,8.19
+Field,Southwest,3.565,10.79
+Field,Barton,1.701,5.35
+Field,Burroughs,2.077,6.17
+Field,Field,0.0,0.0
+Field,Hale,1.694,5.96
+Field,Lyndale,2.288,5.93
+Field,Justice Page,1.004,3.59
+Field,Washburn,1.105,3.9
+Field,Anishinabe,5.73,14.1
+Field,Bethune,6.4,10.33
+Field,Ella Baker,3.792,8.33
+Field,Emerson,4.693,8.38
+Field,Green,1.947,4.21
+Field,Hall,6.698,11.18
+Field,Las Estrellas,7.938,12.62
+Field,Marcy,6.049,9.8
+Field,Seward,5.611,8.98
+Field,Sullivan,6.432,11.43
+Field,FAIR,4.567,8.04
+Field,Heritage,2.395,5.62
+Field,Longfellow,4.73,11.13
+Field,Wellstone,5.075,8.42
+Hale,Cityview,11.153,18.25
+Hale,HIA,10.503,19.83
+Hale,Jenny Lind,12.661,20.26
+Hale,Loring,12.709,22.34
+Hale,Lucy Laney,11.364,21.76
+Hale,Olson,13.095,21.68
+Hale,Camden,12.295,21.13
+Hale,Pillsbury,9.66,16.98
+Hale,Pratt,8.86,15.87
+Hale,Waite Park,11.041,21.73
+Hale,Webster,8.582,16.38
+Hale,Northeast,10.577,20.13
+Hale,Edison,10.171,18.64
+Hale,Bryn Mawr,8.93,15.6
+Hale,Kenwood,7.565,15.25
+Hale,Nellie Stone Johnson,9.936,17.95
+Hale,Anwatin,8.946,15.69
+Hale,North,8.814,16.77
+Hale,Franklin,8.685,16.05
+Hale,Hiawatha,3.631,11.34
+Hale,Howe,4.237,13.5
+Hale,Keewaydin,3.019,7.98
+Hale,Northrop,1.259,4.91
+Hale,Wenonah,1.29,5.59
+Hale,Sanford,4.639,14.31
+Hale,Roosevelt,2.957,9.54
+Hale,Bancroft,2.308,8.54
+Hale,Dowling,4.46,14.35
+Hale,Folwell,2.852,9.34
+Hale,Whittier,5.162,11.73
+Hale,Andersen,5.147,10.9
+Hale,South,3.495,11.35
+Hale,Armatage,4.934,9.88
+Hale,Kenny,2.491,8.82
+Hale,Lake Harriet Lower,8.269,17.04
+Hale,Lake Harriet Upper,3.704,12.35
+Hale,Windom,2.194,6.73
+Hale,Anthony,4.213,9.61
+Hale,Southwest,6.628,13.75
+Hale,Barton,3.577,9.98
+Hale,Burroughs,2.727,9.42
+Hale,Field,1.694,5.96
+Hale,Hale,0.0,0.0
+Hale,Lyndale,4.162,10.41
+Hale,Justice Page,1.746,6.45
+Hale,Washburn,1.973,7.31
+Hale,Anishinabe,4.925,15.93
+Hale,Bethune,8.274,14.81
+Hale,Ella Baker,5.666,12.81
+Hale,Emerson,6.568,12.87
+Hale,Green,3.821,8.7
+Hale,Hall,8.572,15.66
+Hale,Las Estrellas,9.813,17.11
+Hale,Marcy,7.923,14.29
+Hale,Seward,7.486,13.46
+Hale,Sullivan,4.671,14.34
+Hale,FAIR,6.441,12.53
+Hale,Heritage,4.269,10.1
+Hale,Longfellow,4.263,13.75
+Hale,Wellstone,6.949,12.9
+Lyndale,Cityview,6.71,14.25
+Lyndale,HIA,6.06,15.83
+Lyndale,Jenny Lind,8.219,16.26
+Lyndale,Loring,8.266,18.35
+Lyndale,Lucy Laney,6.921,17.76
+Lyndale,Olson,8.653,17.68
+Lyndale,Camden,7.852,17.13
+Lyndale,Pillsbury,7.014,13.32
+Lyndale,Pratt,6.215,12.21
+Lyndale,Waite Park,8.396,18.07
+Lyndale,Webster,5.937,12.72
+Lyndale,Northeast,7.931,16.47
+Lyndale,Edison,7.526,14.98
+Lyndale,Bryn Mawr,4.49,11.53
+Lyndale,Kenwood,2.807,9.28
+Lyndale,Nellie Stone Johnson,5.493,13.95
+Lyndale,Anwatin,4.506,11.62
+Lyndale,North,6.168,13.11
+Lyndale,Franklin,6.039,12.39
+Lyndale,Hiawatha,4.872,13.37
+Lyndale,Howe,4.664,13.74
+Lyndale,Keewaydin,7.172,13.24
+Lyndale,Northrop,3.227,8.39
+Lyndale,Wenonah,6.635,12.16
+Lyndale,Sanford,4.388,13.71
+Lyndale,Roosevelt,4.293,12.77
+Lyndale,Bancroft,2.051,7.41
+Lyndale,Dowling,5.022,15.05
+Lyndale,Folwell,2.412,9.35
+Lyndale,Whittier,1.05,4.32
+Lyndale,Andersen,1.946,6.39
+Lyndale,South,2.694,8.67
+Lyndale,Armatage,6.363,11.92
+Lyndale,Kenny,4.455,10.56
+Lyndale,Lake Harriet Lower,2.788,9.8
+Lyndale,Lake Harriet Upper,3.927,12.01
+Lyndale,Windom,4.154,8.39
+Lyndale,Anthony,4.768,11.35
+Lyndale,Southwest,3.39,11.96
+Lyndale,Barton,1.574,5.4
+Lyndale,Burroughs,2.951,9.08
+Lyndale,Field,2.288,5.66
+Lyndale,Hale,4.15,10.02
+Lyndale,Lyndale,0.0,0.0
+Lyndale,Justice Page,2.693,7.22
+Lyndale,Washburn,2.715,7.38
+Lyndale,Anishinabe,4.358,13.47
+Lyndale,Bethune,5.629,11.15
+Lyndale,Ella Baker,1.552,4.99
+Lyndale,Emerson,2.524,8.07
+Lyndale,Green,1.173,4.54
+Lyndale,Hall,5.927,12.0
+Lyndale,Las Estrellas,5.37,13.11
+Lyndale,Marcy,5.278,10.63
+Lyndale,Seward,4.841,9.8
+Lyndale,Sullivan,3.501,10.83
+Lyndale,FAIR,3.796,8.87
+Lyndale,Heritage,1.621,5.94
+Lyndale,Longfellow,3.358,10.5
+Lyndale,Wellstone,2.497,8.05
+Justice Page,Cityview,9.807,15.67
+Justice Page,HIA,9.156,17.25
+Justice Page,Jenny Lind,11.315,17.69
+Justice Page,Loring,11.362,19.77
+Justice Page,Lucy Laney,10.017,19.18
+Justice Page,Olson,11.749,19.1
+Justice Page,Camden,10.948,18.55
+Justice Page,Pillsbury,8.313,14.41
+Justice Page,Pratt,7.514,13.29
+Justice Page,Waite Park,9.694,19.16
+Justice Page,Webster,7.235,13.8
+Justice Page,Northeast,9.23,17.55
+Justice Page,Edison,8.825,16.06
+Justice Page,Bryn Mawr,7.583,13.02
+Justice Page,Kenwood,6.218,12.68
+Justice Page,Nellie Stone Johnson,8.589,15.38
+Justice Page,Anwatin,7.599,13.12
+Justice Page,North,7.467,14.19
+Justice Page,Franklin,7.338,13.48
+Justice Page,Hiawatha,4.363,13.22
+Justice Page,Howe,4.969,15.38
+Justice Page,Keewaydin,4.992,10.6
+Justice Page,Northrop,2.023,6.47
+Justice Page,Wenonah,4.456,9.53
+Justice Page,Sanford,5.297,16.06
+Justice Page,Roosevelt,3.689,11.42
+Justice Page,Bancroft,2.698,8.96
+Justice Page,Dowling,5.192,16.23
+Justice Page,Folwell,3.713,10.93
+Justice Page,Whittier,3.816,9.15
+Justice Page,Andersen,3.8,8.33
+Justice Page,South,4.594,11.21
+Justice Page,Armatage,2.405,7.54
+Justice Page,Kenny,1.776,5.86
+Justice Page,Lake Harriet Lower,3.538,11.74
+Justice Page,Lake Harriet Upper,2.089,6.69
+Justice Page,Windom,1.396,5.18
+Justice Page,Anthony,2.09,6.65
+Justice Page,Southwest,2.601,8.38
+Justice Page,Barton,1.74,5.8
+Justice Page,Burroughs,1.113,3.76
+Justice Page,Field,1.004,3.59
+Justice Page,Hale,1.746,6.45
+Justice Page,Lyndale,2.815,7.84
+Justice Page,Justice Page,0.0,0.0
+Justice Page,Washburn,0.509,2.17
+Justice Page,Anishinabe,6.257,16.01
+Justice Page,Bethune,6.928,12.24
+Justice Page,Ella Baker,4.32,10.24
+Justice Page,Emerson,5.221,10.29
+Justice Page,Green,2.474,6.13
+Justice Page,Hall,7.226,13.09
+Justice Page,Las Estrellas,8.466,14.53
+Justice Page,Marcy,6.577,11.71
+Justice Page,Seward,6.139,10.89
+Justice Page,Sullivan,6.959,13.35
+Justice Page,FAIR,5.095,9.95
+Justice Page,Heritage,2.923,7.53
+Justice Page,Longfellow,5.257,13.04
+Justice Page,Wellstone,5.603,10.33
+Washburn,Cityview,9.828,15.83
+Washburn,HIA,9.178,17.41
+Washburn,Jenny Lind,11.336,17.85
+Washburn,Loring,11.384,19.93
+Washburn,Lucy Laney,10.038,19.34
+Washburn,Olson,11.77,19.26
+Washburn,Camden,10.97,18.71
+Washburn,Pillsbury,8.334,14.56
+Washburn,Pratt,7.535,13.45
+Washburn,Waite Park,9.716,19.32
+Washburn,Webster,7.257,13.96
+Washburn,Northeast,9.251,17.71
+Washburn,Edison,8.846,16.22
+Washburn,Bryn Mawr,7.605,13.18
+Washburn,Kenwood,6.239,12.84
+Washburn,Nellie Stone Johnson,8.611,15.53
+Washburn,Anwatin,7.621,13.28
+Washburn,North,7.488,14.35
+Washburn,Franklin,7.359,13.64
+Washburn,Hiawatha,4.385,13.38
+Washburn,Howe,4.991,15.54
+Washburn,Keewaydin,5.219,11.47
+Washburn,Northrop,2.044,6.63
+Washburn,Wenonah,4.683,10.39
+Washburn,Sanford,5.319,16.22
+Washburn,Roosevelt,3.71,11.58
+Washburn,Bancroft,2.719,9.12
+Washburn,Dowling,5.213,16.39
+Washburn,Folwell,3.735,11.09
+Washburn,Whittier,3.837,9.31
+Washburn,Andersen,3.822,8.49
+Washburn,South,4.615,11.37
+Washburn,Armatage,2.36,7.44
+Washburn,Kenny,1.731,5.76
+Washburn,Lake Harriet Lower,3.494,11.64
+Washburn,Lake Harriet Upper,2.044,6.59
+Washburn,Windom,1.623,6.04
+Washburn,Anthony,2.045,6.55
+Washburn,Southwest,2.556,8.28
+Washburn,Barton,1.445,4.91
+Washburn,Burroughs,1.068,3.66
+Washburn,Field,1.105,3.9
+Washburn,Hale,1.973,7.31
+Washburn,Lyndale,2.185,7.58
+Washburn,Justice Page,0.509,2.17
+Washburn,Washburn,0.0,0.0
+Washburn,Anishinabe,6.279,16.17
+Washburn,Bethune,6.949,12.4
+Washburn,Ella Baker,4.341,10.4
+Washburn,Emerson,5.242,10.45
+Washburn,Green,2.496,6.28
+Washburn,Hall,7.247,13.25
+Washburn,Las Estrellas,8.487,14.69
+Washburn,Marcy,6.598,11.87
+Washburn,Seward,6.161,11.05
+Washburn,Sullivan,6.981,13.5
+Washburn,FAIR,5.116,10.11
+Washburn,Heritage,2.944,7.69
+Washburn,Longfellow,5.279,13.2
+Washburn,Wellstone,5.624,10.49
+Anishinabe,Cityview,9.689,17.86
+Anishinabe,HIA,9.039,19.44
+Anishinabe,Jenny Lind,11.197,19.87
+Anishinabe,Loring,11.245,21.95
+Anishinabe,Lucy Laney,9.899,21.37
+Anishinabe,Olson,11.631,21.29
+Anishinabe,Camden,10.83,20.73
+Anishinabe,Pillsbury,6.701,14.65
+Anishinabe,Pratt,2.977,10.07
+Anishinabe,Waite Park,8.083,19.4
+Anishinabe,Webster,5.623,14.05
+Anishinabe,Northeast,7.618,17.8
+Anishinabe,Edison,7.213,16.31
+Anishinabe,Bryn Mawr,7.466,15.21
+Anishinabe,Kenwood,6.1,14.86
+Anishinabe,Nellie Stone Johnson,8.472,17.56
+Anishinabe,Anwatin,7.482,15.3
+Anishinabe,North,7.349,16.38
+Anishinabe,Franklin,7.22,15.66
+Anishinabe,Hiawatha,1.394,5.01
+Anishinabe,Howe,0.746,3.11
+Anishinabe,Keewaydin,3.413,12.13
+Anishinabe,Northrop,3.815,12.19
+Anishinabe,Wenonah,4.291,15.09
+Anishinabe,Sanford,0.62,2.48
+Anishinabe,Roosevelt,2.216,8.19
+Anishinabe,Bancroft,3.009,10.63
+Anishinabe,Dowling,1.089,4.44
+Anishinabe,Folwell,2.133,8.29
+Anishinabe,Whittier,5.943,13.84
+Anishinabe,Andersen,3.028,9.46
+Anishinabe,South,2.149,7.04
+Anishinabe,Armatage,10.452,20.33
+Anishinabe,Kenny,8.022,19.61
+Anishinabe,Lake Harriet Lower,7.092,21.76
+Anishinabe,Lake Harriet Upper,8.23,21.64
+Anishinabe,Windom,7.722,17.45
+Anishinabe,Anthony,9.732,20.06
+Anishinabe,Southwest,8.742,23.33
+Anishinabe,Barton,5.878,17.35
+Anishinabe,Burroughs,7.253,18.71
+Anishinabe,Field,5.855,14.72
+Anishinabe,Hale,4.924,15.93
+Anishinabe,Lyndale,4.357,13.45
+Anishinabe,Justice Page,6.261,16.28
+Anishinabe,Washburn,6.282,16.44
+Anishinabe,Anishinabe,0.0,0.0
+Anishinabe,Bethune,6.81,14.42
+Anishinabe,Ella Baker,5.951,13.47
+Anishinabe,Emerson,5.053,12.41
+Anishinabe,Green,3.989,12.14
+Anishinabe,Hall,7.108,15.27
+Anishinabe,Las Estrellas,6.166,15.41
+Anishinabe,Marcy,4.965,11.96
+Anishinabe,Seward,2.378,7.94
+Anishinabe,Sullivan,1.402,4.86
+Anishinabe,FAIR,4.927,12.07
+Anishinabe,Heritage,3.437,10.64
+Anishinabe,Longfellow,1.087,4.49
+Anishinabe,Wellstone,5.485,12.51
+Bethune,Cityview,3.812,7.95
+Bethune,HIA,1.992,7.23
+Bethune,Jenny Lind,5.32,9.97
+Bethune,Loring,5.368,12.05
+Bethune,Lucy Laney,2.852,9.16
+Bethune,Olson,5.754,11.38
+Bethune,Camden,4.954,10.83
+Bethune,Pillsbury,7.153,12.42
+Bethune,Pratt,6.353,11.3
+Bethune,Waite Park,8.534,17.17
+Bethune,Webster,2.426,8.66
+Bethune,Northeast,8.07,15.56
+Bethune,Edison,3.326,11.43
+Bethune,Bryn Mawr,2.157,7.12
+Bethune,Kenwood,3.052,10.33
+Bethune,Nellie Stone Johnson,1.748,6.42
+Bethune,Anwatin,2.173,7.21
+Bethune,North,0.744,3.11
+Bethune,Franklin,0.749,2.9
+Bethune,Hiawatha,7.264,13.33
+Bethune,Howe,7.056,13.7
+Bethune,Keewaydin,8.476,17.11
+Bethune,Northrop,7.313,13.05
+Bethune,Wenonah,10.721,16.82
+Bethune,Sanford,6.78,13.66
+Bethune,Roosevelt,6.685,12.73
+Bethune,Bancroft,6.142,12.45
+Bethune,Dowling,7.413,15.01
+Bethune,Folwell,6.379,12.09
+Bethune,Whittier,2.927,9.74
+Bethune,Andersen,5.176,10.16
+Bethune,South,5.434,10.1
+Bethune,Armatage,10.45,16.58
+Bethune,Kenny,8.541,15.22
+Bethune,Lake Harriet Lower,8.378,16.57
+Bethune,Lake Harriet Upper,8.749,17.24
+Bethune,Windom,8.241,13.05
+Bethune,Anthony,8.855,16.01
+Bethune,Southwest,8.75,17.98
+Bethune,Barton,6.397,12.96
+Bethune,Burroughs,7.772,14.31
+Bethune,Field,6.374,10.32
+Bethune,Hale,8.237,14.67
+Bethune,Lyndale,4.887,9.63
+Bethune,Justice Page,6.78,11.88
+Bethune,Washburn,6.801,12.04
+Bethune,Anishinabe,6.753,13.87
+Bethune,Bethune,0.0,0.0
+Bethune,Ella Baker,2.749,9.12
+Bethune,Emerson,2.061,6.68
+Bethune,Green,5.264,9.58
+Bethune,Hall,0.934,3.57
+Bethune,Las Estrellas,2.139,7.61
+Bethune,Marcy,5.416,9.72
+Bethune,Seward,4.979,8.9
+Bethune,Sullivan,5.456,10.93
+Bethune,FAIR,1.658,5.34
+Bethune,Heritage,5.212,10.38
+Bethune,Longfellow,5.762,10.82
+Bethune,Wellstone,1.657,5.38
+Ella Baker,Cityview,5.725,11.53
+Ella Baker,HIA,5.075,13.11
+Ella Baker,Jenny Lind,7.233,13.54
+Ella Baker,Loring,7.281,15.62
+Ella Baker,Lucy Laney,5.936,15.04
+Ella Baker,Olson,7.667,14.96
+Ella Baker,Camden,6.867,14.4
+Ella Baker,Pillsbury,6.143,11.35
+Ella Baker,Pratt,5.343,10.24
+Ella Baker,Waite Park,7.524,16.1
+Ella Baker,Webster,5.065,10.75
+Ella Baker,Northeast,7.06,14.5
+Ella Baker,Edison,6.654,13.01
+Ella Baker,Bryn Mawr,3.504,8.8
+Ella Baker,Kenwood,1.164,4.78
+Ella Baker,Nellie Stone Johnson,4.508,11.23
+Ella Baker,Anwatin,3.52,8.9
+Ella Baker,North,3.404,11.07
+Ella Baker,Franklin,4.226,10.33
+Ella Baker,Hiawatha,6.254,12.26
+Ella Baker,Howe,6.046,12.63
+Ella Baker,Keewaydin,7.466,16.04
+Ella Baker,Northrop,4.793,11.81
+Ella Baker,Wenonah,8.201,15.58
+Ella Baker,Sanford,5.77,12.6
+Ella Baker,Roosevelt,5.675,11.66
+Ella Baker,Bancroft,3.621,11.21
+Ella Baker,Dowling,6.404,13.94
+Ella Baker,Folwell,5.369,11.03
+Ella Baker,Whittier,1.056,4.24
+Ella Baker,Andersen,2.149,7.56
+Ella Baker,South,4.424,9.03
+Ella Baker,Armatage,7.929,15.34
+Ella Baker,Kenny,6.02,13.98
+Ella Baker,Lake Harriet Lower,3.319,9.86
+Ella Baker,Lake Harriet Upper,3.81,13.22
+Ella Baker,Windom,5.72,11.81
+Ella Baker,Anthony,6.334,14.77
+Ella Baker,Southwest,4.217,12.56
+Ella Baker,Barton,2.626,8.41
+Ella Baker,Burroughs,4.003,12.09
+Ella Baker,Field,3.854,9.08
+Ella Baker,Hale,5.716,13.43
+Ella Baker,Lyndale,1.612,5.48
+Ella Baker,Justice Page,4.259,10.64
+Ella Baker,Washburn,4.28,10.8
+Ella Baker,Anishinabe,5.743,12.81
+Ella Baker,Bethune,2.865,9.11
+Ella Baker,Ella Baker,0.0,0.0
+Ella Baker,Emerson,1.539,5.34
+Ella Baker,Green,2.485,8.06
+Ella Baker,Hall,4.02,9.58
+Ella Baker,Las Estrellas,4.385,10.39
+Ella Baker,Marcy,4.407,8.66
+Ella Baker,Seward,3.969,7.83
+Ella Baker,Sullivan,4.446,9.87
+Ella Baker,FAIR,1.928,6.68
+Ella Baker,Heritage,2.68,8.57
+Ella Baker,Longfellow,4.753,9.75
+Ella Baker,Wellstone,1.512,5.33
+Emerson,Cityview,5.06,9.37
+Emerson,HIA,4.409,10.95
+Emerson,Jenny Lind,6.568,11.39
+Emerson,Loring,6.615,13.47
+Emerson,Lucy Laney,5.27,12.88
+Emerson,Olson,7.002,12.8
+Emerson,Camden,6.201,12.25
+Emerson,Pillsbury,5.515,11.34
+Emerson,Pratt,4.704,10.21
+Emerson,Waite Park,6.896,16.09
+Emerson,Webster,2.589,8.58
+Emerson,Northeast,6.432,14.48
+Emerson,Edison,4.906,12.05
+Emerson,Bryn Mawr,2.839,6.65
+Emerson,Kenwood,1.915,7.01
+Emerson,Nellie Stone Johnson,3.842,9.07
+Emerson,Anwatin,2.855,6.75
+Emerson,North,2.738,8.91
+Emerson,Franklin,3.56,8.17
+Emerson,Hiawatha,5.615,12.24
+Emerson,Howe,5.407,12.6
+Emerson,Keewaydin,9.468,15.78
+Emerson,Northrop,5.523,10.94
+Emerson,Wenonah,8.931,14.71
+Emerson,Sanford,5.13,12.57
+Emerson,Roosevelt,5.036,11.64
+Emerson,Bancroft,4.352,10.34
+Emerson,Dowling,5.764,13.92
+Emerson,Folwell,4.73,11.0
+Emerson,Whittier,1.302,4.69
+Emerson,Andersen,2.363,7.48
+Emerson,South,3.785,9.0
+Emerson,Armatage,8.66,14.47
+Emerson,Kenny,6.751,13.1
+Emerson,Lake Harriet Lower,4.765,14.95
+Emerson,Lake Harriet Upper,6.959,15.13
+Emerson,Windom,6.451,10.94
+Emerson,Anthony,7.065,13.89
+Emerson,Southwest,7.471,16.82
+Emerson,Barton,4.607,10.85
+Emerson,Burroughs,5.982,12.2
+Emerson,Field,4.584,8.21
+Emerson,Hale,6.447,12.56
+Emerson,Lyndale,3.097,7.52
+Emerson,Justice Page,4.99,9.77
+Emerson,Washburn,5.011,9.93
+Emerson,Anishinabe,5.104,12.78
+Emerson,Bethune,2.199,6.96
+Emerson,Ella Baker,1.612,5.79
+Emerson,Emerson,0.0,0.0
+Emerson,Green,3.474,7.47
+Emerson,Hall,3.354,7.42
+Emerson,Las Estrellas,3.719,8.23
+Emerson,Marcy,2.508,8.25
+Emerson,Seward,3.33,7.81
+Emerson,Sullivan,3.806,9.84
+Emerson,FAIR,0.782,2.83
+Emerson,Heritage,3.422,8.27
+Emerson,Longfellow,4.113,9.72
+Emerson,Wellstone,0.731,2.96
+Green,Cityview,7.839,11.96
+Green,HIA,7.189,13.54
+Green,Jenny Lind,9.347,13.97
+Green,Loring,9.395,16.06
+Green,Lucy Laney,8.049,15.47
+Green,Olson,9.781,15.39
+Green,Camden,8.981,14.84
+Green,Pillsbury,6.345,10.69
+Green,Pratt,5.546,9.58
+Green,Waite Park,7.727,15.44
+Green,Webster,5.268,10.09
+Green,Northeast,7.262,13.84
+Green,Edison,6.857,12.35
+Green,Bryn Mawr,5.616,9.31
+Green,Kenwood,4.25,8.96
+Green,Nellie Stone Johnson,6.622,11.66
+Green,Anwatin,5.632,9.4
+Green,North,5.499,10.48
+Green,Franklin,5.37,9.77
+Green,Hiawatha,3.806,11.67
+Green,Howe,3.598,12.04
+Green,Keewaydin,6.876,11.99
+Green,Northrop,2.931,7.15
+Green,Wenonah,6.339,10.92
+Green,Sanford,3.322,12.0
+Green,Roosevelt,2.939,10.48
+Green,Bancroft,1.376,4.94
+Green,Dowling,3.956,13.35
+Green,Folwell,1.738,6.88
+Green,Whittier,1.848,5.44
+Green,Andersen,1.833,4.61
+Green,South,2.626,7.5
+Green,Armatage,6.067,10.68
+Green,Kenny,4.159,9.32
+Green,Lake Harriet Lower,3.224,11.08
+Green,Lake Harriet Upper,4.366,11.34
+Green,Windom,3.858,7.15
+Green,Anthony,4.472,10.11
+Green,Southwest,4.878,13.03
+Green,Barton,2.01,6.68
+Green,Burroughs,3.39,8.41
+Green,Field,1.992,4.42
+Green,Hale,3.854,8.77
+Green,Lyndale,0.845,3.62
+Green,Justice Page,2.397,5.98
+Green,Washburn,2.418,6.14
+Green,Anishinabe,4.29,12.29
+Green,Bethune,4.96,8.53
+Green,Ella Baker,2.352,6.52
+Green,Emerson,3.253,6.58
+Green,Green,0.0,0.0
+Green,Hall,5.258,9.37
+Green,Las Estrellas,6.498,10.82
+Green,Marcy,4.609,8.0
+Green,Seward,4.172,7.18
+Green,Sullivan,4.992,9.63
+Green,FAIR,3.127,6.24
+Green,Heritage,0.822,3.4
+Green,Longfellow,3.29,9.32
+Green,Wellstone,3.635,6.61
+Hall,Cityview,1.744,6.28
+Hall,HIA,1.555,5.72
+Hall,Jenny Lind,4.535,9.07
+Hall,Loring,4.583,11.15
+Hall,Lucy Laney,2.415,7.65
+Hall,Olson,4.969,10.48
+Hall,Camden,4.168,9.93
+Hall,Pillsbury,3.819,12.03
+Hall,Pratt,6.715,12.26
+Hall,Waite Park,5.171,16.05
+Hall,Webster,2.236,7.08
+Hall,Northeast,4.708,14.48
+Hall,Edison,2.824,8.96
+Hall,Bryn Mawr,3.998,7.67
+Hall,Kenwood,4.103,10.27
+Hall,Nellie Stone Johnson,1.147,4.32
+Hall,Anwatin,4.014,7.77
+Hall,North,0.692,2.89
+Hall,Franklin,0.257,1.15
+Hall,Hiawatha,7.625,14.29
+Hall,Howe,7.417,14.65
+Hall,Keewaydin,8.837,18.06
+Hall,Northrop,7.675,14.0
+Hall,Wenonah,11.083,17.78
+Hall,Sanford,7.141,14.62
+Hall,Roosevelt,7.046,13.69
+Hall,Bancroft,6.503,13.41
+Hall,Dowling,7.775,15.97
+Hall,Folwell,6.74,13.05
+Hall,Whittier,3.977,9.68
+Hall,Andersen,5.537,11.12
+Hall,South,5.795,11.05
+Hall,Armatage,10.811,17.54
+Hall,Kenny,8.903,16.17
+Hall,Lake Harriet Lower,9.961,16.84
+Hall,Lake Harriet Upper,11.144,18.17
+Hall,Windom,8.602,14.01
+Hall,Anthony,9.216,16.96
+Hall,Southwest,10.332,18.26
+Hall,Barton,6.758,13.91
+Hall,Burroughs,8.134,15.27
+Hall,Field,6.736,11.28
+Hall,Hale,8.598,15.63
+Hall,Lyndale,5.248,10.58
+Hall,Justice Page,7.141,12.84
+Hall,Washburn,7.162,13.0
+Hall,Anishinabe,7.114,14.83
+Hall,Bethune,0.914,3.58
+Hall,Ella Baker,3.8,9.06
+Hall,Emerson,3.111,6.63
+Hall,Green,5.626,10.54
+Hall,Hall,0.0,0.0
+Hall,Las Estrellas,1.637,5.14
+Hall,Marcy,2.843,8.84
+Hall,Seward,5.34,9.86
+Hall,Sullivan,5.817,11.89
+Hall,FAIR,1.773,6.18
+Hall,Heritage,5.573,11.34
+Hall,Longfellow,6.124,11.77
+Hall,Wellstone,2.708,5.32
+Las Estrellas,Cityview,2.334,7.18
+Las Estrellas,HIA,2.846,8.56
+Las Estrellas,Jenny Lind,4.868,9.79
+Las Estrellas,Loring,4.916,11.87
+Las Estrellas,Lucy Laney,3.522,10.51
+Las Estrellas,Olson,5.302,11.2
+Las Estrellas,Camden,4.502,10.65
+Las Estrellas,Pillsbury,2.345,7.59
+Las Estrellas,Pratt,3.43,10.17
+Las Estrellas,Waite Park,3.725,11.69
+Las Estrellas,Webster,0.762,2.63
+Las Estrellas,Northeast,3.262,10.12
+Las Estrellas,Edison,1.35,4.52
+Las Estrellas,Bryn Mawr,4.566,9.05
+Las Estrellas,Kenwood,4.672,11.65
+Las Estrellas,Nellie Stone Johnson,2.094,6.7
+Las Estrellas,Anwatin,4.582,9.15
+Las Estrellas,North,2.248,7.09
+Las Estrellas,Franklin,1.812,5.8
+Las Estrellas,Hiawatha,6.565,13.78
+Las Estrellas,Howe,6.357,14.15
+Las Estrellas,Keewaydin,7.777,17.56
+Las Estrellas,Northrop,8.075,15.35
+Las Estrellas,Wenonah,11.483,19.12
+Las Estrellas,Sanford,6.081,14.12
+Las Estrellas,Roosevelt,5.986,13.18
+Las Estrellas,Bancroft,5.678,14.11
+Las Estrellas,Dowling,6.715,15.46
+Las Estrellas,Folwell,5.68,12.55
+Las Estrellas,Whittier,4.546,11.06
+Las Estrellas,Andersen,4.019,10.4
+Las Estrellas,South,4.735,10.55
+Las Estrellas,Armatage,11.212,18.88
+Las Estrellas,Kenny,9.303,17.52
+Las Estrellas,Lake Harriet Lower,10.529,18.22
+Las Estrellas,Lake Harriet Upper,11.712,19.54
+Las Estrellas,Windom,9.003,15.36
+Las Estrellas,Anthony,9.617,18.31
+Las Estrellas,Southwest,10.901,19.63
+Las Estrellas,Barton,7.159,15.26
+Las Estrellas,Burroughs,8.534,16.61
+Las Estrellas,Field,7.136,12.62
+Las Estrellas,Hale,8.999,16.98
+Las Estrellas,Lyndale,5.649,11.93
+Las Estrellas,Justice Page,7.541,14.18
+Las Estrellas,Washburn,7.563,14.34
+Las Estrellas,Anishinabe,6.054,14.33
+Las Estrellas,Bethune,2.171,7.48
+Las Estrellas,Ella Baker,4.369,10.43
+Las Estrellas,Emerson,3.68,8.0
+Las Estrellas,Green,6.026,11.88
+Las Estrellas,Hall,1.606,5.05
+Las Estrellas,Las Estrellas,0.0,0.0
+Las Estrellas,Marcy,1.369,4.4
+Las Estrellas,Seward,4.047,10.41
+Las Estrellas,Sullivan,4.757,11.39
+Las Estrellas,FAIR,2.251,6.98
+Las Estrellas,Heritage,5.973,12.69
+Las Estrellas,Longfellow,5.064,11.27
+Las Estrellas,Wellstone,3.276,6.69
+Marcy,Cityview,3.565,10.85
+Marcy,HIA,4.078,12.23
+Marcy,Jenny Lind,6.858,13.22
+Marcy,Loring,6.906,15.3
+Marcy,Lucy Laney,4.754,14.18
+Marcy,Olson,7.292,14.63
+Marcy,Camden,6.491,14.08
+Marcy,Pillsbury,2.952,7.12
+Marcy,Pratt,2.381,7.33
+Marcy,Waite Park,4.333,11.87
+Marcy,Webster,0.867,3.05
+Marcy,Northeast,3.869,10.27
+Marcy,Edison,1.756,6.33
+Marcy,Bryn Mawr,4.35,10.13
+Marcy,Kenwood,4.639,10.08
+Marcy,Nellie Stone Johnson,3.326,10.37
+Marcy,Anwatin,4.366,10.23
+Marcy,North,3.34,10.74
+Marcy,Franklin,3.044,9.47
+Marcy,Hiawatha,5.516,10.94
+Marcy,Howe,5.308,11.31
+Marcy,Keewaydin,6.728,14.72
+Marcy,Northrop,7.026,12.51
+Marcy,Wenonah,10.434,16.28
+Marcy,Sanford,5.032,11.28
+Marcy,Roosevelt,4.937,10.34
+Marcy,Bancroft,4.629,11.27
+Marcy,Dowling,5.666,12.62
+Marcy,Folwell,4.631,9.71
+Marcy,Whittier,4.482,9.05
+Marcy,Andersen,2.97,7.55
+Marcy,South,3.686,7.71
+Marcy,Armatage,10.162,16.04
+Marcy,Kenny,8.254,14.68
+Marcy,Lake Harriet Lower,7.323,16.82
+Marcy,Lake Harriet Upper,8.461,16.7
+Marcy,Windom,7.953,12.51
+Marcy,Anthony,8.568,15.47
+Marcy,Southwest,8.974,18.39
+Marcy,Barton,6.109,12.42
+Marcy,Burroughs,7.485,13.77
+Marcy,Field,6.087,9.78
+Marcy,Hale,7.95,14.13
+Marcy,Lyndale,4.6,9.09
+Marcy,Justice Page,6.492,11.34
+Marcy,Washburn,6.514,11.5
+Marcy,Anishinabe,5.005,11.49
+Marcy,Bethune,5.349,9.64
+Marcy,Ella Baker,4.49,8.69
+Marcy,Emerson,3.592,7.63
+Marcy,Green,4.977,9.04
+Marcy,Hall,2.838,8.72
+Marcy,Las Estrellas,1.41,4.41
+Marcy,Marcy,0.0,0.0
+Marcy,Seward,2.998,7.57
+Marcy,Sullivan,3.708,8.55
+Marcy,FAIR,2.006,6.43
+Marcy,Heritage,4.924,9.84
+Marcy,Longfellow,4.015,8.43
+Marcy,Wellstone,4.024,7.72
+Seward,Cityview,7.937,12.74
+Seward,HIA,7.286,14.32
+Seward,Jenny Lind,9.445,14.75
+Seward,Loring,9.492,16.83
+Seward,Lucy Laney,8.147,16.25
+Seward,Olson,9.879,16.17
+Seward,Camden,9.078,15.62
+Seward,Pillsbury,4.666,10.0
+Seward,Pratt,1.475,5.18
+Seward,Waite Park,6.047,14.75
+Seward,Webster,3.588,9.4
+Seward,Northeast,5.583,13.15
+Seward,Edison,5.178,11.66
+Seward,Bryn Mawr,5.713,10.09
+Seward,Kenwood,4.348,9.74
+Seward,Nellie Stone Johnson,6.719,12.44
+Seward,Anwatin,5.729,10.18
+Seward,North,5.597,11.26
+Seward,Franklin,5.468,10.54
+Seward,Hiawatha,3.442,9.06
+Seward,Howe,2.807,8.87
+Seward,Keewaydin,4.654,12.83
+Seward,Northrop,3.879,11.58
+Seward,Wenonah,5.234,15.64
+Seward,Sanford,2.537,8.45
+Seward,Roosevelt,2.863,8.46
+Seward,Bancroft,3.078,9.52
+Seward,Dowling,3.165,10.18
+Seward,Folwell,2.191,7.64
+Seward,Whittier,4.191,8.72
+Seward,Andersen,1.866,6.59
+Seward,South,1.608,5.37
+Seward,Armatage,9.825,15.74
+Seward,Kenny,7.917,14.38
+Seward,Lake Harriet Lower,6.986,16.52
+Seward,Lake Harriet Upper,8.124,16.4
+Seward,Windom,7.616,12.22
+Seward,Anthony,8.23,15.17
+Seward,Southwest,8.636,18.1
+Seward,Barton,5.772,12.12
+Seward,Burroughs,7.148,13.48
+Seward,Field,5.75,9.48
+Seward,Hale,7.612,13.84
+Seward,Lyndale,4.262,8.79
+Seward,Justice Page,6.155,11.04
+Seward,Washburn,6.176,11.2
+Seward,Anishinabe,2.378,7.94
+Seward,Bethune,5.058,9.31
+Seward,Ella Baker,4.199,8.35
+Seward,Emerson,3.301,7.29
+Seward,Green,4.64,8.74
+Seward,Hall,5.356,10.15
+Seward,Las Estrellas,4.131,10.76
+Seward,Marcy,2.93,7.31
+Seward,Seward,0.0,0.0
+Seward,Sullivan,1.025,3.62
+Seward,FAIR,3.175,6.95
+Seward,Heritage,2.896,8.98
+Seward,Longfellow,1.378,4.96
+Seward,Wellstone,3.733,7.39
+Sullivan,Cityview,8.411,14.69
+Sullivan,HIA,7.761,16.27
+Sullivan,Jenny Lind,9.919,16.71
+Sullivan,Loring,9.967,18.79
+Sullivan,Lucy Laney,8.621,18.2
+Sullivan,Olson,10.353,18.12
+Sullivan,Camden,9.553,17.57
+Sullivan,Pillsbury,5.423,11.49
+Sullivan,Pratt,1.854,6.51
+Sullivan,Waite Park,6.805,16.24
+Sullivan,Webster,4.346,10.89
+Sullivan,Northeast,6.34,14.63
+Sullivan,Edison,5.935,13.14
+Sullivan,Bryn Mawr,6.188,12.04
+Sullivan,Kenwood,4.822,11.7
+Sullivan,Nellie Stone Johnson,7.194,14.39
+Sullivan,Anwatin,6.204,12.14
+Sullivan,North,6.071,13.21
+Sullivan,Franklin,5.942,12.5
+Sullivan,Hiawatha,2.354,7.83
+Sullivan,Howe,1.948,6.69
+Sullivan,Keewaydin,4.337,11.85
+Sullivan,Northrop,3.562,10.6
+Sullivan,Wenonah,4.917,14.65
+Sullivan,Sanford,1.568,5.73
+Sullivan,Roosevelt,2.546,7.48
+Sullivan,Bancroft,2.761,8.54
+Sullivan,Dowling,2.429,8.39
+Sullivan,Folwell,1.875,6.66
+Sullivan,Whittier,4.665,10.68
+Sullivan,Andersen,2.171,6.81
+Sullivan,South,1.292,4.39
+Sullivan,Armatage,10.645,18.2
+Sullivan,Kenny,8.737,16.83
+Sullivan,Lake Harriet Lower,7.806,18.98
+Sullivan,Lake Harriet Upper,8.944,18.86
+Sullivan,Windom,8.436,14.67
+Sullivan,Anthony,9.05,17.62
+Sullivan,Southwest,9.457,20.55
+Sullivan,Barton,6.592,14.58
+Sullivan,Burroughs,7.968,15.93
+Sullivan,Field,6.57,11.94
+Sullivan,Hale,4.671,14.34
+Sullivan,Lyndale,3.5,10.81
+Sullivan,Justice Page,6.975,13.5
+Sullivan,Washburn,6.997,13.66
+Sullivan,Anishinabe,1.402,4.86
+Sullivan,Bethune,5.532,11.26
+Sullivan,Ella Baker,4.673,10.31
+Sullivan,Emerson,3.775,9.25
+Sullivan,Green,3.132,9.5
+Sullivan,Hall,5.83,12.1
+Sullivan,Las Estrellas,4.889,12.24
+Sullivan,Marcy,3.687,8.79
+Sullivan,Seward,1.025,3.62
+Sullivan,Sullivan,0.0,0.0
+Sullivan,FAIR,3.649,8.91
+Sullivan,Heritage,2.58,8.0
+Sullivan,Longfellow,0.602,2.32
+Sullivan,Wellstone,4.207,9.34
+FAIR,Cityview,4.646,9.38
+FAIR,HIA,3.344,11.31
+FAIR,Jenny Lind,6.154,11.39
+FAIR,Loring,6.202,13.47
+FAIR,Lucy Laney,5.224,13.24
+FAIR,Olson,6.588,12.81
+FAIR,Camden,5.788,12.26
+FAIR,Pillsbury,4.903,11.25
+FAIR,Pratt,4.737,10.26
+FAIR,Waite Park,6.284,16.0
+FAIR,Webster,2.119,6.92
+FAIR,Northeast,5.82,14.39
+FAIR,Edison,3.218,10.57
+FAIR,Bryn Mawr,2.454,5.58
+FAIR,Kenwood,2.325,8.32
+FAIR,Nellie Stone Johnson,2.948,9.75
+FAIR,Anwatin,2.47,5.67
+FAIR,North,2.239,7.58
+FAIR,Franklin,2.11,6.87
+FAIR,Hiawatha,5.647,12.29
+FAIR,Howe,5.44,12.66
+FAIR,Keewaydin,9.382,15.29
+FAIR,Northrop,5.437,10.44
+FAIR,Wenonah,8.845,14.21
+FAIR,Sanford,5.163,12.62
+FAIR,Roosevelt,5.068,11.69
+FAIR,Bancroft,4.265,9.84
+FAIR,Dowling,5.797,13.97
+FAIR,Folwell,4.763,11.05
+FAIR,Whittier,1.721,6.08
+FAIR,Andersen,3.299,7.55
+FAIR,South,3.817,9.06
+FAIR,Armatage,8.573,13.97
+FAIR,Kenny,6.665,12.61
+FAIR,Lake Harriet Lower,8.248,14.52
+FAIR,Lake Harriet Upper,6.872,14.63
+FAIR,Windom,6.364,10.44
+FAIR,Anthony,6.978,13.4
+FAIR,Southwest,8.62,15.93
+FAIR,Barton,4.52,10.35
+FAIR,Burroughs,5.896,11.7
+FAIR,Field,4.498,7.71
+FAIR,Hale,6.36,12.07
+FAIR,Lyndale,3.01,7.02
+FAIR,Justice Page,4.903,9.27
+FAIR,Washburn,4.924,9.43
+FAIR,Anishinabe,5.137,12.83
+FAIR,Bethune,1.7,5.63
+FAIR,Ella Baker,2.022,7.1
+FAIR,Emerson,0.736,2.62
+FAIR,Green,3.388,6.97
+FAIR,Hall,1.998,6.48
+FAIR,Las Estrellas,2.507,7.8
+FAIR,Marcy,2.068,6.8
+FAIR,Seward,3.362,7.86
+FAIR,Sullivan,3.839,9.89
+FAIR,FAIR,0.0,0.0
+FAIR,Heritage,3.335,7.77
+FAIR,Longfellow,4.146,9.78
+FAIR,Wellstone,0.644,2.38
+Heritage,Cityview,8.366,13.68
+Heritage,HIA,7.716,15.26
+Heritage,Jenny Lind,9.874,15.69
+Heritage,Loring,9.922,17.77
+Heritage,Lucy Laney,8.577,17.19
+Heritage,Olson,10.308,17.11
+Heritage,Camden,9.508,16.55
+Heritage,Pillsbury,6.873,12.41
+Heritage,Pratt,6.073,11.3
+Heritage,Waite Park,8.254,17.16
+Heritage,Webster,5.795,11.81
+Heritage,Northeast,7.79,15.55
+Heritage,Edison,7.384,14.06
+Heritage,Bryn Mawr,6.143,11.02
+Heritage,Kenwood,4.778,10.68
+Heritage,Nellie Stone Johnson,7.149,13.38
+Heritage,Anwatin,6.159,11.12
+Heritage,North,6.027,12.19
+Heritage,Franklin,5.898,11.48
+Heritage,Hiawatha,3.148,9.32
+Heritage,Howe,2.94,9.69
+Heritage,Keewaydin,3.897,12.73
+Heritage,Northrop,2.133,7.53
+Heritage,Wenonah,4.05,12.62
+Heritage,Sanford,2.663,9.65
+Heritage,Roosevelt,2.569,8.72
+Heritage,Bancroft,0.96,3.77
+Heritage,Dowling,3.297,11.0
+Heritage,Folwell,1.325,4.87
+Heritage,Whittier,2.116,6.86
+Heritage,Andersen,1.028,3.63
+Heritage,South,1.528,5.5
+Heritage,Armatage,6.594,12.39
+Heritage,Kenny,4.686,11.03
+Heritage,Lake Harriet Lower,3.751,12.79
+Heritage,Lake Harriet Upper,4.893,13.06
+Heritage,Windom,4.385,8.87
+Heritage,Anthony,5.0,11.82
+Heritage,Southwest,5.406,14.75
+Heritage,Barton,2.537,8.39
+Heritage,Burroughs,3.917,10.13
+Heritage,Field,2.519,6.13
+Heritage,Hale,4.382,10.49
+Heritage,Lyndale,1.373,5.34
+Heritage,Justice Page,2.924,7.7
+Heritage,Washburn,2.946,7.85
+Heritage,Anishinabe,3.437,10.64
+Heritage,Bethune,5.487,10.24
+Heritage,Ella Baker,2.62,7.94
+Heritage,Emerson,3.781,8.3
+Heritage,Green,0.652,2.46
+Heritage,Hall,5.785,11.09
+Heritage,Las Estrellas,7.026,12.53
+Heritage,Marcy,5.136,9.71
+Heritage,Seward,4.699,8.89
+Heritage,Sullivan,2.58,8.0
+Heritage,FAIR,3.654,7.95
+Heritage,Heritage,0.0,0.0
+Heritage,Longfellow,2.437,7.67
+Heritage,Wellstone,4.162,8.33
+Longfellow,Cityview,8.717,14.56
+Longfellow,HIA,8.067,16.14
+Longfellow,Jenny Lind,10.225,16.58
+Longfellow,Loring,10.273,18.66
+Longfellow,Lucy Laney,8.928,18.07
+Longfellow,Olson,10.659,17.99
+Longfellow,Camden,9.859,17.44
+Longfellow,Pillsbury,5.73,11.36
+Longfellow,Pratt,2.337,8.26
+Longfellow,Waite Park,7.111,16.11
+Longfellow,Webster,4.652,10.76
+Longfellow,Northeast,6.647,14.51
+Longfellow,Edison,6.241,13.02
+Longfellow,Bryn Mawr,6.494,11.91
+Longfellow,Kenwood,5.128,11.57
+Longfellow,Nellie Stone Johnson,7.5,14.26
+Longfellow,Anwatin,6.51,12.01
+Longfellow,North,6.378,13.08
+Longfellow,Franklin,6.249,12.37
+Longfellow,Hiawatha,1.828,5.97
+Longfellow,Howe,1.63,5.68
+Longfellow,Keewaydin,3.634,10.25
+Longfellow,Northrop,3.215,10.02
+Longfellow,Wenonah,4.214,13.05
+Longfellow,Sanford,1.252,5.07
+Longfellow,Roosevelt,1.843,5.87
+Longfellow,Bancroft,2.414,7.96
+Longfellow,Dowling,1.987,6.99
+Longfellow,Folwell,1.538,5.24
+Longfellow,Whittier,4.972,10.55
+Longfellow,Andersen,2.028,6.49
+Longfellow,South,0.899,3.95
+Longfellow,Armatage,8.931,18.01
+Longfellow,Kenny,7.022,16.64
+Longfellow,Lake Harriet Lower,6.092,18.79
+Longfellow,Lake Harriet Upper,7.23,18.67
+Longfellow,Windom,6.722,14.48
+Longfellow,Anthony,7.336,17.43
+Longfellow,Southwest,7.742,20.36
+Longfellow,Barton,4.878,14.38
+Longfellow,Burroughs,6.253,15.74
+Longfellow,Field,4.855,11.75
+Longfellow,Hale,4.324,13.76
+Longfellow,Lyndale,3.357,10.48
+Longfellow,Justice Page,5.261,13.31
+Longfellow,Washburn,5.282,13.47
+Longfellow,Anishinabe,1.087,4.49
+Longfellow,Bethune,5.838,11.13
+Longfellow,Ella Baker,4.979,10.18
+Longfellow,Emerson,4.081,9.12
+Longfellow,Green,2.989,9.17
+Longfellow,Hall,6.136,11.98
+Longfellow,Las Estrellas,5.195,12.11
+Longfellow,Marcy,3.994,8.67
+Longfellow,Seward,1.378,4.96
+Longfellow,Sullivan,0.602,2.32
+Longfellow,FAIR,3.955,8.78
+Longfellow,Heritage,2.437,7.67
+Longfellow,Longfellow,0.0,0.0
+Longfellow,Wellstone,4.513,9.22
+Wellstone,Cityview,5.028,9.24
+Wellstone,HIA,4.378,10.82
+Wellstone,Jenny Lind,6.536,11.25
+Wellstone,Loring,6.584,13.34
+Wellstone,Lucy Laney,5.238,12.75
+Wellstone,Olson,6.97,12.67
+Wellstone,Camden,6.17,12.12
+Wellstone,Pillsbury,6.016,11.11
+Wellstone,Pratt,5.217,10.0
+Wellstone,Waite Park,7.398,15.86
+Wellstone,Webster,2.408,7.99
+Wellstone,Northeast,6.933,14.26
+Wellstone,Edison,3.507,11.63
+Wellstone,Bryn Mawr,1.948,5.36
+Wellstone,Kenwood,1.834,6.71
+Wellstone,Nellie Stone Johnson,3.811,8.94
+Wellstone,Anwatin,1.964,5.46
+Wellstone,North,2.069,7.3
+Wellstone,Franklin,1.94,6.59
+Wellstone,Hiawatha,6.127,12.03
+Wellstone,Howe,5.92,12.39
+Wellstone,Keewaydin,7.34,15.8
+Wellstone,Northrop,6.177,11.74
+Wellstone,Wenonah,9.585,15.52
+Wellstone,Sanford,5.643,12.36
+Wellstone,Roosevelt,5.548,11.43
+Wellstone,Bancroft,5.005,11.15
+Wellstone,Dowling,6.277,13.71
+Wellstone,Folwell,5.243,10.79
+Wellstone,Whittier,1.708,6.11
+Wellstone,Andersen,4.04,8.86
+Wellstone,South,4.297,8.79
+Wellstone,Armatage,9.313,15.28
+Wellstone,Kenny,7.405,13.91
+Wellstone,Lake Harriet Lower,7.911,14.53
+Wellstone,Lake Harriet Upper,9.094,15.85
+Wellstone,Windom,7.104,11.75
+Wellstone,Anthony,7.719,14.7
+Wellstone,Southwest,8.282,15.94
+Wellstone,Barton,3.584,11.23
+Wellstone,Burroughs,6.636,13.01
+Wellstone,Field,5.238,9.02
+Wellstone,Hale,7.101,13.37
+Wellstone,Lyndale,2.57,8.3
+Wellstone,Justice Page,5.643,10.58
+Wellstone,Washburn,5.665,10.74
+Wellstone,Anishinabe,5.617,12.57
+Wellstone,Bethune,1.53,5.35
+Wellstone,Ella Baker,1.531,5.49
+Wellstone,Emerson,0.842,3.06
+Wellstone,Green,4.128,8.28
+Wellstone,Hall,1.828,6.19
+Wellstone,Las Estrellas,3.687,8.1
+Wellstone,Marcy,2.358,7.87
+Wellstone,Seward,3.842,7.6
+Wellstone,Sullivan,4.319,9.63
+Wellstone,FAIR,0.57,2.13
+Wellstone,Heritage,4.075,9.08
+Wellstone,Longfellow,4.626,9.51
+Wellstone,Wellstone,0.0,0.0

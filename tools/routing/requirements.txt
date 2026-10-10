@@ -1,0 +1,4 @@
+# Only needed to rebuild the drive-time table (tools/routing/). The model itself does not need these.
+pyarrow==26.0.0
+requests==2.34.2
+shapely==2.2.0

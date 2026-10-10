@@ -4,7 +4,7 @@ Rules, in order of priority:
   1. A split-grade campus (e.g. a K-2 paired with a 3-5) merges into its partner first.
   2. A high school program (FAIR, Heritage, Longfellow, Wellstone) moves intact into the comprehensive
      high school the district names for it.
-  3. Everyone else goes to the nearest compatible open school, preferring
+  3. Everyone else goes to the nearest compatible open school by driving time, preferring
        - a school in the same high school pathway (citywide magnets only go to magnets, preferably
          with the same theme);
        - a single school that can take the whole student body, so classmates stay together, as long
@@ -31,7 +31,9 @@ class StudentMove:
     from_school: str
     to_school: str
     students: float
-    miles: float              # straight-line miles between the two buildings
+    road_miles: float         # road miles from the closed building to the receiving one
+    drive_minutes: float      # driving minutes along that route
+    effective_miles: float    # road miles / circuity, for coefficients set per straight-line mile
     keeps_pathway: bool       # students stay in their high school pathway
     body_split: bool          # the closed school's students land in more than one building
 
@@ -74,7 +76,7 @@ def ranked_receivers(closing, open_schools, schools, distances):
     """Compatible open schools for a closing school, best first.
 
     Ranking: same pathway before a pathway change, same magnet theme before a different one,
-    then nearest first. A paired campus always comes first.
+    then shortest drive first. A paired campus always comes first.
     """
     if closing.level == HS_PROGRAM:
         return [Receiver(HS_PROGRAM_RECEIVER[closing.name], True)]
@@ -95,7 +97,7 @@ def ranked_receivers(closing, open_schools, schools, distances):
             different_theme = 0
         if not _grade_compatible(closing, other):
             continue
-        ranked.append((0 if keeps_pathway else 1, different_theme, distances.miles(closing.name, name), name, keeps_pathway))
+        ranked.append((0 if keeps_pathway else 1, different_theme, distances.drive_minutes(closing.name, name), name, keeps_pathway))
     ranked.sort()
     receivers = [Receiver(name, keeps) for _, _, _, name, keeps in ranked]
     if closing.paired_with is not None and closing.paired_with in open_schools:
@@ -116,7 +118,9 @@ def reassign_students(closed, schools, distances, assumptions, district_splits=N
     moves = []
 
     def move(closing, receiver, students, keeps_pathway, split):
-        moves.append(StudentMove(closing, receiver, students, distances.miles(closing, receiver), keeps_pathway, split))
+        moves.append(StudentMove(closing, receiver, students, distances.road_miles(closing, receiver),
+                                 distances.drive_minutes(closing, receiver), distances.effective_miles(closing, receiver),
+                                 keeps_pathway, split))
         enrollment[receiver] += students
 
     processing_order = sorted(closed, key=lambda n: (not schools[n].has_partner, -schools[n].enrollment))

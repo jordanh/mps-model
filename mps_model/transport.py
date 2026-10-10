@@ -4,9 +4,12 @@ Cost per rider per year = fixed cost + cost per road mile x road miles, calibrat
 MPS rider (about 2.5 road miles) costs about $3,850 (MPS $73M for about 19,000 riders, 2024-25).
 
 For a community school's students, we compare before and after:
-  * before: students live on average `attendance_radius_mi` from school; `share_riding_now` ride.
-  * after:  the trip grows to sqrt(radius^2 + distance moved^2), and fewer students can walk
-            (the walking share decays exponentially with the distance moved).
+  * before: students live on average `attendance_radius_mi` (straight line) from school, about
+            radius x circuity by road; `share_riding_now` ride.
+  * after:  the road trip grows to sqrt((radius x circuity)^2 + road miles moved^2), and fewer
+            students can walk (the walking share decays exponentially with the distance moved, on
+            the straight-line scale the walk zones use: road miles / circuity).
+Road miles moved are routed on the street network (see geography.py).
 Rides longer than `max_ride_mi_before_premium` need dedicated routes and cost a premium per mile.
 Once more new riders join than existing routes have spare seats, each extra rider costs
 `congestion_multiplier` times as much (new routes, driver shortages).
@@ -28,6 +31,7 @@ def busing_cost(moves, schools, assumptions):
     """Returns (extra annual busing cost, number of new bus riders)."""
     get = lambda key: assumptions.get("transport", key)
     fixed, per_mile, circuity = get("cost_per_rider_fixed"), get("cost_per_rider_mile"), get("circuity")
+    radius_road, magnet_home_road = get("attendance_radius_mi") * circuity, MAGNET_HOME_DISTANCE_MI * circuity
     radius, share_riding_now = get("attendance_radius_mi"), get("share_riding_now")
     long_ride_mi, long_ride_premium = get("max_ride_mi_before_premium"), get("long_ride_premium_per_mi")
 
@@ -36,21 +40,21 @@ def busing_cost(moves, schools, assumptions):
         closing = schools[m.from_school]
         n = m.students
         if closing.level == HS_PROGRAM:
-            total += n * HS_TRANSIT_RIDER_SHARE * per_mile * max(0, m.miles * circuity - HS_TRANSIT_FREE_MILES) * HS_TRANSIT_COST_FACTOR
+            total += n * HS_TRANSIT_RIDER_SHARE * per_mile * max(0, m.road_miles - HS_TRANSIT_FREE_MILES) * HS_TRANSIT_COST_FACTOR
             continue
         if closing.is_magnet:
-            road_before = MAGNET_HOME_DISTANCE_MI * circuity
-            road_after = math.hypot(MAGNET_HOME_DISTANCE_MI, m.miles) * circuity
+            road_before = magnet_home_road
+            road_after = math.hypot(magnet_home_road, m.road_miles)
             extra = n * per_mile * (road_after - road_before)
             extra += n * max(0, road_after - long_ride_mi) * long_ride_premium
             total += extra
             continue
 
         walk_zone = get("walk_zone_middle_mi") if closing.level == MIDDLE else get("walk_zone_elem_mi")
-        road_before = radius * circuity
-        road_after = math.hypot(radius, m.miles) * circuity
+        road_before = radius_road
+        road_after = math.hypot(radius_road, m.road_miles)
         walking_before = 1 - share_riding_now
-        walking_after = walking_before * math.exp(-max(0.0, m.miles - 0.1) / walk_zone)
+        walking_after = walking_before * math.exp(-max(0.0, m.effective_miles - 0.1) / walk_zone)
         riding_after = 1 - walking_after
         cost_before = n * share_riding_now * (fixed + per_mile * road_before)
         cost_after = (n * riding_after * (fixed + per_mile * road_after)

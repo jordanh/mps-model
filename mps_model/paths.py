@@ -20,6 +20,8 @@ DISTRICT_OPTION_MAPS_DIR = DISTRICT_DATA_DIR / "option_maps"
 SCHOOL_CONTEXT = COMPILED_DATA_DIR / "map_positions_and_context.csv"
 COMMUNITY_GROWTH = COMPILED_DATA_DIR / "community_growth.csv"
 SCHOOL_PROFILES = COMPILED_DATA_DIR / "school_profiles_public.csv"
+SCHOOL_LOCATIONS = COMPILED_DATA_DIR / "school_locations.csv"     # geocoded addresses (tools/routing/)
+DRIVE_MATRIX = COMPILED_DATA_DIR / "school_drive_matrix.csv"      # routed miles and minutes (tools/routing/)
 
 REFERENCE_OUTPUTS_DIR = REPO_ROOT / "reference_outputs"
 DEFAULT_RESULTS_DIR = REPO_ROOT / "results"

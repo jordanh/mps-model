@@ -6,6 +6,24 @@ results folder with it, table by table, allowing differences of one part in a bi
 of a float can differ across machines). `python -m pytest` runs the same comparison after
 re-evaluating the saved closure sets; `python -m pytest -m slow` repeats the full search.
 
+## Version 8 (Oct. 10, 2026): routed distances
+
+`reference_outputs/` now comes from version 8, which replaces straight-line map distances with routed
+street distances (see "Distances and driving times" in [model.md](model.md)). Before switching the
+default, the version 8 code was run with `transport.distance_source = "straight_line"` and compared
+with the version 7 reference outputs: every table matched exactly except `plan_reassignments.csv`,
+whose distance columns were renamed (`straight_miles` and `road_miles_est` became `road_miles` and
+`drive_minutes`). Version 8 also corrects Northrop's pathway-map position (it was about 1.1 miles off;
+the geocoded address puts it at 46th St and 16th Ave S), which moves straight-line results by a few
+thousand dollars.
+
+The plans chosen are the same in versions 7 and 8. In version 8, Middle Ground nets $11.90M (was
+$12.01M), mostly because one fewer specialist pair fits within 15 minutes, and the district options
+net $1.7-6.7M (was $3.5-7.1M), mostly because their longer moves cost more busing on real routes.
+
+`data/compiled/school_drive_matrix.csv` is checked in, so runs need no network access.
+`tools/routing/` rebuilds it; with the same Overture release and settings the rebuild is identical.
+
 ## Relation to the original model (version 7, Oct. 10, 2026)
 
 This repository is a restructured copy of the model behind the plan in `docs/plan/`. Before the

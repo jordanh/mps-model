@@ -9,7 +9,7 @@ Sources: SY26 enrollment, building data and pathway from the district's Oct. 6, 
 - Reading proficient: 17% (2026)
 - Math proficient: 0% (2026)
 - Program: STEM; Somali language & culture; PSEO/CTE
-- Students go to: Edison (68 students, 6.0 road mi, same HS pathway; receiver reading n/a (HS)) (kept together in one building)
+- Students go to: Edison (68 students, 7.4 road mi, same HS pathway; receiver reading n/a (HS)) (kept together in one building)
 
 ## Longfellow  (7-12, Districtwide Program pathway, Longfellow)
 - In: Optimum plan (5 closures); 3-closure plan. Also closed in district: Option 1, Option 2, Option 3
@@ -36,7 +36,7 @@ Sources: SY26 enrollment, building data and pathway from the district's Oct. 6, 
 - Reading proficient: 0% (2025)
 - Math proficient: 0% (2025)
 - Program: Newcomer English-learner high school; early/middle college
-- Students go to: South (174 students, 3.6 road mi, same HS pathway; receiver reading n/a (HS)) (kept together in one building)
+- Students go to: South (174 students, 4.3 road mi, same HS pathway; receiver reading n/a (HS)) (kept together in one building)
 
 ## FAIR  (9-12, Districtwide Program pathway, Central)
 - In: Optimum plan (5 closures). Also closed in district: Option 1, Option 2, Option 3

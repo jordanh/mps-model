@@ -12,6 +12,12 @@ WEST_SIDE_CROP = (130, 640, 560, 1560)   # x0, y0, x1, y1 in map pixels: Camden 
 LEGEND_HEIGHT = 170
 
 
+def _road_miles(a, b):
+    """Routed road miles from the drive-time matrix (data/compiled/school_drive_matrix.csv)."""
+    m = pd.read_csv(paths.DRIVE_MATRIX).set_index(["from_school", "to_school"])
+    return m.loc[(a, b), "road_miles"]
+
+
 def draw(results):
     plt.rcParams.update({"font.family": ["Inter", "DejaVu Sans"]})
     pos = pd.read_csv(paths.SCHOOL_CONTEXT).set_index("school")
@@ -49,7 +55,8 @@ def draw(results):
         ax.plot(x, y, "o", ms=11, color=INK, mec="white", mew=2, zorder=9)
         ax.text(x + dx, y + dy, label, fontsize=13, fontweight="semibold", color=INK, zorder=10,
                 bbox=dict(boxstyle="round,pad=0.3", fc="white", ec="none", alpha=0.92))
-    ax.text(282, 930, "1.1 mi", fontsize=12, color=BLUE, fontweight="semibold", zorder=10,
+    ax.text(282, 930, f"{_road_miles('Kenwood', 'Anwatin'):.1f} road mi", fontsize=12, color=BLUE,
+            fontweight="semibold", zorder=10,
             bbox=dict(boxstyle="round,pad=0.25", fc="white", ec="none", alpha=0.9))
     ax.text(250, 1150, "Grades 9-12\nat Southwest", fontsize=11.5, color=BLUE, fontweight="semibold", zorder=10,
             bbox=dict(boxstyle="round,pad=0.25", fc="white", ec="none", alpha=0.9))
@@ -58,7 +65,8 @@ def draw(results):
     legend_ax.axis("off")
     items = [(BLUE, "-", 6, "Our plans: Kenwood, Anwatin (kept open), Southwest"),
              (INK2, dashed, 2.5, "Since 2021: Kenwood, Anwatin, North"),
-             (VIOLET, dotted, 2.5, "District options: Option 1 via Franklin to North;\nOptions 2-3 via Anthony (about 5.7 mi)")]
+             (VIOLET, dotted, 2.5, "District options: Option 1 via Franklin to North;\n"
+                                    f"Options 2-3 via Anthony (about {_road_miles('Kenwood', 'Anthony'):.1f} road mi)")]
     legend_ax.legend([Line2D([0], [0], color=c, ls=ls, lw=lw) for c, ls, lw, _ in items], [t for *_, t in items],
                      loc="center left", frameon=False, fontsize=12.5, handlelength=3)
     fig.savefig(results.figure("fig9_kenwood_pathway.png"), facecolor="white")

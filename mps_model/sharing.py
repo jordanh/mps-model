@@ -2,7 +2,8 @@
 PE), each getting them half-days, instead of each paying for its own three-specialist floor.
 
 For every pair of small open elementary or K-8 schools:
-  * skip if their combined enrollment is too large for one team, or the midday drive is too long;
+  * skip if their combined enrollment is too large for one team, or the midday drive is too long
+    (routed driving minutes, averaged over both directions, plus a fixed time to park and set up);
   * specialist FTE recovered = min(FTE saved per pair, two floors - FTE the combined enrollment needs);
   * saving = recovered FTE x teacher cost
              - teaching time lost to the drive - mileage - coordination cost.
@@ -20,7 +21,6 @@ def best_sharing_pairs(enrollment, closed, schools, distances, assumptions):
     """Returns (total annual saving, list of pair records in workbook order)."""
     get = lambda key: assumptions.get("sharing", key)
     teacher = assumptions.get("staff_cost", "teacher_loaded")
-    circuity = assumptions.get("transport", "circuity")
     specialist_rule = assumptions.raw["staff_floors"]["elementary"]["specialist"]
     floor, students_per_specialist = specialist_rule["floor"], specialist_rule["per"]
     fte_per_pair = get("fte_saved_per_pair")
@@ -32,8 +32,8 @@ def best_sharing_pairs(enrollment, closed, schools, distances, assumptions):
     for a, b in itertools.combinations(eligible, 2):
         if enrollment[a] + enrollment[b] > get("max_combined_enrollment"):
             continue
-        road_miles = distances.miles(a, b) * circuity
-        minutes = road_miles / get("avg_speed_mph") * 60 + get("fixed_transfer_minutes")
+        road_miles, drive_minutes = distances.both_ways(a, b)
+        minutes = drive_minutes + get("fixed_transfer_minutes")
         if minutes > get("max_travel_minutes"):
             continue
         lost_teaching_time = fte_per_pair * minutes / get("workday_minutes") * teacher

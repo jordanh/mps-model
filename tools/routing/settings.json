@@ -1,0 +1,13 @@
+{
+  "overture_release": "2026-09-23.1",
+  "bbox": {"xmin": -93.37, "ymin": 44.86, "xmax": -93.15, "ymax": 45.08,
+           "_doc": "Minneapolis plus about a mile of margin, so routes can leave the city limits where that is faster"},
+  "default_speed_mph": {"motorway": 55, "trunk": 45, "primary": 30, "secondary": 30, "tertiary": 25,
+                        "unclassified": 20, "residential": 20, "living_street": 10, "service": 10, "unknown": 20,
+                        "_doc": "Used where OpenStreetMap has no posted limit (about 60% of drivable segments). Minneapolis's default limit is 20 mph on residential streets and 25 mph on most other city streets (2020 ordinance)."},
+  "traffic_factor": {"motorway": 0.85, "trunk": 0.80, "primary": 0.70, "secondary": 0.70, "tertiary": 0.70,
+                     "unclassified": 0.75, "residential": 0.75, "living_street": 0.75, "service": 0.75, "unknown": 0.75,
+                     "_doc": "ESTIMATE: average travel speed as a share of the posted limit on a school day, allowing for signals, stop signs and school-hour traffic. No live traffic data was used."},
+  "access_leg_mph": 10,
+  "_access_leg_doc": "Speed on the short leg between a school's address point and the nearest street node (median 0.03 mi)."
+}

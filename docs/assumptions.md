@@ -85,9 +85,10 @@ FTE required per building = max(floor, enrollment / students_per_fte). Encodes t
 
 | Key | Value | Source |
 |---|---|---|
+| `distance_source` | routed | Oct. 10, 2026: road miles and driving minutes along the fastest route on the street network (OpenStreetMap roads via Overture Maps, release 2026-09-23.1; school addresses geocoded to Overture address points). Built by tools/routing/ and stored in data/compiled/school_drive_matrix.csv. 'straight_line' restores the earlier map-distance method. |
 | `cost_per_rider_fixed` | 1600 | Calibrated so an average rider (~2.5 road mi) costs ~$3,850/yr: MPS $73M (2024-25) / ~19,000 daily riders |
 | `cost_per_rider_mile` | 900 | Calibrated with the fixed term to MPS average $3,850/rider/yr |
-| `circuity` | 1.35 | ESTIMATE: road distance / straight-line distance on the Minneapolis grid with river and freeway barriers |
+| `circuity` | 1.35 | Routed trips between schools average 1.40 x the straight line (median; Overture/OpenStreetMap roads, Oct. 2026). Still used for the home-to-school legs the routing does not cover (attendance radius, magnet home distance) and to put routed trips on the straight-line scale of the per-mile attrition and walking coefficients. Earlier ESTIMATE: 1.35. |
 | `walk_zone_elem_mi` | 0.5 | MPS deck slide 114 |
 | `walk_zone_middle_mi` | 1.0 | MPS deck slide 114 |
 | `attendance_radius_mi` | 0.9 | ESTIMATE: mean home-to-school distance in a K-5 attendance area (~2.5 sq mi per area) |
@@ -120,9 +121,9 @@ Students lost = direct (displaced students) + spillover (whole-district confiden
 | `levels` | ["elementary", "k8"] |  |
 | `max_combined_enrollment` | 700 | ESTIMATE: 3 specialists rotating half-days can cover ~28 sections (~700 students) across two buildings |
 | `fte_saved_per_pair` | 3 | User ask: specialists split half days at two schools; two 3-FTE floors become one shared 3-FTE team |
-| `max_travel_minutes` | 15 | ESTIMATE: midday transfer longer than ~15 min (about 2 road miles) costs a teaching period and is impractical |
-| `avg_speed_mph` | 18 | ESTIMATE: city driving incl. parking |
-| `fixed_transfer_minutes` | 8 | ESTIMATE: parking, sign-in, setup |
+| `max_travel_minutes` | 15 | ESTIMATE: a midday transfer longer than ~15 min, including parking and setup, costs a teaching period and is impractical |
+| `avg_speed_mph` | 18 | Used only when transport.distance_source is 'straight_line'. With routing, minutes come from the drive-time matrix (median about 18 mph between schools under 3 road miles apart, about 28 mph across all pairs). |
+| `fixed_transfer_minutes` | 8 | ESTIMATE: parking, sign-in, setup (added to the routed driving time) |
 | `workday_minutes` | 435 | ESTIMATE: 7.25 hr teacher duty day |
 | `school_days` | 174 | MPS calendar (approx.) |
 | `mileage_rate` | 0.725 | IRS 2026 standard mileage rate |

@@ -60,7 +60,7 @@ class ClosureModel:
     def __init__(self, assumptions=None, schools=None):
         self.assumptions = assumptions or Assumptions.load()
         self.schools = schools or load_schools(self.assumptions)
-        self.distances = Distances(self.schools)
+        self.distances = Distances(self.schools, self.assumptions)
         self.candidates = closure_candidates(self.schools, self.assumptions)
         self.protected = protected_schools(self.schools, self.assumptions)
         self.district_options = {k: district_option_closures(self.schools, k) for k in (1, 2, 3)}

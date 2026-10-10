@@ -86,10 +86,10 @@ def plan_comparison_table(model, plans):
     return pd.DataFrame(rows), details
 
 
-def reassignment_rows(plan_name, result, circuity):
+def reassignment_rows(plan_name, result):
     return [{"plan": plan_name, "closed_school": m.from_school, "receiving_school": m.to_school,
-             "students": round(m.students), "straight_miles": round(m.miles, 2),
-             "road_miles_est": round(m.miles * circuity, 2), "keeps_hs_pathway": m.keeps_pathway,
+             "students": round(m.students), "road_miles": round(m.road_miles, 2),
+             "drive_minutes": round(m.drive_minutes, 1), "keeps_hs_pathway": m.keeps_pathway,
              "student_body_split": m.body_split}
             for m in result.moves]
 

@@ -4,7 +4,8 @@ Two effects, both growing faster than the number of closures N:
 
   direct     students at a closed school who leave the district. Each move's leave rate is
                  base + growth_per_closure x (N - 1)^exponent       (more closures, less trust)
-               + per_extra_mile x miles moved
+               + per_extra_mile x miles moved (road miles / circuity: the coefficient was set
+                                                per straight-line mile)
                + split_body_penalty     if classmates are split across buildings
                + pathway_break_penalty  if students lose their high school pathway
              capped at direct_cap. High school programs move intact, so their rate is halved.
@@ -27,7 +28,7 @@ def families_lost(moves, closed, schools, assumptions):
 
     direct = 0.0
     for m in moves:
-        rate = base_rate + get("direct_per_extra_mile") * m.miles
+        rate = base_rate + get("direct_per_extra_mile") * m.effective_miles
         if m.body_split:
             rate += get("split_body_penalty")
         if not m.keeps_pathway:

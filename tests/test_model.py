@@ -1,11 +1,13 @@
 """Unit tests for the model's building blocks. Run with: python -m pytest"""
 import math
 
+import pandas as pd
 import pytest
 
 from mps_model.assumptions import Assumptions
 from mps_model.closure_model import ClosureModel
 from mps_model.costs import classroom_sections, school_staffing_cost
+from mps_model.paths import SCHOOL_LOCATIONS
 from mps_model.recruitment import Recruitment
 from mps_model.schools import ELEMENTARY
 
@@ -25,9 +27,42 @@ def test_capacity_comes_from_column_n(model):
     assert model.schools["Loring"].design_capacity == 396
 
 
-def test_distances_are_symmetric(model):
-    assert model.distances.miles("Kenwood", "Anwatin") == model.distances.miles("Anwatin", "Kenwood")
-    assert model.distances.miles("Kenwood", "Kenwood") == 0
+def test_routed_distances_cover_every_pair(model):
+    assert model.distances.source == "routed"
+    names = model.schools.names
+    for a in names:
+        assert model.distances.road_miles(a, a) == 0
+        for b in names:
+            if a != b:
+                assert model.distances.road_miles(a, b) > 0 and model.distances.drive_minutes(a, b) > 0
+
+
+def test_routes_are_never_shorter_than_the_straight_line(model):
+    locations = pd.read_csv(SCHOOL_LOCATIONS).set_index("school")
+    for a, b in [("Cityview", "HIA"), ("FAIR", "North"), ("Wellstone", "South"), ("Kenwood", "Anwatin")]:
+        dy = (locations.lat[a] - locations.lat[b]) * 69.0
+        dx = (locations.lon[a] - locations.lon[b]) * 69.0 * math.cos(math.radians(locations.lat[a]))
+        assert model.distances.road_miles(a, b) >= math.hypot(dx, dy)
+
+
+def test_routed_times_are_plausible(model):
+    # Cityview to HIA is about 1.1 road miles; North to South High about 6 road miles across downtown
+    assert 0.9 < model.distances.road_miles("Cityview", "HIA") < 1.5
+    assert 4 < model.distances.drive_minutes("North", "South") < 20
+
+
+def test_round_trips_average_both_directions(model):
+    miles, minutes = model.distances.both_ways("Ella Baker", "Whittier")
+    assert minutes == pytest.approx((model.distances.drive_minutes("Ella Baker", "Whittier")
+                                     + model.distances.drive_minutes("Whittier", "Ella Baker")) / 2)
+
+
+def test_straight_line_source_still_works():
+    a = Assumptions.load()
+    straight = ClosureModel(a.with_values({("transport", "distance_source"): "straight_line"}))
+    assert straight.distances.road_miles("Kenwood", "Anwatin") == pytest.approx(
+        straight.distances.map_miles("Kenwood", "Anwatin") * a.get("transport", "circuity"))
+    assert straight.distances.road_miles("Kenwood", "Anwatin") == straight.distances.road_miles("Anwatin", "Kenwood")
 
 
 def test_protection_rules(model):

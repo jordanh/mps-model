@@ -29,6 +29,41 @@ That leaves 31 candidates. Kenwood is moved back to the Southwest pathway (`poli
 **District options.** A school is closed in district Option k when the workbook's Option k predicted
 enrollment is blank (Anishinabe excepted: its program moves to a new building).
 
+## Distances and driving times (`geography.py`, `tools/routing/`)
+
+Every distance in the model is a routed trip on the street network, read from
+`data/compiled/school_drive_matrix.csv` (road miles and driving minutes for all 3,600 ordered pairs of
+the 60 schools). `tools/routing/` builds it in three steps:
+
+1. `fetch_overture.py` downloads the Minneapolis slice of Overture Maps (release 2026-09-23.1): road
+   segments from OpenStreetMap, open address points and named places.
+2. `geocode_schools.py` matches each school's street address (`tools/routing/school_addresses.csv`)
+   to an address point and checks it against the named place of the same school. 59 of 60 match the
+   house number exactly; Hale uses the nearest number on its block. Results:
+   `data/compiled/school_locations.csv`.
+3. `build_drive_matrix.py` builds a directed street graph (one-way streets and closures respected;
+   construction closures treated as open, since the plan starts in fall 2027) and finds the fastest
+   path between every pair of schools:
+
+       minutes on a street piece = miles / (posted limit x traffic factor) x 60
+
+   Posted limits come from OpenStreetMap where tagged (about 40% of drivable segments); elsewhere the
+   Minneapolis defaults (20 mph residential, 25 mph other city streets) or a road-class default.
+   The traffic factor (0.70 on arterials, 0.75 on local streets, 0.85 on freeways;
+   `tools/routing/settings.json`) is an ESTIMATE for signals, stop signs and school-hour traffic. No
+   live traffic data is used. Each school joins the network at the nearest local or arterial street
+   node (median 0.03 mi away).
+
+Routes between schools average 1.40 times the straight line (median). Against the earlier method
+(straight lines on the pathway map x 1.35, at 18 mph), routed road miles are a median 1.08 times the
+old estimate and routed minutes 0.76 times: short trips take a little longer than estimated, and
+cross-city trips are faster because freeways are.
+
+Two coefficients were set per straight-line mile: the extra leave rate per mile moved (section 5)
+and the walking-share decay (section 4). They are applied to `road miles / circuity`
+(`Distances.effective_miles`), so routing changes the distances without changing their
+calibration. Setting `transport.distance_source` to `"straight_line"` restores the earlier method.
+
 ## 2. Moving students (`reassignment.py`)
 
 Closed schools are processed paired campuses first, then largest first.
@@ -38,7 +73,7 @@ Closed schools are processed paired campuses first, then largest first.
    (FAIR and Longfellow to North, Heritage to Edison, Wellstone to South).
 3. A K-8 moves as two groups: K-5 (6/9 of students) and 6-8 (3/9).
 4. Everyone else is offered compatible open schools ranked by: same pathway first; for magnets,
-   magnets only, same theme first; then distance. If one school has room for the whole group (and
+   magnets only, same theme first; then driving time. If one school has room for the whole group (and
    choosing it does not break the pathway when the nearest school would not), everyone goes there.
    Otherwise students fill the ranked schools in turn and the student body is marked **split**.
 
@@ -73,12 +108,13 @@ small schools saves one floor. A K-8 adds a counselor. A merged K-2 + 3-5 pair i
 ## 4. Busing (`transport.py`)
 
 Cost per rider per year is `cost_per_rider_fixed + cost_per_rider_mile x road miles`, calibrated to
-the MPS average of about $3,850 per rider. Road miles are straight-line miles times `circuity` (1.35).
+the MPS average of about $3,850 per rider.
 
-For students of a community school that closes, moving `d` miles:
+For students of a community school that closes, moving `r` routed road miles (`d = r / circuity` on
+the straight-line scale):
 
     trip before  = attendance_radius x circuity
-    trip after   = sqrt(attendance_radius^2 + d^2) x circuity
+    trip after   = sqrt((attendance_radius x circuity)^2 + r^2)
     riding after = 1 - (1 - share_riding_now) x exp(-max(0, d - 0.1) / walk zone)
     extra cost   = students x [riding after x (fixed + per_mile x trip after + long-ride premium)
                                - share_riding_now x (fixed + per_mile x trip before)]
@@ -93,7 +129,7 @@ each rider beyond it costs `congestion_multiplier` (1.6) times the average.
 For each group of moved students:
 
     leave rate = direct_base + direct_growth_per_closure x (N - 1)^direct_growth_exponent
-               + direct_per_extra_mile x miles moved
+               + direct_per_extra_mile x miles moved (routed road miles / circuity)
                + split_body_penalty      (if the student body is split)
                + pathway_break_penalty   (if the students change high school pathway)
     capped at direct_cap; halved for high school programs, which move intact
@@ -112,11 +148,11 @@ Among open elementary and K-8 schools under 450 students, two schools can share 
 if their combined enrollment is at most `max_combined_enrollment` and the midday drive is at most
 `max_travel_minutes`:
 
-    drive minutes     = road miles / avg_speed_mph x 60 + fixed_transfer_minutes
+    drive minutes     = routed driving minutes (average of both directions) + fixed_transfer_minutes
     FTE recovered     = min(fte_saved_per_pair, 2 x floor - max(floor, combined students / 150))
     saving            = FTE recovered x teacher salary
                       - fte_saved_per_pair x drive minutes / workday_minutes x teacher salary
-                      - fte_saved_per_pair x road miles x mileage_rate x school_days
+                      - fte_saved_per_pair x routed road miles x mileage_rate x school_days
                       - coordination_cost_per_pair
 
 The pairs are chosen by a maximum-weight matching (networkx), so each school is in at most one pair

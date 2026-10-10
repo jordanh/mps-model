@@ -64,7 +64,8 @@ data/compiled/  ─────────┘   (one record     (net savings of
    (comprehensive high schools, Anwatin, the new Anishinabe building, and schools in communities
    projected to grow 15% or more) are never closed.
 2. **Closure model** (`closure_model.py`). For any set of closed schools it
-   - moves each closed school's students to the nearest compatible school with room, keeping them in
+   - moves each closed school's students to the nearest compatible school with room (by driving time
+     on the street network; `geography.py`), keeping them in
      their high school pathway and together where possible (`reassignment.py`);
    - recomputes staffing at every affected school using the district's own minimum staffing floors,
      which is where most savings come from (`costs.py`);
@@ -87,12 +88,14 @@ data/compiled/  ─────────┘   (one record     (net savings of
 ```
 config/assumptions.json   every number the model assumes, each with its source
 data/district/            files published by MPS (workbook, pathway maps, growth map)
-data/compiled/            tables we compiled from public sources (map positions, school profiles)
+data/compiled/            tables we compiled from public sources (map positions, school profiles,
+                          geocoded school locations, the school-to-school drive-time table)
 data/README.md            what each data file is, where it came from, and redistribution notes
 mps_model/                the model (start with closure_model.py)
   reports/                school-by-school capacity and closure profiles
   figures/                charts and maps
-reference_outputs/        the tables a clean run should reproduce (model version 7, Oct. 10, 2026)
+tools/routing/            rebuilds the drive-time table from OpenStreetMap roads (optional; see its README)
+reference_outputs/        the tables a clean run should reproduce (model version 8, Oct. 10, 2026)
 tests/                    unit tests and the reproduction check
 docs/model.md             the model, step by step, with formulas
 docs/assumptions.md       every assumption as a table (generated)
@@ -120,12 +123,14 @@ docs/research/            research notes behind the assumptions and case studies
   that republish Minnesota Department of Education data. Check them against the Minnesota Report Card
   (rc.education.mn.gov) before quoting them. They feed only the closure profiles, not the dollar
   figures.
-- **Distances are straight lines** measured on the district's pathway map (122 pixels per mile)
-  times a 1.35 road factor, not routed street distances.
+- **Driving times are modeled, not observed.** Distances are routed on OpenStreetMap streets
+  (Overture Maps, Sept. 2026), but travel speeds are posted limits slowed by an estimated traffic
+  factor, not live traffic data. See "Distances and driving times" in `docs/model.md`; rebuild the
+  table with `tools/routing/` (for example `--traffic-scale 0.8` for slower traffic).
 - **Behavioral parameters are estimates**, especially how many families leave after closures and how
   fast recruiting can grow enrollment. `sensitivity.csv` scales the attrition and busing assumptions
   by 0.5 and 1.5. The Middle Ground plan saves more than every district option in the central and
-  high cases; in the low case, district Option 1 saves about $0.3M a year more.
+  high cases; in the low case, district Option 1 saves about $0.5M a year more.
 - The Footprint-First rows model the district's options with this model's rules; they are not the
   district's own estimates.
 

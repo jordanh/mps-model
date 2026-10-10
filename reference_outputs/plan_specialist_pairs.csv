@@ -1,46 +1,44 @@
 school_a,school_b,enr_a,enr_b,road_miles,travel_minutes,net_saving,plan
-HIA,Nellie Stone Johnson,389,284,0.59,10.0,163577,Optimum plan (5 closures)
-Jenny Lind,Loring,202,315,1.59,13.3,289048,Optimum plan (5 closures)
-Lucy Laney,Hall,374,208,2.09,15.0,233800,Optimum plan (5 closures)
-Pillsbury,Waite Park,402,289,1.67,13.6,145226,Optimum plan (5 closures)
-Webster,Las Estrellas,209,356,0.65,10.2,252475,Optimum plan (5 closures)
-Bryn Mawr,Bethune,397,271,1.78,13.9,163860,Optimum plan (5 closures)
-Hiawatha,Keewaydin,178,325,1.9,14.3,299592,Optimum plan (5 closures)
-Howe,Northrop,231,386,1.38,12.6,207230,Optimum plan (5 closures)
-Wenonah,Hale,146,314,1.34,12.5,336900,Optimum plan (5 closures)
-Dowling,Anishinabe,434,195,1.13,11.8,198126,Optimum plan (5 closures)
-Armatage,Kenny,385,312,0.99,11.3,142479,Optimum plan (5 closures)
-Lake Harriet Lower,Lake Harriet Upper,300,286,1.47,12.9,232511,Optimum plan (5 closures)
-Windom,Field,364,320,2.04,14.8,149824,Optimum plan (5 closures)
-HIA,Nellie Stone Johnson,389,284,0.59,10.0,163577,3-closure plan
-Jenny Lind,Loring,202,315,1.59,13.3,289048,3-closure plan
-Lucy Laney,Hall,374,208,2.09,15.0,233800,3-closure plan
-Pillsbury,Waite Park,402,289,1.67,13.6,145226,3-closure plan
-Webster,Las Estrellas,209,356,0.65,10.2,252475,3-closure plan
-Bryn Mawr,Bethune,397,271,1.78,13.9,163860,3-closure plan
-Hiawatha,Keewaydin,178,325,1.9,14.3,299592,3-closure plan
-Howe,Northrop,231,386,1.38,12.6,207230,3-closure plan
-Wenonah,Hale,146,314,1.34,12.5,336900,3-closure plan
-Dowling,Anishinabe,434,195,1.13,11.8,198126,3-closure plan
-Armatage,Kenny,385,312,0.99,11.3,142479,3-closure plan
-Lake Harriet Lower,Lake Harriet Upper,300,286,1.47,12.9,232511,3-closure plan
-Windom,Field,364,320,2.04,14.8,149824,3-closure plan
-Hiawatha,Northrop,178,386,0.92,11.1,252439,District Option 1
-Howe,Anishinabe,231,195,0.87,10.9,346645,District Option 1
-Nellie Stone Johnson,Hall,284,208,0.95,11.2,311736,District Option 2
-Dowling,Anishinabe,434,195,1.13,11.8,198126,District Option 2
-Field,Hale,320,314,1.41,12.7,193102,District Option 2
-Dowling,Anishinabe,434,195,1.13,11.8,198126,District Option 3
-Cityview,Nellie Stone Johnson,186,284,0.94,11.1,329921,Family Trust plan
-HIA,Lucy Laney,203,374,0.85,10.8,241920,Family Trust plan
-Jenny Lind,Loring,202,315,1.59,13.3,289048,Family Trust plan
-Pillsbury,Waite Park,402,289,1.67,13.6,145226,Family Trust plan
-Webster,Las Estrellas,209,356,0.65,10.2,252475,Family Trust plan
-Hiawatha,Keewaydin,178,325,1.9,14.3,299592,Family Trust plan
-Howe,Northrop,231,386,1.38,12.6,207230,Family Trust plan
-Wenonah,Hale,146,314,1.34,12.5,336900,Family Trust plan
-Dowling,Anishinabe,434,195,1.13,11.8,198126,Family Trust plan
-Armatage,Kenny,385,312,0.99,11.3,142479,Family Trust plan
-Lake Harriet Lower,Lake Harriet Upper,300,286,1.47,12.9,232511,Family Trust plan
-Windom,Field,364,320,2.04,14.8,149824,Family Trust plan
-Bethune,Hall,271,208,0.87,10.9,322734,Family Trust plan
+Jenny Lind,Loring,202,315,1.89,14.2,288144,Optimum plan (5 closures)
+Lucy Laney,Nellie Stone Johnson,374,284,1.74,14.0,172090,Optimum plan (5 closures)
+Pillsbury,Waite Park,402,289,1.69,14.2,144690,Optimum plan (5 closures)
+Webster,Las Estrellas,209,356,0.78,10.7,251977,Optimum plan (5 closures)
+Hiawatha,Folwell,178,421,2.03,14.2,220479,Optimum plan (5 closures)
+Howe,Anishinabe,231,195,0.75,11.1,346521,Optimum plan (5 closures)
+Keewaydin,Wenonah,325,146,0.94,11.9,328412,Optimum plan (5 closures)
+Northrop,Hale,386,314,1.26,12.9,138520,Optimum plan (5 closures)
+Armatage,Kenny,385,312,0.97,11.3,142479,Optimum plan (5 closures)
+Lake Harriet Lower,Lake Harriet Upper,300,286,1.54,13.8,231756,Optimum plan (5 closures)
+Windom,Field,364,320,2.55,13.2,150952,Optimum plan (5 closures)
+Bethune,Hall,271,208,0.92,11.6,322129,Optimum plan (5 closures)
+Jenny Lind,Loring,202,315,1.89,14.2,288144,3-closure plan
+Lucy Laney,Nellie Stone Johnson,374,284,1.74,14.0,172090,3-closure plan
+Pillsbury,Waite Park,402,289,1.69,14.2,144690,3-closure plan
+Webster,Las Estrellas,209,356,0.78,10.7,251977,3-closure plan
+Hiawatha,Folwell,178,421,2.03,14.2,220479,3-closure plan
+Howe,Anishinabe,231,195,0.75,11.1,346521,3-closure plan
+Keewaydin,Wenonah,325,146,0.94,11.9,328412,3-closure plan
+Northrop,Hale,386,314,1.26,12.9,138520,3-closure plan
+Armatage,Kenny,385,312,0.97,11.3,142479,3-closure plan
+Lake Harriet Lower,Lake Harriet Upper,300,286,1.54,13.8,231756,3-closure plan
+Windom,Field,364,320,2.55,13.2,150952,3-closure plan
+Bethune,Hall,271,208,0.92,11.6,322129,3-closure plan
+Hiawatha,Folwell,178,421,2.03,14.2,220479,District Option 1
+Howe,Anishinabe,231,195,0.75,11.1,346521,District Option 1
+Nellie Stone Johnson,Hall,284,208,1.12,12.2,310755,District Option 2
+Dowling,Anishinabe,434,195,1.09,12.4,197567,District Option 2
+Field,Hale,320,314,1.69,14.0,191915,District Option 2
+Dowling,Anishinabe,434,195,1.09,12.4,197567,District Option 3
+Cityview,Nellie Stone Johnson,186,284,1.01,11.9,329261,Family Trust plan
+HIA,Lucy Laney,203,374,1.12,11.8,240972,Family Trust plan
+Jenny Lind,Loring,202,315,1.89,14.2,288144,Family Trust plan
+Pillsbury,Waite Park,402,289,1.69,14.2,144690,Family Trust plan
+Webster,Las Estrellas,209,356,0.78,10.7,251977,Family Trust plan
+Hiawatha,Folwell,178,421,2.03,14.2,220479,Family Trust plan
+Howe,Anishinabe,231,195,0.75,11.1,346521,Family Trust plan
+Keewaydin,Wenonah,325,146,0.94,11.9,328412,Family Trust plan
+Northrop,Hale,386,314,1.26,12.9,138520,Family Trust plan
+Armatage,Kenny,385,312,0.97,11.3,142479,Family Trust plan
+Lake Harriet Lower,Lake Harriet Upper,300,286,1.54,13.8,231756,Family Trust plan
+Windom,Field,364,320,2.55,13.2,150952,Family Trust plan
+Bethune,Hall,271,208,0.92,11.6,322129,Family Trust plan

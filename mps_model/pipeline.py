@@ -62,7 +62,6 @@ def run(results_root, reuse_curve=None, max_n=None, unconstrained=True, figures=
     assumptions = Assumptions.load(assumptions_path) if assumptions_path else Assumptions.load()
     results = ResultsDir(results_root).create()
     model = ClosureModel(assumptions)
-    circuity = assumptions.get("transport", "circuity")
 
     # 1. search
     curve = closure_curve(model, results, reuse_curve, max_n, log)
@@ -80,7 +79,7 @@ def run(results_root, reuse_curve=None, max_n=None, unconstrained=True, figures=
     family_trust = curve[FAMILY_TRUST_N].closed
     plans["Family Trust plan"] = family_trust
     details["Family Trust plan"] = model.evaluate(family_trust, detail=True)
-    reassignments = pd.DataFrame([row for name, r in details.items() for row in reassignment_rows(name, r, circuity)])
+    reassignments = pd.DataFrame([row for name, r in details.items() for row in reassignment_rows(name, r)])
     reassignments.to_csv(results.table("plan_reassignments.csv"), index=False)
     pd.DataFrame([row for name, r in details.items() for row in sharing_pair_rows(name, r)]).to_csv(
         results.table("plan_specialist_pairs.csv"), index=False)

@@ -69,7 +69,7 @@ def closure_profiles(model, plans, reassignments, middle_ground_name):
                 reading = float("nan") if rp is None else (rp.read_2026 if not pd.isna(rp.read_2026) else rp.read_2025)
                 receiver_reading = _pct(reading)
             destinations.append(
-                f"{m.receiving_school} ({int(m.students)} students, {m.road_miles_est:.1f} road mi, "
+                f"{m.receiving_school} ({int(m.students)} students, {m.road_miles:.1f} road mi, "
                 f"{'same HS pathway' if m.keeps_hs_pathway else 'NEW pathway'}; receiver reading {receiver_reading})")
         if moves.receiving_school.nunique() == 1:
             together = "kept together in one building"
