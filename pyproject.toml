@@ -1,0 +1,10 @@
+[project]
+name = "mps-model"
+version = "6.0.0"
+description = "Closure, specialist-sharing and recruitment model for Minneapolis Public Schools"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: repeats the full closure search (about a minute)"]
+addopts = "-m 'not slow'"

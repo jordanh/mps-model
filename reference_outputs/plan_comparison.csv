@@ -1,0 +1,6 @@
+plan,schools_closed,closed,students_moved,gross_closure_savings,specialist_sharing_savings,gross_savings,bus_cost,lost_family_cost,one_time_amortized,total_costs,net_savings,students_lost,budget_gap,remaining_gap,new_students_to_recruit,sharing_pairs
+Optimum plan (5 closures),5,Heritage; Longfellow; Cityview; Wellstone; FAIR,776,10883378,2814648,13698026,331580,756855,600000,1688435,12009590,132,35000000,22990410,3999,13
+3-closure plan,3,Heritage; Longfellow; Cityview,291,7796068,2814648,10610716,274921,301675,360000,936596,9674119,52,35000000,25325881,4405,13
+District Option 1,15,Cityview; HIA; Loring; Pratt; Webster; Anwatin; Wenonah; Kenny; Lake Harriet Lower; Field; Bethune; FAIR; Heritage; Longfellow; Wellstone,3338,24244882,599084,24843966,7874638,8057785,1800000,17732423,7111543,1401,35000000,27888457,4851,2
+District Option 2,14,HIA; Loring; Pratt; Anwatin; Hiawatha; Howe; Wenonah; Kenny; Lake Harriet Lower; Bethune; FAIR; Heritage; Longfellow; Wellstone,3032,22131324,702964,22834288,8067698,7063452,1680000,16811150,6023138,1228,35000000,28976862,5040,3
+District Option 3,16,Cityview; HIA; Loring; Pratt; Anwatin; Hiawatha; Howe; Wenonah; Kenny; Lake Harriet Lower; Field; Bethune; FAIR; Heritage; Longfellow; Wellstone,3538,24020827,198126,24218953,9604975,9181785,1920000,20706760,3512193,1597,35000000,31487807,5477,1

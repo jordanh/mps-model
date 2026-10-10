@@ -1,0 +1,61 @@
+school,address,lat,lon,coord_quality,source
+Cityview,"3350 N 4th St, Minneapolis, MN 55412",45.0143,-93.2845,approx,address: MPS records; coords: grid estimate
+HIA,"1501 30th Ave N, Minneapolis, MN 55411",45.0077,-93.2990,approx,address: exploremps.org; coords: grid estimate
+Jenny Lind,"5025 Bryant Ave N, Minneapolis, MN 55430",45.0435,-93.2905,approx,address: MPS records; coords: grid estimate
+Loring,"2600 44th Ave N, Minneapolis, MN 55412",45.0330,-93.3130,approx,address: MPS records; coords: grid estimate
+Lucy Laney,"3333 Penn Ave N, Minneapolis, MN 55412",45.0140,-93.3085,approx,address: MPS records; coords: grid estimate
+Olson,"1607 51st Ave N, Minneapolis, MN 55430",45.0457,-93.3005,approx,address: MPS records; coords: grid estimate
+Camden,"4320 Newton Ave N, Minneapolis, MN 55412",45.0315,-93.3045,approx,address: exploremps.org; coords: grid estimate
+Pillsbury,"2250 Garfield St NE, Minneapolis, MN 55418",45.0057,-93.2430,approx,address: MPS records; coords: grid estimate
+Pratt,"66 Malcolm Ave SE, Minneapolis, MN 55414",44.9690,-93.2155,approx,address: MPS records; coords: grid estimate
+Waite Park,"1800 34th Ave NE, Minneapolis, MN 55418",45.0255,-93.2330,approx,address: MPS records; coords: grid estimate
+Webster,"425 5th St NE, Minneapolis, MN 55413",44.9915,-93.2595,approx,address: MPS records; coords: grid estimate
+Northeast,"2955 Hayes St NE, Minneapolis, MN 55418",45.0165,-93.2400,approx,address: MPS records; coords: grid estimate
+Edison,"700 22nd Ave NE, Minneapolis, MN 55418",45.0055,-93.2570,approx,address: MPS records; coords: grid estimate
+Bryn Mawr,"252 Upton Ave S, Minneapolis, MN 55405",44.9727,-93.3135,approx,address: MPS records; coords: grid estimate
+Kenwood,"2013 Penn Ave S, Minneapolis, MN 55405",44.9615,-93.3085,approx,address: MPS records; coords: grid estimate
+Nellie Stone Johnson,"807 27th Ave N, Minneapolis, MN 55411",45.0025,-93.2915,approx,address: MPS records; coords: grid estimate
+Anwatin,"256 Upton Ave S, Minneapolis, MN 55405",44.9725,-93.3135,approx,address: MPS records; coords: grid estimate (shares campus with Bryn Mawr)
+North,"1500 James Ave N, Minneapolis, MN 55411",44.9970,-93.3005,approx,address: MPS records; coords: grid estimate
+Franklin,"1501 Aldrich Ave N, Minneapolis, MN 55411",44.9965,-93.2895,approx,address: MPS records; coords: grid estimate
+Hiawatha,"4201 42nd Ave S, Minneapolis, MN 55406",44.9268,-93.2135,approx,address: MPS records; coords: grid estimate
+Howe,"3733 43rd Ave S, Minneapolis, MN 55406",44.9345,-93.2120,approx,address: MPS records; coords: grid estimate
+Keewaydin,"5209 30th Ave S, Minneapolis, MN 55417",44.9088,-93.2290,approx,address: MPS records; coords: grid estimate
+Northrop,"1611 E 46th St, Minneapolis, MN 55407",44.9195,-93.2525,approx,address: MPS records; coords: grid estimate
+Wenonah,"5625 23rd Ave S, Minneapolis, MN 55417",44.9010,-93.2390,approx,address: MPS records; coords: grid estimate
+Sanford,"3524 42nd Ave S, Minneapolis, MN 55406",44.9385,-93.2135,approx,address: MPS records; coords: grid estimate
+Roosevelt,"4029 28th Ave S, Minneapolis, MN 55406",44.9302,-93.2312,approx,address: MPS records; coords: grid estimate
+Bancroft,"1315 E 38th St, Minneapolis, MN 55407",44.9345,-93.2555,approx,address: MPS records; coords: grid estimate
+Dowling,"3900 W River Pkwy, Minneapolis, MN 55406",44.9325,-93.2045,approx,address: MPS records; coords: grid estimate
+Folwell,"3611 20th Ave S, Minneapolis, MN 55407",44.9375,-93.2440,approx,address: MPS records; coords: grid estimate
+Whittier,"315 W 26th St, Minneapolis, MN 55404",44.9557,-93.2815,approx,address: MPS records; coords: grid estimate
+Andersen,"1098 Andersen Ln, Minneapolis, MN 55407",44.9565,-93.2525,approx,address: exploremps.org; coords: grid estimate
+South,"3131 19th Ave S, Minneapolis, MN 55407",44.9455,-93.2460,approx,address: MPS records; coords: grid estimate
+Armatage,"2501 W 56th St, Minneapolis, MN 55410",44.9015,-93.3095,approx,address: MPS records; coords: grid estimate
+Kenny,"5720 Emerson Ave S, Minneapolis, MN 55419",44.8990,-93.2945,approx,address: MPS records; coords: grid estimate
+Lake Harriet Lower,"4030 Chowen Ave S, Minneapolis, MN 55410",44.9303,-93.3255,approx,address: task brief / MPS records; coords: grid estimate
+Lake Harriet Upper,"4912 Vincent Ave S, Minneapolis, MN 55410",44.9140,-93.3155,approx,address: MPS records; coords: grid estimate
+Windom,"5821 Wentworth Ave S, Minneapolis, MN 55419",44.8985,-93.2810,approx,address: MPS records; coords: grid estimate
+Anthony,"5757 Irving Ave S, Minneapolis, MN 55419",44.8995,-93.2995,approx,address: MPS records; coords: grid estimate
+Southwest,"3414 W 47th St, Minneapolis, MN 55410",44.9185,-93.3285,approx,address: MPS records; coords: grid estimate
+Barton,"4237 Colfax Ave S, Minneapolis, MN 55409",44.9265,-93.2920,approx,address: MPS records; coords: grid estimate
+Burroughs,"1601 W 50th St, Minneapolis, MN 55419",44.9118,-93.2985,approx,address: MPS records; coords: grid estimate
+Field,"4645 4th Ave S, Minneapolis, MN 55419",44.9190,-93.2715,approx,address: MPS records; coords: grid estimate
+Hale,"1220 E 54th St, Minneapolis, MN 55417",44.9055,-93.2565,approx,address: MPS records; coords: grid estimate
+Lyndale,"312 W 34th St, Minneapolis, MN 55408",44.9410,-93.2815,approx,address: MPS records; coords: grid estimate
+Justice Page,"1 W 49th St, Minneapolis, MN 55419",44.9145,-93.2775,approx,address: exploremps.org; coords: grid estimate
+Washburn,"201 W 49th St, Minneapolis, MN 55419",44.9145,-93.2810,approx,address: MPS records; coords: grid estimate
+Anishinabe,"3239 44th Ave S, Minneapolis, MN 55406 (planned; currently 3100 E 28th St)",44.9444,-93.2110,approx,address: task brief (former Cooper site); exploremps.org lists current location 3100 E 28th St; coords: grid estimate
+Bethune,"919 Emerson Ave N, Minneapolis, MN 55411",44.9855,-93.2943,approx,address: MPS records; coords: grid estimate
+Ella Baker,"1200 W 26th St, Minneapolis, MN 55405",44.9560,-93.2945,approx,address: ellabaker.mpschools.org and exploremps.org (same building as Las Estrellas); coords: grid estimate
+Emerson,"1421 Spruce Pl, Minneapolis, MN 55403",44.9695,-93.2810,approx,address: MPS records; coords: grid estimate
+Green,"3416 4th Ave S, Minneapolis, MN 55408",44.9405,-93.2715,approx,address: MPS records; coords: grid estimate
+Hall,"1601 Aldrich Ave N, Minneapolis, MN 55411",44.9980,-93.2895,approx,address: MPS records; coords: grid estimate
+Las Estrellas,"1200 W 26th St, Minneapolis, MN 55405",44.9560,-93.2945,approx,address: task brief / exploremps.org; coords: grid estimate
+Marcy,"415 4th Ave SE, Minneapolis, MN 55414",44.9870,-93.2510,approx,address: MPS records; coords: grid estimate
+Seward,"2309 28th Ave S, Minneapolis, MN 55406",44.9600,-93.2310,approx,address: MPS records; coords: grid estimate
+Sullivan,"3100 E 28th St, Minneapolis, MN 55406",44.9522,-93.2262,approx,address: MPS records / exploremps.org; coords: grid estimate
+FAIR,"10 S 10th St, Minneapolis, MN 55403",44.9745,-93.2745,approx,address: task brief; coords: grid estimate
+Heritage,"3345 Chicago Ave S, Minneapolis, MN 55407",44.9415,-93.2625,approx,address: exploremps.org (Wilder complex); coords: grid estimate
+Longfellow,"3017 E 31st St, Minneapolis, MN 55406",44.9467,-93.2285,approx,address: exploremps.org; coords: grid estimate
+Wellstone,"1501 Hennepin Ave, Minneapolis, MN 55403",44.9690,-93.2850,approx,address: exploremps.org; coords: grid estimate

@@ -1,0 +1,456 @@
+{
+  "_note": "Every value here is adjustable. 'src' says where it came from; ESTIMATE means no public figure was found and the value is a reasoned estimate. Re-run closure_model.py after editing.",
+  "budget": {
+    "structural_gap": {
+      "value": 35000000,
+      "src": "ESTIMATE (central of $25-45M): FY28 structural gap. FY27 GF adopted $734.7M (budget.mpschools.org, June 9 2026) closed a $39.7M gap with recurring cuts; drivers (3-4% comp growth on ~$580M staff vs 2-3% formula growth) continue. No published FY28 figure as of Oct 2026."
+    },
+    "revenue_per_pupil": {
+      "value": 11500,
+      "src": "ESTIMATE from FY27 MPS budget: marginal revenue lost/gained per student = basic formula $7,683/APU (FY27) + referendum ~$2,140 + compensatory if eligible; range $10-13.5k. City Auditor rule of thumb ~$10k."
+    },
+    "variable_cost_share": {
+      "value": 0.5,
+      "src": "ESTIMATE (revised Oct. 9, 2026 after review): blended marginal cost of an added or lost student. About 30% of revenue follows a student who fills a seat in an existing class (supplies, services, some aide time). A student who forces a new class also needs about 1/25 of a teacher plus 0.2 FTE specialist (about $6,000, another 52% of revenue). Recruits cluster at K entry and popular schools; assuming about 40% need new classes gives 30% + 0.4 x 52% = about 51%, used as 50%. Previous value 0.30."
+    }
+  },
+  "staff_cost": {
+    "teacher_loaded": {
+      "value": 123762,
+      "src": "MPS FY27 average teacher incl. ~37.7% fringe (budget book); used for specialists, interventionists, counselors and social workers (counselor $136k, SW $127k)"
+    },
+    "esp_loaded": {
+      "value": 62000,
+      "src": "ESTIMATE: education support professional, loaded"
+    },
+    "office_loaded": {
+      "value": 75410,
+      "src": "MPS FY27 average school secretary, loaded"
+    },
+    "principal_loaded": {
+      "value": 220000,
+      "src": "ESTIMATE ($210-230k loaded)"
+    },
+    "ap_loaded": {
+      "value": 190000,
+      "src": "ESTIMATE ($180-200k loaded)"
+    },
+    "custodian_loaded": {
+      "value": 82000,
+      "src": "PLACEHOLDER"
+    },
+    "engineer_loaded": {
+      "value": 98000,
+      "src": "PLACEHOLDER"
+    }
+  },
+  "building": {
+    "utilities_per_sqft": {
+      "value": 0.635,
+      "src": "MPS deck slide 111: Option 1 removes ~1.0M operating sq ft (8.2M -> 7.2M) for $635,000/yr utility savings"
+    },
+    "maintenance_per_sqft": {
+      "value": 1.25,
+      "src": "ESTIMATE: routine maintenance/repairs avoided on a mothballed building; mothballing still costs ~$0.40/sqft (security, minimal heat), netted below"
+    },
+    "mothball_cost_per_sqft": {
+      "value": 0.4,
+      "src": "ESTIMATE: cost of keeping an unprogrammed building secure and heated"
+    },
+    "sqft_per_custodian": {
+      "value": 36600,
+      "src": "MPS deck slide 111: current sq ft per custodial FTE"
+    },
+    "custodial_savings_share": {
+      "value": 0.5,
+      "src": "ESTIMATE: deck assumes custodial staffing is redeployed to raise cleaning level; we count half as savings"
+    },
+    "one_time_closure_cost": {
+      "value": 600000,
+      "src": "ESTIMATE: moving, IT, signage, receiving-school prep per closed building (one-time, amortized over 5 years in net figures)"
+    },
+    "amortization_years": {
+      "value": 5,
+      "src": "ESTIMATE"
+    }
+  },
+  "class_size": {
+    "elementary": {
+      "value": 26,
+      "src": "ESTIMATE: blended K-5 section cap under MFT contract class-size targets"
+    },
+    "middle": {
+      "value": 30,
+      "src": "ESTIMATE"
+    },
+    "k8": {
+      "value": 27,
+      "src": "ESTIMATE"
+    }
+  },
+  "staff_floors": {
+    "_doc": "FTE required per building = max(floor, enrollment / students_per_fte). Encodes the 'MPS student experience' floors from deck slides 84-90.",
+    "elementary": {
+      "specialist": {
+        "floor": 3,
+        "per": 150,
+        "cost": "teacher_loaded"
+      },
+      "interventionist": {
+        "floor": 2,
+        "per": 250,
+        "cost": "teacher_loaded"
+      },
+      "social_worker": {
+        "floor": 1,
+        "per": 400,
+        "cost": "teacher_loaded"
+      },
+      "behavior_esp": {
+        "floor": 1,
+        "per": 300,
+        "cost": "esp_loaded"
+      },
+      "nurse_health": {
+        "floor": 0.5,
+        "per": 700,
+        "cost": "esp_loaded"
+      },
+      "media": {
+        "floor": 0.5,
+        "per": 700,
+        "cost": "teacher_loaded"
+      },
+      "office": {
+        "floor": 2,
+        "per": 300,
+        "cost": "office_loaded"
+      },
+      "principal": {
+        "floor": 1,
+        "per": 100000,
+        "cost": "principal_loaded"
+      },
+      "assistant_principal": {
+        "floor": 0,
+        "per": 550,
+        "cost": "ap_loaded"
+      }
+    },
+    "middle": {
+      "exploratory_specialist": {
+        "floor": 4,
+        "per": 150,
+        "cost": "teacher_loaded"
+      },
+      "interventionist": {
+        "floor": 2,
+        "per": 300,
+        "cost": "teacher_loaded"
+      },
+      "counselor": {
+        "floor": 1,
+        "per": 350,
+        "cost": "teacher_loaded"
+      },
+      "social_worker": {
+        "floor": 1,
+        "per": 400,
+        "cost": "teacher_loaded"
+      },
+      "tosa": {
+        "floor": 1,
+        "per": 100000,
+        "cost": "teacher_loaded"
+      },
+      "security": {
+        "floor": 1,
+        "per": 400,
+        "cost": "esp_loaded"
+      },
+      "behavior_esp": {
+        "floor": 1,
+        "per": 300,
+        "cost": "esp_loaded"
+      },
+      "office": {
+        "floor": 2,
+        "per": 300,
+        "cost": "office_loaded"
+      },
+      "principal": {
+        "floor": 1,
+        "per": 100000,
+        "cost": "principal_loaded"
+      },
+      "assistant_principal": {
+        "floor": 1,
+        "per": 450,
+        "cost": "ap_loaded"
+      }
+    }
+  },
+  "transport": {
+    "cost_per_rider_fixed": {
+      "value": 1600,
+      "src": "Calibrated so an average rider (~2.5 road mi) costs ~$3,850/yr: MPS $73M (2024-25) / ~19,000 daily riders"
+    },
+    "cost_per_rider_mile": {
+      "value": 900,
+      "src": "Calibrated with the fixed term to MPS average $3,850/rider/yr"
+    },
+    "circuity": {
+      "value": 1.35,
+      "src": "ESTIMATE: road distance / straight-line distance on the Minneapolis grid with river and freeway barriers"
+    },
+    "walk_zone_elem_mi": {
+      "value": 0.5,
+      "src": "MPS deck slide 114"
+    },
+    "walk_zone_middle_mi": {
+      "value": 1.0,
+      "src": "MPS deck slide 114"
+    },
+    "attendance_radius_mi": {
+      "value": 0.9,
+      "src": "ESTIMATE: mean home-to-school distance in a K-5 attendance area (~2.5 sq mi per area)"
+    },
+    "share_riding_now": {
+      "value": 0.55,
+      "src": "ESTIMATE: share of community-school students currently bused (outside 0.5 mi walk zone)"
+    },
+    "spare_rider_capacity": {
+      "value": 600,
+      "src": "ESTIMATE: new riders that fit on existing routes before new buses/routes are needed"
+    },
+    "congestion_multiplier": {
+      "value": 1.6,
+      "src": "ESTIMATE: marginal cost multiplier for riders beyond spare capacity (new routes, driver-shortage premiums, longer tiers)"
+    },
+    "max_ride_mi_before_premium": {
+      "value": 3.0,
+      "src": "ESTIMATE: beyond this one-way road distance a dedicated route is needed"
+    },
+    "long_ride_premium_per_mi": {
+      "value": 900,
+      "src": "ESTIMATE: extra annual cost per rider per mile beyond the threshold"
+    }
+  },
+  "attrition": {
+    "_doc": "Students lost = direct (displaced students) + spillover (whole-district confidence). Both grow non-linearly with the number of closures N.",
+    "direct_base": {
+      "value": 0.08,
+      "src": "Chicago 2013 closures: ~6% of displaced students left the district (UChicago Consortium); +2 pts for Minneapolis's dense charter/open-enrollment market (42% of residents already outside MPS, 2022-23)"
+    },
+    "direct_growth_per_closure": {
+      "value": 0.003,
+      "src": "ESTIMATE: displaced families more likely to leave as more schools close (N=15 -> ~20% direct)"
+    },
+    "direct_growth_exponent": {
+      "value": 1.4,
+      "src": "ESTIMATE: convex growth"
+    },
+    "direct_per_extra_mile": {
+      "value": 0.04,
+      "src": "ESTIMATE: +4 pts leave rate per extra mile to the new school"
+    },
+    "split_body_penalty": {
+      "value": 0.04,
+      "src": "ESTIMATE: +4 pts when a school community is split across receivers"
+    },
+    "pathway_break_penalty": {
+      "value": 0.06,
+      "src": "ESTIMATE: +6 pts when students must leave their current high school pathway"
+    },
+    "direct_cap": {
+      "value": 0.6,
+      "src": "ESTIMATE"
+    },
+    "spillover_scale": {
+      "value": 5.2e-05,
+      "src": "ESTIMATE: share of ALL remaining students who leave = scale * N^2.2 (N=15 -> ~2%, ~500 students). Local evidence: MPS 2021 redesign (no closures) coincided with >4,200 students (>10%) leaving in two years"
+    },
+    "spillover_exponent": {
+      "value": 2.2,
+      "src": "ESTIMATE: confidence collapse is strongly convex"
+    }
+  },
+  "sharing": {
+    "levels": [
+      "elementary",
+      "k8"
+    ],
+    "max_combined_enrollment": {
+      "value": 700,
+      "src": "ESTIMATE: 3 specialists rotating half-days can cover ~28 sections (~700 students) across two buildings"
+    },
+    "fte_saved_per_pair": {
+      "value": 3,
+      "src": "User ask: specialists split half days at two schools; two 3-FTE floors become one shared 3-FTE team"
+    },
+    "max_travel_minutes": {
+      "value": 15,
+      "src": "ESTIMATE: midday transfer longer than ~15 min (about 2 road miles) costs a teaching period and is impractical"
+    },
+    "avg_speed_mph": {
+      "value": 18,
+      "src": "ESTIMATE: city driving incl. parking"
+    },
+    "fixed_transfer_minutes": {
+      "value": 8,
+      "src": "ESTIMATE: parking, sign-in, setup"
+    },
+    "workday_minutes": {
+      "value": 435,
+      "src": "ESTIMATE: 7.25 hr teacher duty day"
+    },
+    "school_days": {
+      "value": 174,
+      "src": "MPS calendar (approx.)"
+    },
+    "mileage_rate": {
+      "value": 0.725,
+      "src": "IRS 2026 standard mileage rate"
+    },
+    "coordination_cost_per_pair": {
+      "value": 15000,
+      "src": "ESTIMATE: scheduling/stipends, duplicate materials"
+    }
+  },
+  "policy": {
+    "growth_protect_threshold": {
+      "value": 0.15,
+      "src": "User ask: preserve schools in areas with large projected growth (10-yr change map). Communities >= +15% protected: Central, Phillips, University, Longfellow, Near North, Northeast"
+    },
+    "protect_comprehensive_hs": {
+      "value": true,
+      "src": "User ask: preserve current high school pathways"
+    },
+    "protect_new_builds": [
+      "Anishinabe"
+    ],
+    "receiver_capacity_basis": {
+      "value": "design_hi",
+      "src": "Workbook 'Modeled Future Design Enrollment' upper bound"
+    },
+    "receiver_growth_reserve": {
+      "value": true,
+      "src": "Receivers keep room for their community's projected 10-yr growth"
+    },
+    "max_closures": {
+      "value": 16,
+      "src": "User ask"
+    },
+    "extended_curve_max": {
+      "value": 30,
+      "src": "Extension to show where costs explode"
+    },
+    "pathway_overrides": {
+      "value": {
+        "Kenwood": "Southwest"
+      },
+      "src": "Reviewer and Jordan (Oct 8, 2026): return Kenwood to the Southwest High pathway it fed before the 2021 redesign. Southwest has 1,170 students in a building designed for 1,959-2,177 (workbook), so it has room."
+    },
+    "protect_neighborhood_middle": {
+      "value": [
+        "Anwatin"
+      ],
+      "src": "Anwatin is the walkable neighborhood middle school for Kenwood and Bryn Mawr (1.1 and 0.2 road mi). Closing it sends Kenwood 6-8 students to Franklin in North Minneapolis (3.0 mi) or to Anthony (5.7 mi). Kept open so Kenwood's path is Kenwood - Anwatin - Southwest."
+    },
+    "district_option_splits": {
+      "value": {
+        "2": {
+          "Anwatin": {
+            "Anthony": 0.48,
+            "Franklin": 0.52
+          }
+        },
+        "3": {
+          "Anwatin": {
+            "Anthony": 0.48,
+            "Franklin": 0.52
+          }
+        }
+      },
+      "src": "District Options 2 and 3 send Kenwood-area students through Anthony Middle to Southwest; North Bryn Mawr goes to Franklin and North (Ward 7 News, Sept. 18, 2026; North News, Sept. 27, 2026). Kenwood share of Anwatin = Kenwood K-5 / (Kenwood + Bryn Mawr K-5) = 370 / 767 = 0.48. ESTIMATE"
+    },
+    "optimum_tolerance": {
+      "value": 100000,
+      "src": "Floor on the tolerance below, in $ a year (the earlier rule, Oct 8, 2026)."
+    },
+    "optimum_tolerance_share": {
+      "value": 0.05,
+      "src": "Policy (Jordan, Oct. 10, 2026): pick the fewest closures whose net savings are within 5% of the peak. Net savings are flat from 5 to 9 closures (within $0.6M a year, under 2% of the $35M gap), and the plan aims for as few closures as possible."
+    },
+    "receiver_max_share_of_mps_design": {
+      "value": 0.9,
+      "src": "Policy (added Oct. 9, 2026 after Minneapolis Families for Public Schools' review): a receiving school may be filled to at most 90% of its design enrollment in MPS's 2024 Physical Space Study (the figure on MPS's public building reports), leaving room for growth and for programs. MPS rates 70-90% 'efficient'."
+    }
+  },
+  "recruitment": {
+    "_doc": "Used by levers.py. Turns the recruitment lever into a cost and a risk so the three plans can be compared on all three levers.",
+    "base_cost_per_recruit": {
+      "value": 1000,
+      "src": "Florida pay-per-recruit enrollment contracts 2025-26: $935-985 per student enrolled (research_finance_sources.md section 8); rounded up"
+    },
+    "volume_half_point": {
+      "value": 8000,
+      "src": "ESTIMATE: average cost per recruit rises linearly with volume as easier families are reached first; cost doubles at 8,000 recruits"
+    },
+    "trust_sensitivity": {
+      "value": 0.25,
+      "src": "ESTIMATE: each 1% of district enrollment lost to spillover (loss of confidence) raises recruiting cost 25%; families who watched neighboring schools close are harder to win back"
+    },
+    "campaign_years": {
+      "value": 3,
+      "src": "Plan: three enrollment cycles 2027-28 to 2029-30"
+    },
+    "amortization_years": {
+      "value": 5,
+      "src": "ESTIMATE: recruited students stay several years; one-time campaign cost spread over 5 years"
+    },
+    "district_baseline_recruits": {
+      "value": 0,
+      "src": "District deck slide 95: enrollment strategies project ~28,000 K-12 students in 2030-31 and 2035-36, i.e. roughly flat; no net growth beyond today"
+    },
+    "underdelivery_test": {
+      "value": 0.6,
+      "src": "Stress test: recruitment delivers only 60% of target"
+    },
+    "resident_pool": {
+      "value": 25348,
+      "src": "MPS deck slide 96: residents in charters 13,389 + open enrollment out 6,685 + nonpublic 4,814 + homeschool 460"
+    },
+    "evidence_pace_pct": {
+      "value": 0.02,
+      "src": "Saint Paul Public Schools 2024-25: +2% (~600 students) in its best recent year (state Oct 1 count), aided by immigration; Detroit 2025 +1.1%. No urban precedent found for >3%/yr from recruitment alone (case_studies_other.md)"
+    },
+    "stretch_pace_pct": {
+      "value": 0.03,
+      "src": "Stretch: stacks pre-K3/4 pipeline (DC lottery study: +16.8 pts K enrollment for Pre-K3 winners), identity/dual-language programs (SPPS +16-58% at those schools), re-enrollment metrics, and no further closures"
+    },
+    "base_enrollment": {
+      "value": 29149,
+      "src": "MPS FY27 projected enrollment"
+    },
+    "capacity_response": {
+      "_doc": "Added Oct. 9, 2026 at Jordan's request: the net value of each added student depends on how full the district's open buildings are on average (enrollment / column N design enrollment, after closures and departures).",
+      "full_benefit_until_util": {
+        "value": 0.8,
+        "src": "Policy choice (Jordan): below 80% average utilization each recruit is worth the full net revenue ($5,750)."
+      },
+      "taper_end_util": {
+        "value": 0.9,
+        "src": "Policy choice (Jordan): from 80% to 90% the value falls as more recruits must be bussed to buildings with room; at 90% new classrooms or buildings are needed."
+      },
+      "bus_cost_per_added_rider": {
+        "value": 3850,
+        "src": "MPS transportation about $73M (2024-25) / about 19,000 daily riders = $3,850 a rider a year. Phased in linearly from 80% to 90% utilization."
+      },
+      "new_capacity_cost_per_seat": {
+        "value": 3800,
+        "src": "ESTIMATE: reopening a closed elementary of about 450 seats: staffing floors (principal, office, specialists, interventionists, social worker) about $1.27M + building operations about $0.30M + reopening cost $0.6M over 5 years ($0.12M) = about $1.7M a year, or about $3,800 a seat. Applies to every recruit above 90% utilization, on top of busing."
+      }
+    }
+  }
+}
