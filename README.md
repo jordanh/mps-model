@@ -75,7 +75,7 @@ data/compiled/  ─────────┘   (one record     (net savings of
 3. **Search** (`search.py`). For each number of closures N from 1 to 30, a greedy search with
    one-for-one swaps finds the closure set with the highest net savings.
 4. **Plans** (`plans.py`). Net savings are nearly flat from 5 to 9 closures. The Middle Ground plan
-   is the fewest closures within 5% of the best. Family Trust is the best two-closure set. The
+   is locked at 5 closures, the fewest within 5% of the best. Family Trust is the best two-closure set. The
    district's options are scored with the same model.
 5. **Levers** (`levers.py`, `recruitment.py`). The gap left after closures and sharing must come from
    recruitment. Each recruit is worth about $5,750 a year until the open buildings pass 80% full,

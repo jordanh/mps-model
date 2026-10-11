@@ -1,8 +1,9 @@
 """Images sized for the image frames of our presentation deck (optional: `--deck-images`).
 
 Maps are cropped to the district (title band removed, legend kept) and padded with white to each
-frame's aspect ratio. Slide numbers refer to our designed deck. Also draws the growth map with the
-protected communities ringed (slide 22).
+frame's aspect ratio. File names start with the page of the 53-page designed deck (Oct. 11, 2026
+order: Family Trust, Middle Ground, Footprint-First). Also draws the growth map with the protected
+communities ringed (page 23).
 """
 import shutil
 
@@ -16,27 +17,27 @@ FRAME_HEIGHT = 2000
 
 # (source figure, deck image, frame width / height measured from the designed PDF)
 DECK_MAPS = [
-    ("fig8_map_family_trust_plan.png", "slide10_family_trust_map.png", 0.87),
-    ("figA1_map_district_option1.png", "slide11_footprint_first_thumbnail.png", 0.60),
-    ("fig3_map_optimum_plan.png", "slide12_middle_ground_map.png", 0.71),
-    ("fig3_map_optimum_plan.png", "slide27_middle_ground_map.png", 1.60),
-    ("figA1_map_district_option1.png", "slide28_footprint_first_option1_map.png", 1.59),
-    ("figA1_map_district_option1.png", "slide50_district_option1_map.png", 1.58),
-    ("figA2_map_district_option2.png", "slide51_district_option2_map.png", 1.58),
-    ("figA3_map_district_option3.png", "slide52_district_option3_map.png", 1.58),
+    ("fig8_map_family_trust_plan.png", "page11_family_trust_map.png", 0.87),
+    ("figA1_map_district_option1.png", "page13_footprint_first_thumbnail.png", 0.60),
+    ("fig3_map_optimum_plan.png", "page12_middle_ground_map.png", 0.71),
+    ("fig3_map_optimum_plan.png", "page28_middle_ground_map.png", 1.60),
+    ("figA1_map_district_option1.png", "page30_footprint_first_option1_map.png", 1.59),
+    ("figA1_map_district_option1.png", "page48_district_option1_map.png", 1.58),
+    ("figA2_map_district_option2.png", "page49_district_option2_map.png", 1.58),
+    ("figA3_map_district_option3.png", "page50_district_option3_map.png", 1.58),
 ]
 DECK_COPIES = [  # figures and tables used as they are
-    ("fig9_kenwood_pathway.png", "new_slide_kenwood_pathway.png"),
-    ("fig1_net_savings_vs_closures.png", "slide25_net_savings_curve.png"),
-    ("fig10_glide_path.png", "slide14_glide_path.png"),
-    ("fig7_lever_tradeoff.png", "slide07_lever_tradeoff.png"),
-    ("fig11_capacity_class_size.png", "slide27b_capacity_class_size.png"),
-    ("fig12_recruit_value_capacity.png", "slide07b_recruit_value_capacity.png"),
+    ("fig9_kenwood_pathway.png", "page14_kenwood_pathway.png"),
+    ("fig1_net_savings_vs_closures.png", "page26_net_savings_curve.png"),
+    ("fig10_glide_path.png", "page16_glide_path.png"),
+    ("fig7_lever_tradeoff.png", "page07_lever_tradeoff.png"),
+    ("fig11_capacity_class_size.png", "page29_capacity_class_size.png"),
+    ("fig12_recruit_value_capacity.png", "page08_recruit_value_capacity.png"),
 ]
 DECK_TABLES = [
-    ("lever_tradeoff_by_closures.csv", "slide07_lever_tradeoff_data.csv"),
-    ("three_plans_levers.csv", "slide07b_recruit_value_data.csv"),
-    ("capacity_class_size_impacts.csv", "slide27b_capacity_data.csv"),
+    ("lever_tradeoff_by_closures.csv", "page07_lever_tradeoff_data.csv"),
+    ("three_plans_levers.csv", "page08_recruit_value_data.csv"),
+    ("capacity_class_size_impacts.csv", "page29_capacity_data.csv"),
 ]
 
 # Projected 10-year change by community, as printed on the district's growth map, and where each
@@ -93,7 +94,7 @@ def growth_slide(out_dir):
     fig.text(0.53, 0.04, "Blue rings mark the six protected communities.\n"
              "Source: MPS, 10-year projected change in where students attend MPS schools.",
              fontsize=12, color=INK2, linespacing=1.5)
-    fig.savefig(out_dir / "slide22_growth_map_protected.png", facecolor="white")
+    fig.savefig(out_dir / "page23_growth_map_protected.png", facecolor="white")
     plt.close(fig)
 
 

@@ -378,6 +378,10 @@
       },
       "src": "District Options 2 and 3 send Kenwood-area students through Anthony Middle to Southwest; North Bryn Mawr goes to Franklin and North (Ward 7 News, Sept. 18, 2026; North News, Sept. 27, 2026). Kenwood share of Anwatin = Kenwood K-5 / (Kenwood + Bryn Mawr K-5) = 370 / 767 = 0.48. ESTIMATE"
     },
+    "middle_ground_closures": {
+      "value": 5,
+      "src": "Policy (Jordan, Oct. 10, 2026): Middle Ground is locked at 5 closures. The within-5%-of-peak rule below is now a check, not the selector (it picks 5 under routed central assumptions, by about $8,500). Set to null to let the rule choose."
+    },
     "optimum_tolerance": {
       "value": 100000,
       "src": "Floor on the tolerance below, in $ a year (the earlier rule, Oct 8, 2026)."

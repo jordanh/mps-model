@@ -1,7 +1,8 @@
 """The named plans and the closure-only comparison tables.
 
-  Middle Ground   the "optimum": the fewest closures whose net savings are within 5% of the best
-                  closure set's (policy.optimum_tolerance_share, with a $0.1M floor)
+  Middle Ground   5 closures (policy.middle_ground_closures, locked Oct. 10, 2026). Without the lock,
+                  the fewest closures whose net savings are within 5% of the best closure set's
+                  (policy.optimum_tolerance_share, with a $0.1M floor)
   Family Trust    the best 2-closure set (in practice two high school program merges)
   3-closure plan  a reference variant
   District Options 1-3  the district's own proposals (Footprint-First), evaluated with the same model
@@ -32,8 +33,13 @@ def optimum_tolerance(peak, assumptions):
 
 
 def optimum_size(curve, assumptions):
-    """Fewest closures whose net savings are within the tolerance of the best, up to max_closures.
-    Net savings are nearly flat around the peak, so this picks the least disruptive plan on that plateau."""
+    """The Middle Ground's number of closures: policy.middle_ground_closures when set (locked at 5 on
+    Oct. 10, 2026), otherwise the fewest closures whose net savings are within the tolerance of the
+    best, up to max_closures. Net savings are nearly flat around the peak, so the rule picks the least
+    disruptive plan on that plateau."""
+    locked = assumptions.get("policy", "middle_ground_closures")
+    if locked is not None:
+        return int(locked)
     max_closures = assumptions.get("policy", "max_closures")
     in_range = {n: r.net_savings for n, r in curve.items() if n <= max_closures}
     peak = max(in_range.values())

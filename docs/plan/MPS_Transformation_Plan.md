@@ -1,11 +1,11 @@
 # Three Levers, Three Plans: Balancing the MPS Budget While Keeping Families' Trust
 
-*An alternative to the district's September 15, 2026 Options 1 to 3. Prepared October 8, 2026; revised October 9, 2026 with a higher cost per added student and a receiving-school capacity limit (Loring stays open; Jenny Lind merges into Lucy Laney), and again with capacity from the 2024 Physical Space Study for every building and a recruit value that falls as buildings pass 80% and 90% full, and on Oct. 10, 2026 with a Middle Ground of 5 closures, the fewest within 5% of the best net savings (Jenny Lind and Wenonah stay open). Revised again on Oct. 10, 2026 with distances and driving times routed on real streets instead of estimated from straight lines (Section 8.1). Many numbers moved slightly; the closures chosen did not change.*
+*An alternative to the district's September 15, 2026 Options 1 to 3. Prepared October 8, 2026; revised October 9, 2026 with a higher cost per added student and a receiving-school capacity limit (Loring stays open; Jenny Lind merges into Lucy Laney), and again with capacity from the 2024 Physical Space Study for every building and a recruit value that falls as buildings pass 80% and 90% full, and on Oct. 10, 2026 with a Middle Ground of 5 closures, the fewest within 5% of the best net savings (Jenny Lind and Wenonah stay open). Revised again on Oct. 10, 2026 with distances and driving times routed on real streets instead of estimated from straight lines (Section 8.1). Many numbers moved slightly; the closures chosen did not change. On Oct. 11, 2026, after community feedback, the deck presents the plans in the order this document introduces them (Family Trust, Middle Ground, Footprint-First) and rewords four headlines; no numbers changed.*
 
-> **How to read the numbers.** Every dollar figure is an annual, steady-state estimate from the model in `model/`:
+> **How to read the numbers.** Every dollar figure is an annual, steady-state estimate from the model in `mps_model_repo/` (the older `model/` folder is superseded):
 > - `closure_model.py` handles closures, bussing, families leaving and specialist sharing.
 > - `levers.py` handles recruitment cost, pace and bridge funding.
-> - Inputs are in `model/assumptions.json`.
+> - Inputs are in `mps_model_repo/config/assumptions.json`.
 >
 > District facts come from the Sept. 15, 2026 deck and the Oct. 6, 2026 Building Utilization workbook. Budget, staffing and transport costs come from the MPS FY27 adopted budget and news coverage (see `data/research_finance_sources.md`). Case studies are in `data/case_studies_other.md` and `data/case_hillsborough.md`. Any figure the public record does not give is marked **ESTIMATE**, with its reasoning recorded.
 
@@ -368,7 +368,7 @@ Until Oct. 10, 2026 the model estimated road miles as the straight-line distance
 - **How it compares:** routed road miles are a median 1.08 times the old estimate (half of school pairs fall between 1.01 and 1.21 times). Routed driving times are a median 0.76 times the old estimate. Short trips under 2 miles take about 18% longer than we had estimated, and cross-city trips about 40% less time, because they use freeways.
 - **Two data corrections:** Las Estrellas's address was listed as Ella Baker's building. It is at 1201 University Ave NE (its map position was already right). Northrop's position on the pathway map was 1.1 miles off, and is corrected.
 - **What changed in the results:** the closures chosen did not change for any plan. Middle Ground's net savings moved from $12.0M to $11.9M, and it now has 12 sharing pairs instead of 13. The district options fall more, to $1.7-6.7M, because their larger moves have longer real routes (Anwatin to Anthony is 9.4 road miles), so their bussing rises $1.5-2.4M a year.
-- **How close the rule now is:** the 5-closure Middle Ground still clears the "fewest closures within 5% of the best" rule, but now by only about $8,500 a year (the 5% line is $11.89M, against the plan's $11.90M). If traffic were 20% slower than we assume, fewer specialist pairs would fit inside 15 minutes, and the rule would pick 6 closures, adding Jenny Lind.
+- **How close the rule now is:** the 5-closure Middle Ground still clears the "fewest closures within 5% of the best" rule, but now by only about $8,500 a year (the 5% line is $11.89M, against the plan's $11.90M). If traffic were 20% slower than we assume, fewer specialist pairs would fit inside 15 minutes, and the rule alone would pick 6 closures, adding Jenny Lind. So the plan is now locked at 5 closures (decision Oct. 10, 2026), and the 5% rule serves as a check: in every case we ran, 5 closures stay within about $0.3M of the rule's line.
 
 ---
 
@@ -382,7 +382,7 @@ Until Oct. 10, 2026 the model estimated road miles as the straight-line distance
 
 - N = 0 is specialist sharing alone.
 - Savings rise steeply through the specialty high school merges and the emptiest elementary building, then flatten: from 5 to 9 closures net savings stay between $11.9M and $12.5M a year (Figure 1 shades this stretch). Beyond 9 closures, net savings fall faster than gross savings rise.
-- The peak is $12.51M at 7 closures. **The plan takes the fewest closures within 5% of the peak: 5 closures, $11.90M** (rule changed Oct. 10, 2026; it was within $0.1M of the peak, which picked 7). With routed distances it clears the 5% line ($11.89M) by only about $8,500 (Section 8.1).
+- The peak is $12.51M at 7 closures. **The plan takes the fewest closures within 5% of the peak: 5 closures, $11.90M** (rule changed Oct. 10, 2026; it was within $0.1M of the peak, which picked 7). With routed distances it clears the 5% line ($11.89M) by only about $8,500, so the plan is now locked at 5 closures and the rule is a check (Section 8.1).
 - **Receiving-school limit (Oct. 9 revision):** no receiving school is filled past 90% of its design enrollment in MPS's 2024 Physical Space Study, the figure on MPS's public building reports. This leaves room for growth and programs, and it is applied to every plan, including the district options.
 - Anwatin is no longer a candidate: it stays open as Kenwood's and Bryn Mawr's neighborhood middle school (Section 3.4).
 - Net savings turn negative at 15 closures. At 16 they are about -$10.1M, and about 2,060 students leave.
